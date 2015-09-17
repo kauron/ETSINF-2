@@ -1,20 +1,10 @@
 package LTP.Topic1;
 
-public class Square extends Shape {
-    private double side;
+public class Square extends Rectangle {
 
     public Square (double x, double y, double side){
-        super(x, y);
-        this.side = side;
+        super(side, side, x, y);
     }
 
-    public double getSide() {return side;}
-
-    public double getArea () {
-        return side*side;
-    }
-
-    public double getPerimeter() {
-        return side * 4;
-    }
+    public double getSide() {return super.getBase();}
 }

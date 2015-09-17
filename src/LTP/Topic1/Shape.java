@@ -1,6 +1,6 @@
 package LTP.Topic1;
 
-abstract public class Shape{
+public abstract class Shape{
 
 	/*
 	4 parameters for each shape
@@ -9,7 +9,7 @@ abstract public class Shape{
 	1 for radius/side
 	*/
 
-    private double x, y;
+    protected double x, y;
 
     public Shape (double x, double y) {
         this.x = x;
@@ -18,6 +18,6 @@ abstract public class Shape{
 
     public double getX() {return x;}
     public double getY() {return y;}
-    abstract public double getPerimeter();
-    abstract public double getArea();
+    public abstract double getPerimeter();
+    public abstract double getArea();
 }
