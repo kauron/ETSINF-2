@@ -18,4 +18,15 @@ public class Alphabet {
             }
         }
     }
+
+    public Language languageOf(int length) {
+        Language l = new Language(this);
+        String[] words = wordsOf(length);
+        for (String word : words) l.addWord(word);
+        return l;
+    }
+
+    public String[] wordsOf(int length) {
+        return null; //TODO: complete
+    }
 }
