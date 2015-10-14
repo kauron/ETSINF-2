@@ -10,4 +10,12 @@ public class Language {
     public void addWord(String word) {
 
     }
+
+    public void union(Language language) {
+
+    }
+
+    public void intersection(Language language) {
+
+    }
 }
