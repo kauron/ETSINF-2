@@ -8,14 +8,19 @@ public abstract class Figura {
         this.y = y;
     }
 
-    public String toString() {
+    public String getPosicion() {
         return String.format("Posición: (%f,%f)", x, y);
     }
 
+    public String toString() {return getPosicion();}
+
     public boolean equals(Object o) {
-        return o instanceof Figura
-                && x == ((Figura)o).x
-                && y == ((Figura)o).y;
+        if (o instanceof Figura) {
+            Figura f = (Figura) o;
+            return x == f.x && y == f.y;
+        } else {
+            return false;
+        }
     }
 
     public abstract double area();

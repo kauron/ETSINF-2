@@ -16,10 +16,12 @@ public class Rectangulo extends Figura {
     }
 
     public boolean equals(Object o) {
-        return o instanceof Rectangulo
-                && super.equals(o)
-                && base == ((Rectangulo)o).base
-                && altura == ((Rectangulo)o).altura;
+        if (o instanceof Rectangulo) {
+            Rectangulo r = (Rectangulo) o;
+            return super.equals(o)
+                    && base   == r.base
+                    && altura == r.altura;
+        } else return false;
     }
 
     public double area() {return base * altura;}

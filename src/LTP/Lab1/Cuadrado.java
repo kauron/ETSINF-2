@@ -7,7 +7,7 @@ public class Cuadrado extends Rectangulo {
     
     public String toString() {
         return String.format("Cuadrado:\n\t%s\n\tLado: %f",
-                ((Figura)this).toString(), super.base);
+                getPosicion(), super.base);
     }
     
     public boolean equals(Object o) {

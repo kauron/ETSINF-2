@@ -19,18 +19,20 @@ public class GrupoFiguras {
         return s;
     }
 
-    public boolean equals(Object o) {
-        boolean b = o instanceof GrupoFiguras;
-        //if not a set a check could be made to see if both num are equal
-        //and then the inner loop would iterate to the same num as the exterior
-        //leaving the loop's performance in n^2 instead of n*m
-        for (int i = 0; i < num && b; i++) {
-            boolean c = false; //variable to check if this shape is in the other list
-            for (int j = 0; j < ((GrupoFiguras)o).num && !c; j++)
-                c = ((GrupoFiguras)o).listaFiguras[j].equals(listaFiguras[i]);
-            b = c;
+    public boolean perteneceA(GrupoFiguras g) {
+        for (int i = 0; i < num; i++) {
+            boolean pertenece = false; //variable to check if this shape is in the other list
+            for (int j = 0; j < g.num && !pertenece; j++)
+                pertenece = g.listaFiguras[j].equals(listaFiguras[i]);
+            if (!pertenece) return false;
         }
-        return b;
+        return true;
+    }
+
+    public boolean equals(Object o) {
+        return o instanceof GrupoFiguras
+                && this.perteneceA((GrupoFiguras) o)
+                && ((GrupoFiguras)o).perteneceA(this);
     }
 
     public double area() {

@@ -9,7 +9,8 @@ public class Cubo extends Cuadrado implements Volumen {
     Cubo(Cuadrado c) {super(c.x, c.y, c.base);}
     
     public String toString() {
-        return String.format("Cubo:\n\tArista: %f", super.base);
+        return String.format("Cubo:\n\t%s\n\tArista: %f",
+                getPosicion(), super.base);
     }
     
     public boolean equals(Object o) {

@@ -13,8 +13,8 @@ public class Paralepipedo extends Rectangulo implements Volumen {
     }
 
     public String toString() {
-        return String.format("Paralepipedo:\n\tBase (rectángulo): %f x %f\n\tAltura: %f",
-                super.base, super.altura, a);
+        return String.format("Paralepipedo:\n\t%s\n\tBase: %f x %f\n\tAltura: %f",
+                getPosicion(), super.base, super.altura, a);
     }
 
     public boolean equals(Object o) {

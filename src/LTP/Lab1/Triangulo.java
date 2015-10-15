@@ -15,10 +15,12 @@ public class Triangulo extends Figura {
     }
 
     public boolean equals(Object o) {
-        return o instanceof Triangulo
-                && super.equals(o)
-                && base == ((Triangulo)o).base
-                && altura == ((Triangulo)o).altura;
+        if (o instanceof Triangulo) {
+            Triangulo t = (Triangulo) o;
+            return super.equals(o)
+                    && base   == t.base
+                    && altura == t.altura;
+        } else return false;
     }
 
     public double area() {return base * altura / 2;}
