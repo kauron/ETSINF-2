@@ -1,6 +1,6 @@
 package LTP.Lab1;
 
-public class Triangulo extends Figura{
+public class Triangulo extends Figura {
     protected double base, altura;
 
     Triangulo(double cx, double cy, double b, double a) {

@@ -13,8 +13,8 @@ public class Cilindro extends Circulo implements Volumen{
     }
 
     public String toString() {
-        return String.format("Cilindro:\n\t%s\n\tAltura: %f",
-                super.toString(), a);
+        return String.format("Cilindro:\n\tRadio: %f\n\tAltura: %f",
+                super.r, a);
     }
 
     public boolean equals(Object o) {

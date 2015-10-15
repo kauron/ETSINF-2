@@ -3,19 +3,19 @@ package LTP.Lab1;
 public class GrupoFiguras {
     static final int MAX_NUM_FIGURAS = 10;
 
-    private Figura[] lista = new Figura[MAX_NUM_FIGURAS];
+    private Figura[] listaFiguras = new Figura[MAX_NUM_FIGURAS];
 
     private int num = 0;
 
     public void anyadeFigura(Figura f) {
-        for (int i = 0; i < num; i++) if (lista[i].equals(f)) return;
-        lista[num++] = f;
+        for (int i = 0; i < num; i++) if (listaFiguras[i].equals(f)) return;
+        listaFiguras[num++] = f;
     }
 
     public String toString() {
         String s = "";
         for(int i = 0; i < num; i++)
-            s += "\n" + lista[i].toString();
+            s += "\n" + listaFiguras[i].toString();
         return s;
     }
 
@@ -27,7 +27,7 @@ public class GrupoFiguras {
         for (int i = 0; i < num && b; i++) {
             boolean c = false; //variable to check if this shape is in the other list
             for (int j = 0; j < ((GrupoFiguras)o).num && !c; j++)
-                c = ((GrupoFiguras)o).lista[j].equals(lista[i]);
+                c = ((GrupoFiguras)o).listaFiguras[j].equals(listaFiguras[i]);
             b = c;
         }
         return b;
@@ -35,14 +35,16 @@ public class GrupoFiguras {
 
     public double area() {
         double area = 0;
-        for (int i = 0; i < num; i++) area += lista[i].area();
+        for (int i = 0; i < num; i++)
+            area += listaFiguras[i].area();
         return area;
     }
 
     public double volumen() {
         double volumen = 0;
         for (int i = 0; i < num; i++)
-            if (lista[i] instanceof Volumen) volumen += ((Volumen)lista[i]).volumen();
+            if (listaFiguras[i] instanceof Volumen)
+                volumen += ((Volumen) listaFiguras[i]).volumen();
         return volumen;
     }
 }

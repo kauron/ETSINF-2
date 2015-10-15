@@ -1,6 +1,7 @@
 package LTP.Lab1;
 
-public class Rectangulo extends Figura{
+
+public class Rectangulo extends Figura {
     protected double base, altura;
 
     Rectangulo(double x, double y, double base, double altura) {
