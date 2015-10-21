@@ -17,7 +17,8 @@ public abstract class Figura {
     public boolean equals(Object o) {
         if (o instanceof Figura) {
             Figura f = (Figura) o;
-            return x == f.x && y == f.y;
+            return x == f.x
+                && y == f.y;
         } else {
             return false;
         }

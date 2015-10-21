@@ -3,9 +3,9 @@ package LTP.Lab1;
 public class Circulo extends Figura {
     protected double r;
 
-    Circulo(double a, double b, double c) {
-        super(a,b);
-        r = c;
+    Circulo(double x, double y, double radio) {
+        super(x, y);
+        this.r = radio;
     }
 
     @Override
