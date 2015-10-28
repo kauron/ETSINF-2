@@ -10,7 +10,7 @@ import LTP.Lab2.librerias.modelos.*;
 
 public class AppCola {
     public static void main (String args[])throws Exception {
-        Cola<Integer> c = new ColaAL <Integer>();
+        Cola<Integer> c = new ColaAL <>();
         for (int i = 1; i <= 15;i++)
             c.encolar(i);
         System.out.println("Cola inicial:\n"+c);

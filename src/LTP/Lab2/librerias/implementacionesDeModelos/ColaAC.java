@@ -38,7 +38,8 @@ public class ColaAC <T> implements Cola<T> {
         int i = 0,
         tallaAux=talla;
         while(!this.esVacia())
-          try{arrayAux [i++] = this.desencolar();
+          try{
+              arrayAux [i++] = this.desencolar();
           }catch(Exception e){
               System.out.println("Error al intentar ampliar una cola");
           }

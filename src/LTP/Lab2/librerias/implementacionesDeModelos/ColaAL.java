@@ -3,18 +3,13 @@ package LTP.Lab2.librerias.implementacionesDeModelos;
 import LTP.Lab2.librerias.modelos.Cola;
 
 import java.util.ArrayList;
+import java.util.NoSuchElementException;
 
 public class ColaAL<T> implements Cola<T> {
     ArrayList<T> lista;
-    int primero;
 
     public ColaAL() {
         lista = new ArrayList<>();
-        primero = 0;
-    }
-
-    private int incrementar(int i) {
-        return (i + 1) % talla();
     }
 
     @Override
@@ -23,11 +18,9 @@ public class ColaAL<T> implements Cola<T> {
     }
 
     @Override
-    public T desencolar() {
-        T aux = lista.remove(primero);
-        primero = incrementar(primero);
-        return aux;
-        //TODO: fix this method
+    public T desencolar() throws NoSuchElementException{
+        if (esVacia()) throw new NoSuchElementException("There are no elements");
+        return lista.remove(0);
     }
 
     @Override
@@ -36,8 +29,9 @@ public class ColaAL<T> implements Cola<T> {
     }
 
     @Override
-    public T primero() {
-        return lista.get(primero);
+    public T primero() throws NoSuchElementException{
+        if (esVacia()) throw new NoSuchElementException("There are no elements");
+        return lista.get(0);
     }
 
     @Override
@@ -48,8 +42,7 @@ public class ColaAL<T> implements Cola<T> {
     @Override
     public String toString() {
         String s = "";
-        for (int i = primero, c = 0; c < lista.size(); i = incrementar(i), c++)
-            s += "<-" + lista.get(i);
+        for (T i : lista) s += "<-" + i;
         return s;
     }
 }
