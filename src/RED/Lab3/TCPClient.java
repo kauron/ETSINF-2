@@ -12,15 +12,20 @@ public class TCPClient {
     public static void main(String[] args) throws Exception {
         BufferedReader inUser = new BufferedReader(
                 new InputStreamReader(System.in));
+
         Socket clientSocket = new Socket(HOST, PORT);
+
         DataOutputStream outServer = new DataOutputStream(
                 clientSocket.getOutputStream());
+
         BufferedReader inServer = new BufferedReader(
                 new InputStreamReader(clientSocket.getInputStream()));
+
         while(inUser.ready()) {
             outServer.writeBytes(inUser.readLine() + '\n');
             System.out.println("FROM SERVER: " + inServer.readLine());
         }
+
         clientSocket.close();
     }
 }
