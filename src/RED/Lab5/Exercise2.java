@@ -1,17 +1,14 @@
 package RED.Lab5;
 
-public class Exercise2 {
+public class Exercise2 extends Thread{
     public static void main (String[] args) {
-        MyThread2 t = new MyThread2("words");
-        t.start();
+        (new Exercise2("words")).start();
         System.out.println("words1");
     }
-}
 
-class MyThread2 extends Thread{
     String word;
 
-    MyThread2(String word) {this.word = word;}
+    public Exercise2 (String word) {this.word = word;}
 
     @Override
     public void run() {

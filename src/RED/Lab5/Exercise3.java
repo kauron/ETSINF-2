@@ -6,27 +6,18 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class Exercise3 {
+public class Exercise3 extends Thread{
     public static final int THREADS = 10;
 
     public static void main(String[] args) throws IOException {
         ServerSocket ss = new ServerSocket(7777);
-        Thread.UncaughtExceptionHandler e =
-                (t, e1) -> System.err.println("Uncaught exception: " + e1);
-        EchoThread[] threads = new EchoThread[THREADS];
-        while (!ss.isClosed()) {
-            Socket s = ss.accept();
-            EchoThread eThread = new EchoThread(s);
-            eThread.start();
-        }
+        while (!ss.isClosed()) (new Exercise3(ss.accept())).start();
     }
-}
 
-class EchoThread extends Thread {
     Socket s;
     static final String QUIT = "QUIT";
 
-    EchoThread(Socket s) {this.s = s;}
+    Exercise3(Socket s) {this.s = s;}
 
     @Override
     public void run() {
