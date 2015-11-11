@@ -9,7 +9,7 @@ public abstract class Figura {
     }
 
     public String getPosicion() {
-        return String.format("Posición: (%f,%f)", x, y);
+        return String.format("PosiciÃ³n: (%f,%f)", x, y);
     }
 
     public String toString() {return getPosicion();}

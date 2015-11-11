@@ -10,7 +10,7 @@ public class Triangulo extends Figura {
     }
 
     public String toString() {
-        return String.format("Tri·ngulo:\n\t%s\n\tBase: %f\n\tAltura: %f",
+        return String.format("Tri√°ngulo:\n\t%s\n\tBase: %f\n\tAltura: %f",
                 super.toString(), base, altura);
     }
 

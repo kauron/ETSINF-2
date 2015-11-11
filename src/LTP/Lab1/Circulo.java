@@ -10,7 +10,7 @@ public class Circulo extends Figura {
 
     @Override
     public String toString() {
-        return String.format("Círculo:\n\t%s\n\tRadio: %f",
+        return String.format("CÃ­rculo:\n\t%s\n\tRadio: %f",
                 super.toString(), r);
     }
 

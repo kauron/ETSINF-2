@@ -98,8 +98,8 @@ public class ColaAC <T> implements Cola<T> {
     }
 
     /** Devuelve el contenido de la cola con el formato
-     * <-elem0<-elem1<-elem2<-...<-elemN<- donde N = talla()-1
-     * Cada elemi se devuelve con el formato que este definido para su tipo
+     * &lt;-elem0&lt;-elem1&lt;-elem2&lt;-...&lt;-elemN&lt;- donde N = talla()-1
+     * Cada elem se devuelve con el formato que este definido para su tipo
      **/
     public String toString (){
         String s = "";

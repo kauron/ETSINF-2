@@ -11,7 +11,7 @@ public class Rectangulo extends Figura {
     }
 
     public String toString() {
-        return String.format("Rect·ngulo:\n\t%s\n\tBase: %f\n\tAltura: %f",
+        return String.format("Rect√°ngulo:\n\t%s\n\tBase: %f\n\tAltura: %f",
                 super.toString(), base, altura);
     }
 
