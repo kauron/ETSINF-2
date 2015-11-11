@@ -23,6 +23,7 @@ public class EchoServer {
         while(!ss.isClosed()) {
             //Check free position
             int position = -1;
+            //loop until some client disconnects
             for (int i = 0; i < THREADS; i++) {
                 if (th[i] == null) {
                     position = i;
@@ -30,10 +31,6 @@ public class EchoServer {
                 }
             }
             if (position != -1) {
-                DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
-                Calendar cal = Calendar.getInstance();
-                String thisLog = dateFormat.format(cal.getTime());
-                logs[position] = "----ENTER----\t\t" + thisLog + '\n';
                 th[position] = new EchoSocket(ss.accept(), logs, position);
                 th[position].start();
             }
@@ -93,16 +90,22 @@ class EchoSocket extends Thread {
         try {
             Scanner input = new Scanner(s.getInputStream());
             PrintWriter output = new PrintWriter(s.getOutputStream(), true);
+            output.println("My cool raspberry echo server");
+            output.println("To exit type QUIT");
+            output.flush();
             String echo;
+            DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+            Calendar cal = Calendar.getInstance();
+            String dateLog = dateFormat.format(cal.getTime());
+            log[position] =  String.format("----ENTER----\t\t%s\t\t%s\n", dateLog, s.getRemoteSocketAddress());
             while (!(echo = input.nextLine()).equals(QUIT)) {
                 log[position] += echo + '\n';
                 output.println(echo);
                 output.flush();
             }
-            DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
-            Calendar cal = Calendar.getInstance();
-            String thisLog = dateFormat.format(cal.getTime());
-            log[position] += "----EXIT----\t\t" + thisLog + '\n';
+            cal = Calendar.getInstance();
+            dateLog = dateFormat.format(cal.getTime());
+            log[position] += String.format("-----EXIT----\t\t%s\t\t%s\n", dateLog, s.getRemoteSocketAddress());
             output.close();
             input.close();
             s.close();
