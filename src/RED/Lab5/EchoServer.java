@@ -1,8 +1,6 @@
 package RED.Lab5;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.text.DateFormat;
@@ -11,6 +9,7 @@ import java.util.Calendar;
 import java.util.Scanner;
 
 public class EchoServer {
+    static final DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
     protected static final int THREADS = 10;
     protected static final String logfile = "/home/carlos/javalog.txt";
 
@@ -53,21 +52,15 @@ class WaitThread extends Thread {
             PrintWriter pw;
             //Free space if necessary
             while (true) {
-                pw = new PrintWriter(
-                        new FileOutputStream(EchoServer.logfile, true),
-                        true
-                );
                 for (int i = 0; i < EchoServer.THREADS; i++) {
                     //check if ready, then wait
                     if (th[i] != null && !th[i].isAlive()) {
                         th[i].join();
-                        pw.printf(logs[i]);
                         th[i] = null;
                     }
                 }
-                pw.close();
             }
-        } catch (IOException | InterruptedException e) {
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
     }
@@ -79,6 +72,7 @@ class EchoSocket extends Thread {
     private static final String SOURCE = "https://github.com/kauron/ETSINF-2/blob/master/src/RED/Lab5/EchoServer.java";
     private String[] log;
     private int position;
+
 
     EchoSocket(Socket s, String[] log, int position) {
         this.s = s;
@@ -94,25 +88,19 @@ class EchoSocket extends Thread {
             PrintWriter output = new PrintWriter(s.getOutputStream(), true);
             String echo;
             //welcome to the server
-            output.println("My cool raspberry echo server");
-            output.println("Source code at: " + SOURCE);
+            output.print("My cool raspberry echo server\n");
+            output.print("Source code at: " + SOURCE + '\n');
             output.println("To exit type " + QUIT);
-            output.flush();
             //print date and user ip for entrance
-            DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
-            Calendar cal = Calendar.getInstance();
-            String dateLog = dateFormat.format(cal.getTime());
-            log[position] =  String.format("----ENTER----\t\t%s\t\t%s\n", dateLog, s.getRemoteSocketAddress());
+            (new LogThread(true, s.getRemoteSocketAddress().toString())).start();
             //begin scanning
-            while (!(echo = input.nextLine()).equals(QUIT)) {
-                log[position] += echo + '\n';
-                output.println(echo);
-                output.flush();
+            while (!(echo = input.nextLine() + '\n').equals(QUIT + '\n')) {
+                log[position] += echo;
+                output.printf(echo);
+                (new LogThread(echo, s.getRemoteSocketAddress().toString())).start();
             }
             //print date and user ip for exit
-            cal = Calendar.getInstance();
-            dateLog = dateFormat.format(cal.getTime());
-            log[position] += String.format("-----EXIT----\t\t%s\t\t%s\n", dateLog, s.getRemoteSocketAddress());
+            (new LogThread(false, s.getRemoteSocketAddress().toString())).start();
             //close connections
             output.close();
             input.close();
@@ -121,5 +109,32 @@ class EchoSocket extends Thread {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+}
+
+class LogThread extends Thread {
+    private String log, ip;
+    private static final String FILE = "/home/carlos/javalog.txt";
+
+    LogThread(String log, String ip) {this.log = log; this.ip = ip;}
+    LogThread(boolean connection, String ip) {
+        if (connection) log =   "------Connected----\n";
+        else log =              "----Disconnected---\n";
+        this.ip = ip;
+    }
+
+    @Override
+    public synchronized void run() {
+        try {
+            PrintWriter pw = new PrintWriter(new FileOutputStream(FILE, true), true);
+            pw.printf("%s\t%s\t\t%s",
+                    EchoServer.dateFormat.format(Calendar.getInstance().getTime()),
+                    ip,
+                    log);
+            pw.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
     }
 }
