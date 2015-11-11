@@ -76,6 +76,7 @@ class WaitThread extends Thread {
 class EchoSocket extends Thread {
     protected Socket s;
     private static final String QUIT = "QUIT";
+    private static final String SOURCE = "https://github.com/kauron/ETSINF-2/blob/master/src/RED/Lab5/EchoServer.java";
     private String[] log;
     private int position;
 
@@ -88,24 +89,31 @@ class EchoSocket extends Thread {
     @Override
     public void run() {
         try {
+            //initial setup
             Scanner input = new Scanner(s.getInputStream());
             PrintWriter output = new PrintWriter(s.getOutputStream(), true);
-            output.println("My cool raspberry echo server");
-            output.println("To exit type QUIT");
-            output.flush();
             String echo;
+            //welcome to the server
+            output.println("My cool raspberry echo server");
+            output.println("Source code at: " + SOURCE);
+            output.println("To exit type " + QUIT);
+            output.flush();
+            //print date and user ip for entrance
             DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
             Calendar cal = Calendar.getInstance();
             String dateLog = dateFormat.format(cal.getTime());
             log[position] =  String.format("----ENTER----\t\t%s\t\t%s\n", dateLog, s.getRemoteSocketAddress());
+            //begin scanning
             while (!(echo = input.nextLine()).equals(QUIT)) {
                 log[position] += echo + '\n';
                 output.println(echo);
                 output.flush();
             }
+            //print date and user ip for exit
             cal = Calendar.getInstance();
             dateLog = dateFormat.format(cal.getTime());
             log[position] += String.format("-----EXIT----\t\t%s\t\t%s\n", dateLog, s.getRemoteSocketAddress());
+            //close connections
             output.close();
             input.close();
             s.close();
