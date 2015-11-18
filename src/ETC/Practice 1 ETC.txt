@@ -1,0 +1,64 @@
+Practice 1 ETC
+
+Exercise 1:
+	a) The program contains 4 instructions
+	b) $t0 -> $8, $t1 -> $9, $s0 -> $16
+	   li is encoded as ori (only 1 instruction because 25 and 30 fill less than 2 bytes)
+	c) 0x0040000c
+	d) add $s0,$t1,$t0
+	e) 0x6e (0x0000006e) -> 110 = (25 + 30) * 2
+	f) The first instruction needs to be decoded in 2 (lui + ori) because 75369 spans 2+ bytes of memory. The second is only decoded to an ori because 12976 spans 2 bytes of memory.
+
+Exercise 2:
+	a) 2 words + 4 bytes = 12 bytes (the space is empty, but it is a variable).
+	b) 3 -> lw (x2) and sw
+	c) 0x10000008
+	d) The first address loaded is 0x10000000, and the second is 0x10000004. Therefore the first can be written to memory in a single instruction, and the second needs to modify the 1000 first and then the 0004.
+	e) The size of a word is 4 bytes (the size depends on the arquitecture and this MIPS is 32 bit -> 4 bytes).
+	f) No, they are equivalent. The meaning of using each is different (space for reserving and word for data). In bigger memory allocations it will be far more useful the command space.
+	g) 0x10000004
+
+Exercise 3:
+	a) 0x0000000c
+	b) addu $4, $0, $18 -> add unsigned $4 = 0 + 110
+	c) Throws an exception (unaligned address) because you can't save a word in a memory address non multiple of 4 (and it isn't).
+
+Exercise 4:
+	
+	1) and $t0,$t1,$zero -> $t0 is ALWAYS 0 after this instruction
+	
+	2) ori  $t0, $zero, 0x64
+	   addi $t0, $zero, 0x64
+	   ori  $t0, $zero,  100
+	   xori $t0, $zero,  100
+	   addi $t0, $zero,  100
+	
+	3) A word can only be stored in a multiple of 4, the second instruction fails because 0x10003002 is not a multiple of 4.
+	
+	4) lui loads a half to the upper half of the target register and the others access main memory to load a word, half or byte to a register.
+
+	5) N =  0 -> no instruction required
+
+	   For the others the first instruction is: la $t0,N
+	   N = -1 -> addi $s0,$zero,-1
+	   N = 0x100000 -> lui $s0,0x10
+	   N = 0x100040 -> lui $s0,0x10
+	   				   ori $s0,$s0,0x0040
+	   N =  2000000 -> lui $s0,0x3
+	   				   ori $s0,$s0,0x0d40
+	   The last instruction is:  sw $s0,0($t0)
+
+	6) lui $t0,0xffff
+	   ori $t0,0xffff
+
+	7)
+		a)      0	0x00000000
+		b)      0	0x00000000
+		c)      0	0x00000000
+		d) 	65536	0x00010000
+		e) -    1	0xffffffff
+		f)      0	0x00000000
+		g)      0	0x00000000
+		h)     50	0x00000032
+		i)     80	0x00000050
+		j) -	1	0xffffffff

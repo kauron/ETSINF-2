@@ -1,0 +1,33 @@
+Exercise 1
+
+$a0 * 36 written in $v0 using shifts and sums
+
+sll $t0,$a0,5
+sll $t1,$a0,2
+add $v0,$t0,$t1
+
+Code implemented in reloj1.s
+
+26 clock cycles with sll
+55 clock cycles without sll
+
+
+
+
+Exercise 2
+
+$a0 * 31 written in $v0 using shifts, sums and substractions
+
+sll $t0,$a0,5
+sub $v0,$t0,$a0
+
+Code implemented in reloj2.s
+
+Speed comparison
+
+19 clock cycles with sll
+55 clock cycles without sll
+
+Exercise 3
+
+Code implemented in reloj3.s

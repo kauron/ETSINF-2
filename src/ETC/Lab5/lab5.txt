@@ -1,0 +1,59 @@
+Practice 5 - Clock and multiplication / division
+
+Clock: 32 bits
+1byte 1byte 1byte 1byte
+empty 5bitH 6bitM 6bitS
+
+0x0017080a
+H = 0x17 = 16+7 = 23
+M = 0x08 = 8
+S = 0x0a = 10
+23:08:10
+
+0xf397c84a
+
+H = 0x97 = (100)1 0111 = 16 + 7 = 23
+M = 0xc8 = (11)00 1000 = 8
+S = 0x4a = (10)00 1010 = 10
+23:08:10
+
+3 different encodings for 16:32:28
+
+16 in 5 bits =  10000
+32 in 6 bits = 100000
+28 in 6 bits = 011100
+
+General model
+	xxxx xxxx xxx1 0000 xx10 0000 xx01 1100
+	any  any  %2=1 0x0  %4=0 0x0  %3=1 0xc
+	
+Examples
+1:  0000 0000 0001 0000 0010 0000 0001 1100 --> 0x0010201c
+2:  0000 0001 0001 0000 0010 0000 0001 1100 --> 0x0110201c
+3:  0000 0010 0001 0000 0010 0000 0001 1100 --> 0x0210201c
+
+
+The subroutine changes the value of the seconds of the clock to the ones passed as an argument
+
+MULTIPLICATION
+
+lbu doesn't exist, as it only modifies the lower byte.
+It doesn't matter if lb or lbu are used, as the most significant bit of the bit doesn't have meaning.
+
+Como la parte superior de los valores se limpia (cualquier bit sin información es 0), el resultado sería el mismo. addu permite un rango mayor de enteros, pero no es necesario ya que el máximo número de segundos es 86400 y la capacidad de un registro de 32 bits es mucho mayor.
+
+Son necesarias 2 instrucciones de movimiento (una para cada multiplicación)
+
+Las instrucciones para evitar el desbordamiento son: mfhi $t0; beqz $t0, salir
+En este caso dichas instrucciones no son necesarias, porque el valor más alto que se puede obtener en segundos cabe perfectamente en 32 bits.
+
+14 instrucciones + 2 multiplicaciones = 14 + 40 = 34 ciclos
+
+
+DIVISION
+
+2 instrucciones de división son utilizadas
+4 instrucciones: 2 para los cocientes y 2 para los restos
+9 instrucciones y 2 divisiones = 149 ciclos de reloj
+dada la instruccion de división: div $some, $other
+la instrucción anterior debe ser: beqz $other, salir

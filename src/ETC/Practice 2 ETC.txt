@@ -1,0 +1,7 @@
+ETC Lab 2
+
+Activity 1: steps for the instruction "add $s3, $s1, $s1"
+	1) The PC its data to the ALUIncr and the InstrMemory
+	2) The InstrMemory accesses the appropriate address and sends the instruction to the splitter
+	3) Control sends the write signal to the Registers
+	4) 

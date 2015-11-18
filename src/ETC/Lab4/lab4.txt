@@ -1,0 +1,100 @@
+ETC lab4
+
+ex1
+Registro	Write instruction	Read instruction
+r2			addi r2,r0,#64		addi r3,r2,#10
+r3			addi r3,r2,#10		sub r4,r3,r2
+
+ex2
+Instrucciones ejecutadas	5
+CPU stall cycles			4
+Total cycles				13
+CPI							(13-4)/5 = 9/5 = 1.8
+
+ex3
+				1	2	3	4	5	6	7	8	9	10	11	12	13
+add r1,r0,r0	IF	ID	EX	M	WB
+addi r2,r0,#64		IF	ID	EX	M	WB
+addi r3,r2,#10			IF	ID	ID	ID	EX	M	WB
+sub r4,r3,r2				IF	IF	IF	ID	ID	ID	EX	M	WB
+trap #0									IF	IF	IF	ID	EX	M	WB
+
+ex4
+See file aritm1_nop.s
+
+ex5
+Instrucciones ejecutadas	9
+CPU stall cycles			0
+Total cycles				13
+CPI							(13-4)/9 = 9/9 = 1
+
+ex6
+The execution time is the same, as a cycle stall is equivalent to a nop instruction. The number of cycles it takes is the same (with the same clock frequency), therefore the time spent is the same.
+
+ex7
+Instrucciones ejecutadas	7
+CPU stall cycles			6
+Total cycles				17
+CPI							(17-4)/7 = 13/7 = 1.857
+
+ex8
+See file mem_nop.s
+
+ex9
+Instrucciones ejecutadas	13
+CPU stall cycles			0
+Total cycles				17
+CPI							(17-4)/13 = 13/13 = 1
+
+ex10
+Register	Write instruction	Read instruction
+r6			lw r6,A(r2)			add r6,r6,r6
+r7			lw r7,B(r3)			addi r7,r7,#1
+r7			addi r7,r7,#1		add r8,r6,r7
+r8			add  r8,r6,r7		sw C(r4),r8
+r5			seq r5,r1,r0		beqz r5,bucle
+
+ex11
+Instructions executed	125
+CPU stall cycles		130
+Total cycles			259
+CPI						(259-4)/125 = 255/125 = 2.04
+
+ex12
+3*10 jumps = 30 control hazard stalls
+10*10 iterations = 100 data hazard stalls
+
+ex13
+Instructions executed	125
+CPU stall cycles		47
+Total cycles			176
+CPI						(176-4)/125 = 172/125 = 1.376
+
+ex14
+2*10 = 20 data stalls
+3*9 = 27 control stalls -> reduced by 3 because the last one is not taken
+The best approach would be predict taken (27 cycles less)
+
+ex15
+Instructions	9
+Stall cycles	6
+Total cycles	19
+CPI				(19-4)/9 = 15/9 = 1.67
+
+ex16
+See aritm2.s
+
+ex17
+Instructions	10
+Stall cycles	0
+Total cycles	14
+CPI				(14-4)/10 = 10/10 = 1
+
+ex18
+Instructions	125
+Stall cycles	50
+Total cycles	179
+CPI				(179-4)/125 = 175/125 = 1.4
+
+ex19
+There are 20 stall cycles due to data hazards. The shortcircuits can't solve the lw data hazards, because the data comes from memory (M), not from ALU (EX).

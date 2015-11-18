@@ -1,0 +1,25 @@
+02_questions.txt
+
+1) sub rt,$zero,rs
+2) Register 1 is reserved for assembler on line 4 of file
+3) li $at,4; beq $at,$t0,eti
+4) beq $zero,$zero,eti
+5) print_char will print the char associated with the ascii decimal 100 ('d') and print_integer will just print 100
+6) print_char will print A and print_integer will print the decimal number associated with 'A' in ascii (65)
+7) 
+	beqz rs,A
+		beq rs,$zero,A
+	bnez rs,A
+		bne rs,$zero,A
+	bgt rs,rt,A
+		slt $at,rt,rs
+		bne $at,$zero,A
+	ble rs,rt,A
+		slt $at,rt,rs
+		beq $at,$zero,A
+	blt rs,rt,A
+		slt $at,rs,rt
+		bne $at,$zero,A
+	bge rs,rt,A
+		slt $at,rs,rt
+		bne $at,$zero,A
