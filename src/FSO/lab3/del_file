@@ -1,0 +1,8 @@
+#!/bin/bash
+# del_file
+if test -f $1; 
+then
+	rm "$1";
+else
+	echo "The file $1 doesn't exist or it is a directory";
+fi

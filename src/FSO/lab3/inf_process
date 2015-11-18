@@ -1,0 +1,18 @@
+#!/bin/bash
+# inf_process
+if test $# -lt 1; 
+then
+	echo "One argument is needed";
+	exit 1;
+fi
+
+if test -d /proc/$1
+then
+	echo -e "PID\tPPID\tSTATE\tCOMMAND"
+	pid=$(awk '/^Pid/ {print $2}' /proc/$1/status)
+	ppid=$(awk '/^PPid/ {print $2}' /proc/$1/status)
+	state=$(awk '/^State/ {print $2}' /proc/$1/status)
+	cmd=$(cat /proc/$1/cmdline)
+	echo -e "$pid\t$ppid\t$state\t$cmd"
+fi
+	

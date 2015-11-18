@@ -1,0 +1,1 @@
+The child processes take almost no time to run, so they die while the parent is sleeping. Then they become zombies. When the parent awakes, it executes the wait command, therefore reaping the child processes.

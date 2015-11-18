@@ -1,0 +1,1 @@
+A race condition has ocurred, because the output should be equal to the input (100). There has been a context switch inside the critical section.

@@ -1,0 +1,5 @@
+		PID		PPID		COMMAND
+Parent	4417	3861		./change_memory1
+Child	4418	4417		ls -R /
+
+The child is not the same command, as a result of running exec

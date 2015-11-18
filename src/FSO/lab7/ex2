@@ -1,0 +1,73 @@
+Process PID: 16441
+
+main function address: 0x8048598 
+f function address: 0x804857b 
+Initialiazed global variable i_glob address: 0x804a038
+Non initialized global variable ni_glob address 
+ 1st ni_glob element address: 0x804a060
+ Last ni_glob element address: 0x804b05f
+Initialized local variable i_loc address: 0xffd41fd4
+Non initialized local variable ni_loc address: 0xffd41fd8
+Address of funcion f parameter: 0xffd41fc0
+
+ PROCESS MEMORY MAP /proc/16441/maps 
+08048000-08049000 r-xp 00000000 08:07 3015099                            /home/carlos/Dropbox/ETSINF/2º/FSO/lab/lab7/map1
+08049000-0804a000 r--p 00000000 08:07 3015099                            /home/carlos/Dropbox/ETSINF/2º/FSO/lab/lab7/map1
+0804a000-0804b000 rw-p 00001000 08:07 3015099                            /home/carlos/Dropbox/ETSINF/2º/FSO/lab/lab7/map1
+0804b000-0804c000 rw-p 00000000 00:00 0 
+f7555000-f7556000 rw-p 00000000 00:00 0 
+f7556000-f770a000 r-xp 00000000 08:06 401595                             /lib/i386-linux-gnu/libc-2.21.so
+f770a000-f770d000 r--p 001b3000 08:06 401595                             /lib/i386-linux-gnu/libc-2.21.so
+f770d000-f770f000 rw-p 001b6000 08:06 401595                             /lib/i386-linux-gnu/libc-2.21.so
+f770f000-f7711000 rw-p 00000000 00:00 0 
+f773a000-f773d000 rw-p 00000000 00:00 0 
+f773d000-f773e000 r-xp 00000000 00:00 0                                  [vdso]
+f773e000-f7760000 r-xp 00000000 08:06 401592                             /lib/i386-linux-gnu/ld-2.21.so
+f7760000-f7761000 r--p 00021000 08:06 401592                             /lib/i386-linux-gnu/ld-2.21.so
+f7761000-f7762000 rw-p 00022000 08:06 401592                             /lib/i386-linux-gnu/ld-2.21.so
+ffd23000-ffd44000 rw-p 00000000 00:00 0                                  [stack]
+            ---------------
+
+
+Question 1
+1-. Which is the range of logical addresses occupied by the process "map1"?
+0x08048000 -> 0x0804c000
+0xf7555000 -> 0xf7711000
+0xf773a000 -> 0xf7762000
+0xffd23000 -> 0xffd44000
+
+2-. Identify the region of the code and enter its starting and ending addresses. Do the same with the stack region.
+0x08048000 - 0x0804c000 Code
+0xf7556000 - 0xf770f000 Library region
+0xf773d000 - 0xf773e000 vdso
+0xf773e000 - 0xf7762000 Library region
+0xffd23000 - 0xffd44000 Stack
+
+3-. How many of the studied regions can you identify in the memory map of "map1" process? Identify a supported data, a non supported data region and a library code region.
+0x08048000 - 0x0804c000 Code -> supported data region (08:07 3015099)
+NonSupported data region
+0804b000-0804c000 rw-p 00000000 00:00 0 
+
+Library code region
+f7556000-f770a000 r-xp 00000000 08:06 401595                             /lib/i386-linux-gnu/libc-2.21.so
+f770a000-f770d000 r--p 001b3000 08:06 401595                             /lib/i386-linux-gnu/libc-2.21.so
+f770d000-f770f000 rw-p 001b6000 08:06 401595                             /lib/i386-linux-gnu/libc-2.21.so
+
+
+4-. What "map1" regions are supported by physical devices? Justify the need for such support.
+The code and libraries, because they are static files, already in physical devices. The rest is data that is generated during execution.
+
+5-. What i-node number have the non supported regions? --> 0
+6-. What regions of "map1" may be shared by multiple processes? The libraries and the code ?
+7-. Identify regions in table 1, where the function main and the function f are allocated. -> inthe ocde
+
+
+Question 2
+Variable type						Allocated region
+Initialized global variables		Code (head?)
+Not initialized global variables	Code (heap?)
+		path maps[80]				¿?
+		ni glob [4095]				¿?
+Initialized local variables			Stack
+Not initialized local variables		Stack
+Function parameters					Stack

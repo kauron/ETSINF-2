@@ -1,0 +1,15 @@
+$ time ./RaceCondM
+-------> inc end (V = 20000100)
+-------> dec end (V = 100)
+-------> FINAL VALUE: V = 100
+
+
+real    0m0.110s
+user    0m0.108s
+sys     0m0.004s
+
+Event-based was faster.
+
+On instances with many CPUs, waiting could be faster than events as you would not waste time suspending and re-starting the thread could waste time while running a loop on a CPU could be faster.
+
+On instances with a single CPU, event based would be faster as the thread would be dropped to suspension and another thread could take its place.

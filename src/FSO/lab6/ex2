@@ -1,0 +1,10 @@
+$ time ./RaceCond
+Inspec: actual value of V = 2361259
+-------> inc end (V = 4505630)
+-------> dec end (V = -6801057)
+-------> FINAL VALUE: V = -6801057
+
+
+real    0m0.347s
+user    0m0.632s
+sys     0m0.012s

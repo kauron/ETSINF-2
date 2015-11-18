@@ -1,0 +1,9 @@
+		PID		PPID	COMMAND				STATE
+Parent	2774	2674	./range_process		S
+Child 1	2775	2774	./range_process		Z
+Child 2	2776	2774	./range_process		Z
+Child 3	2777	2774	./range_process		Z
+Child 4	2778	2774	./range_process		Z
+Child 5	2779	2774	./range_process		Z
+
+All child processes are zombies because they ended and the parent didn't wait on them, so when the parent exits, they are adopted by init(1), which waits on them.

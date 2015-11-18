@@ -1,0 +1,4 @@
+The main thread can't wait for the refresh thread, if the execution needs to end.
+The refresh thread contains an infinite loop.
+If the refresh thread is waited at, the execution will never end
+

@@ -1,0 +1,7 @@
+#!/bin/bash
+# kill_kate
+for i in $(awk '{print $1}' $(ps -u cargaji | grep bash))
+do
+	./inf_process $i | grep -v PID
+done
+

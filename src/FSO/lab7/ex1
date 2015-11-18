@@ -1,0 +1,8 @@
+$ ls -l /proc/self
+
+/proc/self is a softlink to the current process, which is why the PID to which is linked varies if the command is executed multiple times
+
+$ head -1 /proc/self/maps
+$ cat /proc/self/maps | head -1
+
+The command which accesses to /proc/self is either head or cat, so that the first line of information, which includes the executable file for that command changes from /usr/bin/head to /bin/cat

@@ -1,0 +1,1 @@
+Each draw thread must wait for its erase thread in order to end the execution on a blank screen.

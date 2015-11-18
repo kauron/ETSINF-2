@@ -1,0 +1,20 @@
+Exercise 5
+
+time ./ThAdd
+
+Total addition is: 20000000
+
+real    0m0.248s
+user    0m0.644s
+sys     0m0.036s
+
+
+time ./ThAdd2
+
+Total addition is: 20000000
+
+real    0m0.224s
+user    0m0.632s
+sys     0m0.032s
+
+There is not much advantage, the threads act in a very similar

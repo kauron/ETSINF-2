@@ -1,0 +1,7 @@
+#!/bin/bash
+# system_processes
+echo -e "PID\tPPID\tSTATE\tCMD"
+for i in $(ps h -eo pid)
+do
+	./inf_process $i | grep -v PID
+done

@@ -1,0 +1,20 @@
+Exercise 4
+
+time ./SeqAdd
+
+Total addition is: 20000000
+
+real    0m0.663s
+user    0m0.632s
+sys     0m0.028s
+
+time ./ThAdd
+
+Total addition is: 20000000
+
+real    0m0.229s
+user    0m0.664s
+sys     0m0.012s
+
+
+SeqAdd has no concurrent execution, each row computes its sum in order. With ThAdd, each sum is computed in a different thread, concurrently. The final sum is computed in a similar way in the main thread. 

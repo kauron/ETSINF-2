@@ -1,0 +1,1 @@
+The threads are not allowed to end, so the output is not shared with the main process, therefore the process doesn't wait and the output is not displayed.

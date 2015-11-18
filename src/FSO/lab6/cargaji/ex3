@@ -1,0 +1,65 @@
+ex3
+
+Part 2
+
+$ time ./RaceCondT
+Inspec: actual value of V = -1219603
+Inspec: actual value of V = -2339494
+Inspec: actual value of V = -2493887
+Inspec: actual value of V = -2505536
+Inspec: actual value of V = -2431675
+Inspec: actual value of V = -2166539
+Inspec: actual value of V = -639036
+Inspec: actual value of V = -515148
+Inspec: actual value of V = -515828
+Inspec: actual value of V = -464869
+Inspec: actual value of V = -412100
+Inspec: actual value of V = -191596
+Inspec: actual value of V = -173234
+Inspec: actual value of V = -79110
+Inspec: actual value of V = 244
+Inspec: actual value of V = 104135
+Inspec: actual value of V = -149789
+Inspec: actual value of V = -1362994
+Inspec: actual value of V = -2495205
+Inspec: actual value of V = -1936776
+Inspec: actual value of V = -1099050
+Inspec: actual value of V = 50731
+Inspec: actual value of V = 1247632
+Inspec: actual value of V = 2031436
+Inspec: actual value of V = 3193652
+-------> inc end (V = 3777846)
+-------> dec end (V = 100)
+-------> FINAL VALUE: V = 100
+
+
+real    0m5.179s
+user    0m10.269s
+sys     0m0.020s
+
+
+Part 4
+
+$ time ./RaceCondTB
+Inspec: actual value of V = 9105731
+Inspec: actual value of V = 18539395
+-------> inc end (V = 20000100)
+-------> dec end (V = 100)
+-------> FINAL VALUE: V = 100
+
+
+real    0m0.502s
+user    0m0.920s
+sys     0m0.012s
+
+
+Part 5
+
+When locking the variable and waiting for the whole thread, no other thread can access the variable until all the repetitions are done, that is, the sequence done would be:
+ t1 * REPETITIONS -> t2 * REPETITIONS
+
+This means that it can be faster in some cases, for example when there are only two threads, as you only run two pairs of input-output protocols.
+
+Now, it can actually be slower than locking just the variable in some cases, such as, for example a processor with more than 4 tlogical cores where you can afford to do something such as the following:
+
+If, a for loop after the variable is declared is two instructions (decrement variable and compare), locking the critical section only without the for will be faster as, when you drop the critical function and unlock the variable, another core might be ready to do its job while the previous thread decrements and compares the for.

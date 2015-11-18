@@ -1,0 +1,8 @@
+#!/bin/bash
+# arguments
+echo The number if arguments is $#
+echo The full command line entered is: $0 $@
+echo The command name is: $0
+echo The first argument is: $1
+echo The second argument is: $2
+echo The third argument is: $3

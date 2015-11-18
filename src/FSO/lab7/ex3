@@ -1,0 +1,55 @@
+Process PID: 3877
+
+main function address: 0x8048618 
+f function address: 0x804857b 
+Initialiazed global variable i_glob address: 0x804a038
+Non initialized global variable ni_glob address 
+ 1st ni_glob element address: 0x804a060
+ Last ni_glob element address: 0x804b05f
+Initialized local variable i_loc address: 0xffde4134
+Non initialized local variable ni_loc address: 0xffde4138
+Address of funcion f parameter: 0xffde4120
+
+ PROCESS MEMORY MAP /proc/3877/maps 
+08048000-08049000 r-xp 00000000 08:07 3015098                            /home/carlos/Dropbox/ETSINF/2º/FSO/lab/lab7/map2
+08049000-0804a000 r--p 00000000 08:07 3015098                            /home/carlos/Dropbox/ETSINF/2º/FSO/lab/lab7/map2
+0804a000-0804b000 rw-p 00001000 08:07 3015098                            /home/carlos/Dropbox/ETSINF/2º/FSO/lab/lab7/map2
+0804b000-0804c000 rw-p 00000000 00:00 0 
+f751b000-f751c000 rw-p 00000000 00:00 0 
+f751c000-f76d0000 r-xp 00000000 08:06 401595                             /lib/i386-linux-gnu/libc-2.21.so
+f76d0000-f76d3000 r--p 001b3000 08:06 401595                             /lib/i386-linux-gnu/libc-2.21.so
+f76d3000-f76d5000 rw-p 001b6000 08:06 401595                             /lib/i386-linux-gnu/libc-2.21.so
+f76d5000-f76d7000 rw-p 00000000 00:00 0 
+f7700000-f7703000 rw-p 00000000 00:00 0 
+f7703000-f7704000 r-xp 00000000 00:00 0                                  [vdso]
+f7704000-f7726000 r-xp 00000000 08:06 401592                             /lib/i386-linux-gnu/ld-2.21.so
+f7726000-f7727000 r--p 00021000 08:06 401592                             /lib/i386-linux-gnu/ld-2.21.so
+f7727000-f7728000 rw-p 00022000 08:06 401592                             /lib/i386-linux-gnu/ld-2.21.so
+ffdc5000-ffde6000 rw-p 00000000 00:00 0                                  [stack]
+            ---------------
+
+Local variable vloc address: 0xff9e411c
+
+ PROCESS MEMORY MAP (in function f2) 
+08048000-08049000 r-xp 00000000 08:07 3015098                            /home/carlos/Dropbox/ETSINF/2º/FSO/lab/lab7/map2
+08049000-0804a000 r--p 00000000 08:07 3015098                            /home/carlos/Dropbox/ETSINF/2º/FSO/lab/lab7/map2
+0804a000-0804b000 rw-p 00001000 08:07 3015098                            /home/carlos/Dropbox/ETSINF/2º/FSO/lab/lab7/map2
+0804b000-0804c000 rw-p 00000000 00:00 0 
+f751b000-f751c000 rw-p 00000000 00:00 0 
+f751c000-f76d0000 r-xp 00000000 08:06 401595                             /lib/i386-linux-gnu/libc-2.21.so
+f76d0000-f76d3000 r--p 001b3000 08:06 401595                             /lib/i386-linux-gnu/libc-2.21.so
+f76d3000-f76d5000 rw-p 001b6000 08:06 401595                             /lib/i386-linux-gnu/libc-2.21.so
+f76d5000-f76d7000 rw-p 00000000 00:00 0 
+f7700000-f7703000 rw-p 00000000 00:00 0 
+f7703000-f7704000 r-xp 00000000 00:00 0                                  [vdso]
+f7704000-f7726000 r-xp 00000000 08:06 401592                             /lib/i386-linux-gnu/ld-2.21.so
+f7726000-f7727000 r--p 00021000 08:06 401592                             /lib/i386-linux-gnu/ld-2.21.so
+f7727000-f7728000 rw-p 00022000 08:06 401592                             /lib/i386-linux-gnu/ld-2.21.so
+ff9e3000-ffde6000 rw-p 00000000 00:00 0                                  [stack]
+ ---------------
+
+
+Question 3: indicate in which region of memory is the local veriable vloc
+In the stack.
+
+Question 4: Compare the resulting process maps map1 and map2, and indicate if the size of their respective stacks different. Indicate which of them is larger and justify it.

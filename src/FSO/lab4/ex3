@@ -1,0 +1,10 @@
+		PID		PPID	PPID	COMMAND				STATE
+Parent	2995	2674	2674	./adopted_process	S
+Child 1	2996	2995	1		./adopted_process	S
+Child 1	2996	2995	1		./adopted_process	S
+Child 2	2997	2995	1		./adopted_process	S
+Child 3	2998	2995	1		./adopted_process	S
+Child 4	2999	2995	1		./adopted_process	S
+Child 5	3000	2995	1		./adopted_process	Si
+
+The first that ends is the parents, which results in the childs being orphaned and adopted by init(1).

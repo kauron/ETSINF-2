@@ -1,0 +1,15 @@
+FSO Lab2
+
+3.3 Questions
+	a) 
+	b) The function area in the main function of Circle2.c cannot be referenced.
+	c) 
+
+4.2 Question
+	inc_a():
+		the method is just "a++;"
+	main():
+		last line: printf("a= %d, b= %d \n", a, b);
+	former_value(int v):
+		declare s: static int s;
+		return temp; //instead of b

@@ -1,0 +1,4 @@
+											Parent condition		Child condition
+fork failed									childpid == -1			-
+could not execute: ls						-						execl("/bin/ls", "ls", "-l", NULL) < 0
+child has been interrupted by a signal		x != childpid			-

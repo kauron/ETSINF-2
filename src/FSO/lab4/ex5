@@ -1,0 +1,9 @@
+		PID		Exit value
+Parent	3429	0
+Child 1	3430	1
+Child 2	3431	2
+Child 3	3432	3
+Child 4	3433	4
+Child 5	3434	5
+
+Each child prints its pid and iteration number and then iterates once (becomes a parent) and the next child keeps iterating

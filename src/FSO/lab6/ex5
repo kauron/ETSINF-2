@@ -1,0 +1,12 @@
+$ time ./RaceCondM
+-------> inc end (V = 20000100)
+-------> dec end (V = 100)
+-------> FINAL VALUE: V = 100
+
+
+real    0m0.110s
+user    0m0.108s
+sys     0m0.004s
+
+
+
