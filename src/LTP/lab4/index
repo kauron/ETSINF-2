@@ -1,0 +1,23 @@
+Ex      Solved  File                Functions
+1       Yes     DecimalBinary.hs    decBin
+2       Yes     DecimalBinary.hs    binDec
+3       Yes     Divisors.hs         divisors
+4       Yes     SearchInLists.hs    member
+5       Yes     Primes.hs           isPrime, primes
+6       Yes     Repetition.hs       repeated
+7       Yes     Concatenate.hs      concat'
+8       Yes     Select.hs           selectEven
+9       Yes     Select.hs           selectEvenPos
+10      Yes     SortingHat.hs       iSort, ins
+11      Yes     DoubleAll.hs        doubleAll
+12      Yes     Exercise12.hs       filter', map'
+13      Yes
+14      Yes     BookDataBase.hs     obtain, borrow, return'
+15      Yes     Trees.hs            numleaves
+16      Yes     Trees.hs            symmetric
+17      Yes?    Trees.hs            list2tree, tree2list
+18      Yes     BinTrees.hs         insTree
+19      Yes?    BinTrees.hs         creaTree
+20      Yes?    BinTrees.hs         treeElem
+21      Yes     BinTrees.hs         dupElem
+22      Yes     BinTrees.hs         countProperty
