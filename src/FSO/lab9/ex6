@@ -1,0 +1,8 @@
+15c15
+<     if (dup2(fd,STDIN_FILENO) == -1) {
+---
+>     if (dup2(fd,STDOUT_FILENO) == -1) {
+23c23
+<     execl("/bin/cat", "cat", NULL);
+---
+>     execl("/bin/ls", "ls", "-la", NULL);

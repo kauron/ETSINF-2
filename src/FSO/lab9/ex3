@@ -1,0 +1,21 @@
+parent message 
+child message 
+parent message 
+
+1) :>
+
+2) write() for both :> -- they share a fd as they are inherited when the process is forked
+ and for the inheritance, the fork call ( FORK(2) )
+
+3)
+understanding as "close(fd)" line n-2
+
+    p       ch
+0   stdin   stdin
+1   stdout  stdout
+2   stderr  stderr
+3   fd      NUL
+4   NUL     NUL
+
+elif each processes last close(fd), child has the same table as parent
+

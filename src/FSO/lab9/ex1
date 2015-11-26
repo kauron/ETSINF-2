@@ -1,0 +1,19 @@
+Read descriptor.c descriptor = 3 
+Write descriptor.c descriptor=4 
+
+Analyze the code and the result of the execution and answer the following.
+
+1-. What variables correspond to the file descriptors in the proposed code?
+
+0 -> stdin
+1 -> stdout
+2 -> stderr
+3 -> fopen(fda)
+4 -> fopen(fdb)
+
+2-. Explain the number assigned by the system to the variable fd{a,b}
+
+It is the next free available file descriptor number, as 0-2 are taken by standard streams.
+fda is given 3 as it is the first open()'d file and fdb is given 4 as it is the next one.
+
+

@@ -1,0 +1,26 @@
+total 124
+drwxr-xr-x 1 baudlord baudlord  400 Nov 26 21:23 .
+drwx------ 1 baudlord baudlord  314 Nov 26 20:49 ..
+-rw-r--r-- 1 baudlord baudlord 1360 Dec 13  2012 a_pipe.c
+-rw-r--r-- 1 baudlord baudlord  725 Nov 26 20:24 cat_redir.c
+-rwxr-xr-x 1 baudlord baudlord 8581 Nov 26 17:43 descriptor
+-rw-r--r-- 1 baudlord baudlord  600 Nov 26 17:48 descriptor.c
+-rwxr-xr-x 1 baudlord baudlord 8441 Nov 26 20:02 descriptor_output
+-rw-r--r-- 1 baudlord baudlord  735 Nov 26 20:02 descriptor_output.c
+-rw-r--r-- 1 baudlord baudlord  544 Nov 26 21:00 ex1
+-rw-r--r-- 1 baudlord baudlord  316 Nov 26 21:03 ex2
+-rw------- 1 baudlord baudlord  417 Nov 26 21:08 ex3
+-rwx------ 1 baudlord baudlord  431 Nov 26 21:14 ex4
+-rwx------ 1 baudlord baudlord 1263 Nov 26 21:23 ls_output.txt
+-rwxr-xr-x 1 baudlord baudlord 8064 Nov 26 21:18 ls_redir
+-rwxr-xr-x 1 baudlord baudlord 8200 Nov 26 21:23 ls_redir_fsync
+-rw-r--r-- 1 baudlord baudlord  690 Nov 26 21:23 ls_redir_fsync.c
+-rwx------ 1 baudlord baudlord   47 Nov 26 21:03 messages.txt
+-rwxr-xr-x 1 baudlord baudlord 8778 Nov 26 20:04 redir_output
+-rw-r--r-- 1 baudlord baudlord  623 Dec 14  2012 redir_output.c
+-rwxr-xr-x 1 baudlord baudlord 8634 Nov 26 20:03 share_file
+-rw-r--r-- 1 baudlord baudlord  676 Nov 26 20:03 share_file.c
+
+1) it is in $PWD/ls_output.txt
+ you set the stdout fd to ls_output.txt
+

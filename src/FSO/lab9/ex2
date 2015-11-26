@@ -1,0 +1,19 @@
+    stdout:
+men1: Writing in descriptor 1 (output)
+
+    stderr:
+men2: Writing in descriptor 2 (error)
+men4: Writing in descriptor 2 (error)
+
+
+1) read above :>
+
+2)
+ because some streams are closed before all the messages are written to it, thus, they can't be shown
+
+3)
+0 -> stdin
+1 -> NUL
+2 -> NUL
+3 -> NUL
+4 -> NUL
