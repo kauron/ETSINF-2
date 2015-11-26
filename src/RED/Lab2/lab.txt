@@ -1,0 +1,27 @@
+nc usage: nc servername port
+Then input commands, such as "GET HTTP/1.0". If version 1.1 is used, the host name must be specified
+
+1)
+	The end of the client request header is marked by an empty line \r\n\r\n
+	The server response is ended by \r\n\r\n
+	No header HTTP/1.0
+	Host: www.hostname.com in HTTP/1.1
+
+2)
+	HTTP/1.1 both client and server
+	Preferred language is en-US,en (english USA)
+	Client: 158.42.180.205
+	Server: 158.42.53.98
+	Last-modified: Thu, 27 Sep 2012 08:49:41
+	The date is the current UTC time, and the last-modified is the UNIX mtime (the last time the contents of the file were modified)
+	245 bytes
+
+3)
+	Now the request includes a UTC time stamp to let the server know that it has the page cached. The server answers with a 304 code, the page has not been modified since our last request.
+
+4)
+	1 GET request sent
+	2 TCP segments received
+
+5)
+	There is a main GET request sent to the

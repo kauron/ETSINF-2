@@ -1,0 +1,561 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="es" lang="es">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>UPV - Universitat Politècnica de València</title>
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+  <meta name="keywords" content="VALENCIA UNIVERSIDAD INVESTIGACION DOCENCIA CENTROS DEPARTAMENTOS ESTUDIOS ALUMNADO PROFESORES ASIGNATURAS PROYECTOS" />
+  <link href="/tools_bin/estilos/upv.css" rel="stylesheet" type="text/css" />
+  <link href="/tools_bin/estilos/plantillas.css" rel="stylesheet" type="text/css" />
+  <link href="/tools_bin/estilos/microweb.css" rel="stylesheet" type="text/css" />
+  <script language="javascript" src="/tools_bin/js/ypSlideOutMenusC.js" type="text/javascript"></script>
+  <script language="javascript" src="/tools_bin/js/mnuSuperiorInterno.js" type="text/javascript"></script>
+  <script language="javascript" src="/tools_bin/js/cookies.js" type="text/javascript"></script>
+  <script language="javascript" src="/tools_bin/js/navegador.js" type="text/javascript"></script>
+  <script language="javascript" type="text/javascript">function recalculo(){document.location=document.location;}//recalculo
+                        window.onresize=recalculo;estilos_paginas('/');
+  </script>
+</head>
+    <body onload="mover(posicion_x());mover2(posicion_x());mover3(posicion_x());mover4(posicion_x());mover5(posicion_x());detecta_tipografia();">
+      <div id="cabecera-home">
+<h1><img src="/tools_bin/images/logo_upv2.gif" alt="" width="186" height="63" /></h1>
+<div id="linea-superior"> </div>
+    <!-- inicio enlaces-->
+    <div id="enlaces">
+<div id="idioma"><a href="javascript:ypSlideOutMenu.showMenu('menu1');" title="Select your language" class="flechab" onmouseout="ypSlideOutMenu.hideMenu('menu1')">Idioma</a></div>
+
+<div id="tipo">Tipografía<script language="javascript" type="text/javascript">
+     var  array_images_tipo= new Array();
+     </script>
+<script language="javascript" type="text/javascript">
+        array_images_tipo["foto1"]=new Array();
+        array_images_tipo["foto1"]["activo"]="/tools_bin/images/letra_peqe.gif";
+         array_images_tipo["foto1"]["noactivo"]="/tools_bin/images/letra_peqe_gris.gif";
+           array_images_tipo["foto1"]["size"]="70%";
+        </script>
+<script language="javascript" type="text/javascript">
+        array_images_tipo["foto2"]=new Array();
+        array_images_tipo["foto2"]["activo"]="/tools_bin/images/letra_gran_verde.gif";
+         array_images_tipo["foto2"]["noactivo"]="/tools_bin/images/letra_gran.gif";
+           array_images_tipo["foto2"]["size"]="95%";
+        </script>
+<a href="javascript:cambio_tipografia ('foto1');" title="Tamaño mediano">
+<img id="foto1" src="/tools_bin/images/letra_peqe.gif" alt="Tamaño mediano" width="14" height="14" />
+</a>
+<a href="javascript:cambio_tipografia('foto2');" title="Tamaño grande">
+<img id="foto2" src="/tools_bin/images/letra_gran.gif" alt="Tamaño grande" width="14" height="14" />
+</a>
+</div>
+<div id="men-docencia"><a href="javascript://" onmouseover="ypSlideOutMenu.showMenu('menu2');" onmouseout="ypSlideOutMenu.hideMenu('menu2')">Estudios</a></div>
+<div id="men-investigacion"><a href="javascript://" onmouseover="ypSlideOutMenu.showMenu('menu3');" onmouseout="ypSlideOutMenu.hideMenu('menu3')">Investigación</a></div>
+
+<div id="men-organizacion"><a href="javascript://" onmouseover="ypSlideOutMenu.showMenu('menu4');" onmouseout="ypSlideOutMenu.hideMenu('menu4')">Organización</a></div>
+<div id="men-otros"><a href="javascript://" onmouseover="ypSlideOutMenu.showMenu('menu5');" onmouseout="ypSlideOutMenu.hideMenu('menu5')">Otros</a></div>
+</div><!-- fin enlaces-->
+<div id="lenguaje">
+<div id="menu1Container">
+<div id="menu1Content" class="dmenu">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+function cambio_idioma_tablon (idioma) {
+  createCookie("UPV_IDIOMA",idioma,false);
+  window.location.reload();
+
+}
+
+function getIdiomaTitle(idioma) {
+var title ="Versión en castellano";
+
+  if (idioma=="en") {
+    title="English version";
+  }
+  else if (idioma=="va") {
+    title="Versió en valencià";
+  }
+
+  return title;
+}
+
+function getIdiomaLiteral (idioma) {
+var literal = "Castellano";
+  if (idioma=="en") {
+    literal = "English";
+  }
+  else if (idioma=="va") {
+    literal = "Valencià";
+  }
+  return literal;
+}
+
+
+var idioma_actual="es";
+if (null!=readCookie("UPV_IDIOMA")) {
+  idioma_actual=readCookie("UPV_IDIOMA");
+}
+else {
+  createCookie('UPV_IDIOMA','es','');
+}
+
+var idiomas = ['es','va','en'];
+var txt ="";
+for (i=0; i<idiomas.length; i++) {
+  if (idioma_actual!=idiomas[i]) {
+    document.writeln("<a href=\"javascript:cambio_idioma_tablon(idiomas["+i+"])\" title=\""+getIdiomaTitle(idiomas[i])+"\">· "+getIdiomaLiteral(idiomas[i])+"</a><br/>");
+  }
+}
+// ]]>
+</script>
+<noscript>
+<a href="/index-en.html" title="English version">· English</a><br />
+<a href="/index-va.html" title="Versió en valencià">· Valencià</a><br />
+</noscript>
+</div>
+</div>
+</div>
+<div id="docencia">
+<div id="menu2Container">
+<div id="menu2Content" class="dmenu">
+<p><a href="/estudios/futuro-alumno/index-es.html" title="Futuro alumno" target="_self">· Futuro
+
+alumno</a><br /></p>
+<p><a href="/estudios/estudios-primer-segundo-ciclo/index-es.html" title="Estudios de 1er y 2º ciclos"
+
+target="_self">· Estudios de 1er y 2º ciclos</a><br /></p>
+<p><a href="/estudios/posgrado-master-doctorado/index-es.html" title="Posgrado: máster / doctorado"
+
+target="_self">· Posgrado: máster /<br />&nbsp;&nbsp;doctorado</a><br /></p>
+<p><a href="/estudios/escuelas-facultades/index-es.html" title="Escuelas y facultades" target="_self">·
+
+Escuelas y facultades</a><br /></p>
+<p><a href="/estudios/departamentos-es.html" title="Departamentos" target="_self">· Departamentos</a><br
+
+/></p>
+
+</div>
+</div>
+</div>
+<div id="investigacion">
+<div id="menu3Container">
+<div id="menu3Content" class="dmenu2">
+<p><a href="/investigacion/innovacion-tecnologica-es.html" title="Innovación tecnológica" target="_self">·
+
+Innovación tecnológica</a><br /></p>
+<p><a href="http://cpi.avanzis.com" title="Ciudad politécnica de la innovación" target="_blank">· Ciudad
+
+Polit&eacute;cnica de la<br />| | Innovaci&oacute;n</a><br /></p>
+<p><a href="http://www.ctt.upv.es" title="Centro de Transferencia de Tecnología" target="_blank">· Centro de
+
+Transferencia de<br />| | Tecnología</a><br /></p>
+<p><a href="/investigacion/institutos-es.html" title="Institutos" target="_self">· Institutos de
+
+investigación</a><br /></p>
+</div>
+</div>
+
+</div>
+<div id="organizacion">
+<div id="menu4Container">
+<div id="menu4Content" class="dmenu3">
+<p><a href="/organizacion/conoce-upv/index-es.html" title="Descubre las ventajas de ser alumno de la
+
+Universitat Politècnica de València" target="_self">· Conoce la UPV</a><br /></p>
+<p><a href="/organizacion/servicio-universitarios-es.html" title="Todos los servicios generales, áreas,
+
+oficinas y entidades" target="_self">· Servicios universitarios</a><br /></p>
+<p><a href="/organizacion/como-llegar-upv/index-es.html" title="Planos y mapas de situación de la Universidad
+
+en Valencia, Comunidad Valenciana, España" target="_self">· Cómo llegar</a><br /></p>
+<p><a href="/organizacion/contactanos-es.html" title="Haznos llegar cualquier duda que tengas"
+
+target="_self">· Información de contacto</a><br /></p>
+</div>
+</div>
+</div>
+<div id="otros">
+<div id="menu5Container">
+<div id="menu5Content" class="dmenu4">
+<p><a href="#" title="Descubre las ventajas de ser alumno de la Universitat Politècnica de València"
+
+target="_self">· Directorio personal</a><br /></p>
+<p><a href="#" title="Todos los servicios generales, áreas, oficinas y entidades" target="_self">· Directorio
+
+de entidades</a><br /></p>
+<p><a href="/otros/mapa-web-es.html" title="Mapa web" target="_self">· Mapa web</a><br /></p>
+<p><a href="/otros/buscar-en-web-es.html" title="Buscar" target="_self">· Buscar</a><br /></p>
+</div>
+</div>
+</div>
+</div>
+
+
+<script language="javascript" type="text/javascript" src="/tools_bin/js/buscador.js"></script>
+<style type="text/css">
+#upv_cabecerahomefina {
+  text-align:left;
+  margin-top:10px;
+  margin-bottom:5px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 728px;
+}
+#upv_cabecerahome, #int_cabecera, #cabecera-home {
+  display:none;
+}
+#upv_cabecerahomelinea, #linea-superior {
+  margin-left:auto;
+  margin-right:auto;
+  width: 728px;
+}
+
+.container{
+  width: 200px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+#contenido h2{
+  margin-left:10px;
+  padding: 5px;  
+  width: 180px;
+}
+.upv_ficha{
+  width: 200px;
+}
+.upv_tricol TD {
+  vertical-align: top;
+}
+.upv_tricol {
+  padding-right:10px;
+}
+.upv_separador {
+  height:1px;
+  color: #7e7e7e;
+}
+.upv_tricol td.colsep {
+  background-image: url(/yansu/images/f_lateral.gif);
+  background-repeat: repeat-y;
+  width: 3px;
+}
+.container .upv_hr {
+background-image: url(/yansu/images/f_lateral.gif);
+background-repeat: repeat-x;
+height: 3px;
+margin:0px;
+padding:0px;
+width:190px;
+color: #c7c7c7;
+}
+.container input {
+font-family: arial,helvetica;
+font-size: 100%;
+font-weight: normal;
+color: #464646;
+border: 1px solid #c7c7c7;
+padding: 1px;
+}
+a.upv_enlace{
+  color: #7E7E7E;
+  text-decoration: none;
+}
+a.upv_enlace:hover{
+  color: #EC6409;
+}
+input.campo1 {
+  background: White url(/images/google_2.gif) 18px 0;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+input.campo1:focus {
+  background-image:none;
+}
+</style>
+<div id="upv_cabecerahomefina"><a href="/" title="Universitat Politècnica de València"><img src="/yansu/images/favicon.jpg" hspace="4" vspace="2" border="0"/><img src="/yansu/images/txtupv-va.jpg" border="0"/></a></div><div id="linea-superior"> </div>
+<div id="pagina">
+<div id="navega"><a href="/index-es.html">Inicio UPV</a> :: Control de Error </div>
+<!-- inicio contenido-->
+
+<div id="contenido">
+  
+  <h1>Error 400</h1> 
+<table class="upv_tricol">
+<tr><td>
+  <h2>Peticiò Incorrecta</h2>
+
+  <!--inicio container -->
+
+  <div class="container">
+
+<p>Su navegador va enviar una peticiò que el servidor WEB no va poder entendre.<BR>
+ Per favor contacte amb <A class="upv_enlace" href="mailto:webmaster@upv.es">webmaster@upv.es</A></p><p>Per favor, comproveu que l'adreça escrita siga correcta.</p></td><td class="colsep"></td><td>
+  </div>
+<!--fin container -->
+
+  <h2>Formato de petición Incorrecta</h2>
+
+  <!--inicio container -->
+
+  <div class="container">
+
+<p>Su navegador envió una petición que el servidor no pudo entender.<BR>
+ Por favor contacte con <A class="upv_enlace" href="mailto:webmaster@upv.es">webmaster@upv.es</A>
+</p><p>Por favor, comprueba que la dirección sea la correcta.</p></td><td class="colsep"></td><td>
+  </div>
+<!--fin container -->
+
+  <h2>Bad Request</h2>
+
+  <!--inicio container -->
+
+  <div class="container">
+
+<p>Your browser sent a request that this server could not understand.<BR>
+ Please contact with <A class="upv_enlace" href="mailto:webmaster@upv.es">webmaster@upv.es</A>
+</p><p>Please check that you have entered the correct URL into your browser.</p>
+  </div>
+<!--fin container -->
+</td></tr><tr><td><div class="container"><div class="upv_hr"> </div><p>Opcions: </p><p>a) Tornar a la <a href="/" class="upv_enlace" title="Universitat Politècnica de València">pàgina de inici de la UPV</a>.</p><p>b) Reçerca a la web de la UPV: <br/>
+<script type="text/javascript">
+<!--
+
+function utf8_encode (string) {
+  string = string.replace(/\r\n/g,"\n");
+  var utftext = "";
+ 
+  for (var n = 0; n < string.length; n++) {
+    var c = string.charCodeAt(n);
+ 
+    if (c < 128) {
+      utftext += String.fromCharCode(c);
+    }
+    else if((c > 127) && (c < 2048)) {
+      utftext += String.fromCharCode((c >> 6) | 192);
+      utftext += String.fromCharCode((c & 63) | 128);
+    }
+    else {
+      utftext += String.fromCharCode((c >> 12) | 224);
+      utftext += String.fromCharCode(((c >> 6) & 63) | 128);
+      utftext += String.fromCharCode((c & 63) | 128);
+    }
+  }
+  return utftext;
+}
+
+function buscame (frm) {
+  if (navigator.appName.indexOf("Internet Explorer")>0) {
+    var search_url = "";
+    for (i = 0; i < frm.elements.length; i++) {
+       var txt = ""
+       if (frm.elements[i].name == "q") {
+          txt = frm.q.value;
+          txt = utf8_encode(txt);
+       }
+       else {
+          txt = frm.elements[i].value;
+       }
+       if (search_url=="") search_url+="?"
+       else search_url+="&amp;"
+       search_url+=frm.elements[i].name+"="+escape(txt);
+     }
+     //alert(frm.action+search_url);
+     location.href = frm.action+search_url;
+  }
+  else 
+    frm.submit()
+  return false;
+}
+// -->
+</script>
+<div id="busca">
+<form name="frmQuery_va" id="buscador" method="get" 
+      onsubmit="return buscame(this);" action="http://google.upv.es/search" accept-charset="UTF-8">
+<input name="ie" value="utf8" type="hidden">
+<input name="oe" value="utf8" type="hidden">
+<input name="pua" value="1" type="hidden">
+<input name="valor" value="17135*e*" type="hidden">
+<input name="entqr" value="0" type="hidden">
+<input name="output" value="xml_no_dtd" type="hidden">
+<input name="sort" value="date:D:L:d1" type="hidden">
+<input name="entsp" value="0" type="hidden">
+<input name="client" value="upv_va" type="hidden">
+<input name="ud" value="1" type="hidden">
+<input name="proxystylesheet" value="upv_va" type="hidden">
+<input name="site" value="default_collection" type="hidden">
+<input class="campo1" id="q" name="q" value="" size="20" type="text">
+<a class="upv_enlace" onclick="return buscame(document.forms['frmQuery_va']);" href="#">&nbsp;cerca</a>
+</form>
+</div>
+</p><p>c) Tornar a la <a class="upv_enlace" href="javascript:history.back();"/>pàgina anterior</a></p><div class="upv_hr"> </div><p>Disculpe les molèsties. Estem treballant per a millorar la qualitat del nostre servei.<br/> <br/>Gràcies per la seua col.laboració,</p>
+  </div>
+<!--fin container -->
+</td><td class="colsep"></td><td><div class="container"><div class="upv_hr"> </div><p>Opciones: </p><p>a) Volver a la <a href="/" class="upv_enlace" title="Universitat Politècnica de València">página de inicio de la UPV</a>.</p><p>b) Búsqueda en la web de la UPV: <br/>
+<script type="text/javascript">
+<!--
+
+function utf8_encode (string) {
+  string = string.replace(/\r\n/g,"\n");
+  var utftext = "";
+ 
+  for (var n = 0; n < string.length; n++) {
+    var c = string.charCodeAt(n);
+ 
+    if (c < 128) {
+      utftext += String.fromCharCode(c);
+    }
+    else if((c > 127) && (c < 2048)) {
+      utftext += String.fromCharCode((c >> 6) | 192);
+      utftext += String.fromCharCode((c & 63) | 128);
+    }
+    else {
+      utftext += String.fromCharCode((c >> 12) | 224);
+      utftext += String.fromCharCode(((c >> 6) & 63) | 128);
+      utftext += String.fromCharCode((c & 63) | 128);
+    }
+  }
+  return utftext;
+}
+
+function buscame (frm) {
+  if (navigator.appName.indexOf("Internet Explorer")>0) {
+    var search_url = "";
+    for (i = 0; i < frm.elements.length; i++) {
+       var txt = ""
+       if (frm.elements[i].name == "q") {
+          txt = frm.q.value;
+          txt = utf8_encode(txt);
+       }
+       else {
+          txt = frm.elements[i].value;
+       }
+       if (search_url=="") search_url+="?"
+       else search_url+="&amp;"
+       search_url+=frm.elements[i].name+"="+escape(txt);
+     }
+     //alert(frm.action+search_url);
+     location.href = frm.action+search_url;
+  }
+  else 
+    frm.submit()
+  return false;
+}
+// -->
+</script>
+<div id="busca">
+<form name="frmQuery_es" id="buscador" method="get" 
+      onsubmit="return buscame(this);" action="http://google.upv.es/search" accept-charset="UTF-8">
+<input name="ie" value="utf8" type="hidden">
+<input name="oe" value="utf8" type="hidden">
+<input name="pua" value="1" type="hidden">
+<input name="valor" value="17135*e*" type="hidden">
+<input name="entqr" value="0" type="hidden">
+<input name="output" value="xml_no_dtd" type="hidden">
+<input name="sort" value="date:D:L:d1" type="hidden">
+<input name="entsp" value="0" type="hidden">
+<input name="client" value="upv_es" type="hidden">
+<input name="ud" value="1" type="hidden">
+<input name="proxystylesheet" value="upv_es" type="hidden">
+<input name="site" value="default_collection" type="hidden">
+<input class="campo1" id="q" name="q" value="" size="20" type="text">
+<a class="upv_enlace" onclick="return buscame(document.forms['frmQuery_es']);" href="#">&nbsp;Buscar</a>
+</form>
+</div>
+</p><p>c) Volver a la <a class="upv_enlace" href="javascript:history.back();"/>página anterior</a></p><div class="upv_hr"> </div><p>Disculpe las molestias. Trabajamos para mejorar la calidad de nuestro servicio.<br/> <br/>Gracias por su colaboración,</p>
+  </div>
+<!--fin container -->
+</td><td class="colsep"></td><td><div class="container"><div class="upv_hr"> </div><p>Options: </p><p>a) Return to  <a href="/" class="upv_enlace" title="Universitat Politècnica de València">UPV home page</a>.</p><p>b) Search UPV web site: <br/>
+<script type="text/javascript">
+<!--
+
+function utf8_encode (string) {
+  string = string.replace(/\r\n/g,"\n");
+  var utftext = "";
+ 
+  for (var n = 0; n < string.length; n++) {
+    var c = string.charCodeAt(n);
+ 
+    if (c < 128) {
+      utftext += String.fromCharCode(c);
+    }
+    else if((c > 127) && (c < 2048)) {
+      utftext += String.fromCharCode((c >> 6) | 192);
+      utftext += String.fromCharCode((c & 63) | 128);
+    }
+    else {
+      utftext += String.fromCharCode((c >> 12) | 224);
+      utftext += String.fromCharCode(((c >> 6) & 63) | 128);
+      utftext += String.fromCharCode((c & 63) | 128);
+    }
+  }
+  return utftext;
+}
+
+function buscame (frm) {
+  if (navigator.appName.indexOf("Internet Explorer")>0) {
+    var search_url = "";
+    for (i = 0; i < frm.elements.length; i++) {
+       var txt = ""
+       if (frm.elements[i].name == "q") {
+          txt = frm.q.value;
+          txt = utf8_encode(txt);
+       }
+       else {
+          txt = frm.elements[i].value;
+       }
+       if (search_url=="") search_url+="?"
+       else search_url+="&amp;"
+       search_url+=frm.elements[i].name+"="+escape(txt);
+     }
+     //alert(frm.action+search_url);
+     location.href = frm.action+search_url;
+  }
+  else 
+    frm.submit()
+  return false;
+}
+// -->
+</script>
+<div id="busca">
+<form name="frmQuery_en" id="buscador" method="get" 
+      onsubmit="return buscame(this);" action="http://google.upv.es/search" accept-charset="UTF-8">
+<input name="ie" value="utf8" type="hidden">
+<input name="oe" value="utf8" type="hidden">
+<input name="pua" value="1" type="hidden">
+<input name="valor" value="17135*e*" type="hidden">
+<input name="entqr" value="0" type="hidden">
+<input name="output" value="xml_no_dtd" type="hidden">
+<input name="sort" value="date:D:L:d1" type="hidden">
+<input name="entsp" value="0" type="hidden">
+<input name="client" value="upv_en" type="hidden">
+<input name="ud" value="1" type="hidden">
+<input name="proxystylesheet" value="upv_en" type="hidden">
+<input name="site" value="default_collection" type="hidden">
+<input class="campo1" id="q" name="q" value="" size="20" type="text">
+<a class="upv_enlace" onclick="return buscame(document.forms['frmQuery_en']);" href="#">&nbsp;Search</a>
+</form>
+</div>
+</p><p>c) Back to <a class="upv_enlace" href="javascript:history.back();"/>previous page</a></p><div class="upv_hr"> </div><p>We apologize for any inconvenience this may cause. We're constanly striving to improve our service.<br/> <br/>Thank you for your co-operation,</p>
+  </div>
+<!--fin container -->
+</td></tr>
+</table>
+
+<br />
+<br />
+
+
+<div id="pie-pagina">
+  <div id="pie-upv"><acronym title="UPV, Camino de Vera, s/n. 46022 Valencia. Tel.: (+34) 963 87 70 07/00 Fax: (+34) 963 87 90 09 "> Universitat Politècnica de València</acronym></div>
+  <div id="pie-email"><a href="mailto:informacion@upv.es" class="verde">informacion@upv.es</a> - <a href="mailto:webmaster@upv.es">webmaster@upv.es</a> </div>
+</div>
+
+</div>
+
+</div>
+
+<!--fin página-->
+
+</body>
+</html>
+
+
