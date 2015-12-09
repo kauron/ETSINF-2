@@ -3,11 +3,14 @@ module Shape2 where
   type Width  = Float
   type Radius = Float
 
-  data Shape = Rectangle Height Width | Circle Radius deriving (Eq,Show)
+  data Shape = Rectangle Height Width | Circle Radius deriving (Show)
 
   area :: Shape -> Float
   area (Rectangle h w) = h * w
   area (Circle r) = pi * r**2
+
+  (==) :: Shape -> Shape -> Bool
+  (Rectangle x y) == (Rectangle a b) = (x Prelude.== a) && (y Prelude.== b)
 
   perimeter :: Shape -> Float
   perimeter (Rectangle h w) = 2 * (h + w)
