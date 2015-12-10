@@ -1,4 +1,4 @@
-package RED.Lab7;
+// package RED.Lab7;
 
 import java.io.IOException;
 import java.io.PrintWriter;
