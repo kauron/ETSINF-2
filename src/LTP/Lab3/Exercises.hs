@@ -10,8 +10,16 @@ module Exercises where
 	sumFromAtoB :: Int -> Int -> Int
 	sumFromAtoB a b
 		| a == b = b
+		| a + 1 == b  = a + b
 		| otherwise = a + sumFromAtoB (succ a) b
 	-- sumFromAtoB a a = a, not 2a
+
+	otherSum :: Int -> Int -> Int
+	otherSum a b
+		| a == b = b
+		| a + 1 == b = a + b
+		| a + 1 == b - 1 = a + a + 1 + b
+		| otherwise = a + b + otherSum (a + 1) (b - 1)
 	
 	max' a b
 		| a > b = a
