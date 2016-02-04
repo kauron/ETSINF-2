@@ -2,14 +2,14 @@ package EDA;
 
 import java.lang.reflect.Array;
 
-public class ArrayStack<T> implements Stack<T>{
-    private static final int MIN_SIZE = 10;
-    private T[] stack;
+public class ArrayStack<E> implements Stack<E>{
+    private static final int INIT_SIZE = 10;
+    private E[] stack;
     private int size;
 
-    public ArrayStack(Class<T> c) {
+    public ArrayStack(Class<E> c) {
         @SuppressWarnings("unchecked")
-        final T[] a = (T[]) Array.newInstance(c, MIN_SIZE);
+        final E[] a = (E[]) Array.newInstance(c, INIT_SIZE);
         stack = a;
         size = 0;
     }
@@ -17,24 +17,24 @@ public class ArrayStack<T> implements Stack<T>{
     public boolean isEmpty() {return size == 0;}
     public int size() {return size;}
 
-    public T top() throws Exception{
+    public E top() throws Exception{
         if (isEmpty()) throw new Exception("Empty Stack");
         return stack[size - 1];
     }
 
-    public void push(T t) {
+    public void push(E e) {
         if (size == stack.length) resize();
-        stack[size++] = t;
+        stack[size++] = e;
     }
 
-    public T pop() throws Exception {
+    public E pop() throws Exception {
         if (isEmpty()) throw new Exception("Empty Stack");
         return stack[--size];
     }
 
     private void resize() {
         @SuppressWarnings("unchecked")
-        final T[] aux = (T[]) Array.newInstance(stack[0].getClass(), MIN_SIZE + size);
+        final E[] aux = (E[]) Array.newInstance(stack[0].getClass(), INIT_SIZE + size);
         System.arraycopy(stack, 0, aux, 0, stack.length);
         stack = aux;
     }

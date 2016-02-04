@@ -1,28 +1,28 @@
 package EDA;
 
-public class LinkedListStack<T> implements Stack<T> {
-    protected Node<T> top;
+public class LinkedListStack<E> implements Stack<E> {
+    protected Node<E> top;
 
     public LinkedListStack() {top = null;}
 
     @Override
-    public T pop() throws Exception {
+    public E pop() throws Exception {
         if (isEmpty()) throw new Exception ("Empty Stack");
-        T t = top.element;
+        E e = top.element;
         top = top.previous;
         if (!isEmpty())
             top.next = null;
-        return t;
+        return e;
     }
 
     @Override
-    public T top() throws Exception {
+    public E top() throws Exception {
         if (isEmpty()) throw new Exception("Empty Stack");
         return top.element;
     }
 
     @Override
-    public void push(T element) {
+    public void push(E element) {
         if (!isEmpty()) {
             top.next = new Node<>(top, element);
             top = top.next;
@@ -37,14 +37,14 @@ public class LinkedListStack<T> implements Stack<T> {
     }
 }
 
-class Node<T> {
-    T element;
-    Node<T> previous, next;
+class Node<E> {
+    E element;
+    Node<E> previous, next;
 
-    public Node(T element) {this(element, null);}
-    public Node(Node<T> previous, T element) {this(previous, element, null);}
-    public Node(T element, Node<T> next) {this(null, element, next);}
-    public Node(Node<T> previous, T element, Node<T> next) {
+    public Node(E element) {this(element, null);}
+    public Node(Node<E> previous, E element) {this(previous, element, null);}
+    public Node(E element, Node<E> next) {this(null, element, next);}
+    public Node(Node<E> previous, E element, Node<E> next) {
         this.previous = previous;
         this.element = element;
         this.next = next;

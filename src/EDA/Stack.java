@@ -1,8 +1,8 @@
 package EDA;
 
-public interface Stack<T> {
-    T pop() throws Exception;
-    T top() throws Exception;
-    void push(T element);
+public interface Stack<E> {
+    E pop() throws Exception;
+    E top() throws Exception;
+    void push(E element);
     boolean isEmpty();
 }
