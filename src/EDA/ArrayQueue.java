@@ -37,6 +37,12 @@ public class ArrayQueue<E> implements Queue<E>{
     }
 
     @Override
+    public E first() throws Exception {
+        if (isEmpty()) throw new Exception("Empty Queue");
+        return queue[first];
+    }
+
+    @Override
     public boolean isEmpty() {
         return size == 0;
     }

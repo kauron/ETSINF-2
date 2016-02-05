@@ -38,4 +38,13 @@ public class ArrayStack<E> implements Stack<E>{
         System.arraycopy(stack, 0, aux, 0, stack.length);
         stack = aux;
     }
+
+    public String toString() {
+        String s = "| ";
+        for (int i = 0; i < size; i++) {
+            s += stack[i].toString();
+            if (i + 1 < size) s += " -> ";
+        }
+        return s;
+    }
 }

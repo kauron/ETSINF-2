@@ -35,18 +35,15 @@ public class LinkedListStack<E> implements Stack<E> {
     public boolean isEmpty() {
         return top == null;
     }
-}
 
-class Node<E> {
-    E element;
-    Node<E> previous, next;
-
-    public Node(E element) {this(element, null);}
-    public Node(Node<E> previous, E element) {this(previous, element, null);}
-    public Node(E element, Node<E> next) {this(null, element, next);}
-    public Node(Node<E> previous, E element, Node<E> next) {
-        this.previous = previous;
-        this.element = element;
-        this.next = next;
+    @Override
+    public String toString() {
+        String s = "| ";
+        for (Node<E> n = top; n != null; n = n.previous) {
+            s += n.element.toString();
+            if (n.previous != null) s += " -> ";
+        }
+        return s;
     }
 }
+
