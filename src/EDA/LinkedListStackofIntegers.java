@@ -8,11 +8,11 @@ public class LinkedListStackofIntegers extends LinkedListStack<Integer> {
      * @return boolean Whether the move operation was performed or not
      */
     public boolean moveFirstToFinal() {
-        if (isEmpty() || top.next == null) return false;
-        Node<Integer> first = top, current = top;
-        while (current.next != null) current = current.next;
-        if (first.element >= current.element) return false;
-        current.next = first;
+        if (isEmpty()) return false;
+        Node<Integer> first = top, aux = top;
+        while (aux.next != null) aux = aux.next;
+        if (first.element >= aux.element) return false;
+        aux.next = first;
         first.next = null;
         top = top.next;
         return true;
