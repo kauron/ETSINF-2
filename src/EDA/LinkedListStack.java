@@ -1,5 +1,10 @@
 package EDA;
 
+/**
+ * Generic stack implemented by means of a double linked list.
+ * Previous advances towards the top element
+ * Next advances towards the end (bottom) of the stack
+ */
 public class LinkedListStack<E> implements Stack<E> {
     protected Node<E> top;
 
