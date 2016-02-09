@@ -1,6 +1,6 @@
 package EDA;
 
-class Node<E> {
+public class Node<E> {
     protected E element;
     protected Node<E> previous, next;
 

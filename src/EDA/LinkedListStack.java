@@ -9,9 +9,9 @@ public class LinkedListStack<E> implements Stack<E> {
     public E pop() throws Exception {
         if (isEmpty()) throw new Exception ("Empty Stack");
         E e = top.element;
-        top = top.previous;
+        top = top.next;
         if (!isEmpty())
-            top.next = null;
+            top.previous = null;
         return e;
     }
 
@@ -24,8 +24,8 @@ public class LinkedListStack<E> implements Stack<E> {
     @Override
     public void push(E element) {
         if (!isEmpty()) {
-            top.next = new Node<>(top, element);
-            top = top.next;
+            top.previous = new Node<>(top, element);
+            top = top.previous;
         } else {
             top = new Node<>(element);
         }
@@ -39,9 +39,9 @@ public class LinkedListStack<E> implements Stack<E> {
     @Override
     public String toString() {
         String s = "| ";
-        for (Node<E> n = top; n != null; n = n.previous) {
+        for (Node<E> n = top; n != null; n = n.next) {
             s += n.element.toString();
-            if (n.previous != null) s += " -> ";
+            if (n.next != null) s += " -> ";
         }
         return s;
     }
