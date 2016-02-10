@@ -1,0 +1,19 @@
+Exercise 1
+	M++ to memory -> option d
+
+Question pool
+
+1) lw $t0, var
+	0x1000 > li $t0, 0x1000
+	0x00100000 > lui $t0, 0x10
+	0x101000 > lui $t0, 0x10
+			   ori $t0, 0x1000
+
+2) *A: 0x10000000
+	The first approach may load twice the address for A. The second approach only loads it once for both instructions.
+
+3) lb > 0xff 0xff 0xff 0xd6
+   lbu> 0x00 0x00 0x00 0xd6
+   lbu should be used
+
+4) $ra points to jal InputS, therefore an infinite loop is created
