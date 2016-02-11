@@ -10,7 +10,10 @@ public class LinkedListQueue<E> implements Queue<E> {
     @Override
     public void queue(E element) {
         if (isEmpty()) first = last = new Node<>(element);
-        else last = new Node<>(last, element);
+        else {
+            last.next = new Node<>(last, element);
+            last = last.next;
+        }
     }
 
     @Override
