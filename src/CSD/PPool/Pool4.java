@@ -7,9 +7,9 @@ public class Pool4 extends Pool3 { //kids cannot enter if there are instructors 
 
     @Override
     public synchronized long instructorRests(int id) {
+        waiting++;
         while(kids > log.maxKI() * (instructors - 1)) {
             log.leaveWait(id);
-            waiting++;
             await();
         }
         waiting--;
@@ -22,7 +22,7 @@ public class Pool4 extends Pool3 { //kids cannot enter if there are instructors 
     public synchronized long kidSwims(int id) {
         while (kids + instructors == log.capacity() ||
                 kids + 1 > log.maxKI() * instructors ||
-                waiting > 0) {
+                waiting != 0) {
             log.enterWait(id);
             await();
         }

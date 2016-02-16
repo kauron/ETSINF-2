@@ -4,10 +4,6 @@
 public class Pool1 extends Pool0{//there cannot be kids alone
 	int instructors = 0, kids = 0;
 
-    protected void await() {
-        try{wait();} catch(Exception e) {}
-    }
-
     public synchronized long kidSwims(int id) {
         while(instructors < 1) {
             log.enterWait(id);
