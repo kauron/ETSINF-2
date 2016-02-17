@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
+<?import com.jfoenix.controls.JFXButton?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
@@ -10,7 +10,7 @@
 
 <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CalculatorController">
    <children>
-      <Text fx:id="text" strokeType="OUTSIDE" strokeWidth="0.0" text="-123,456.00" textAlignment="RIGHT" wrappingWidth="400.0" VBox.vgrow="ALWAYS">
+      <Text fx:id="text" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="RIGHT" wrappingWidth="400.0" VBox.vgrow="ALWAYS">
          <font>
             <Font name="Noto Sans" size="60.0" />
          </font>
@@ -30,106 +30,106 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Button fx:id="butMC" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#functionClick" prefHeight="100.0" prefWidth="100.0" text="MC">
+            <JFXButton fx:id="butMC" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#functionClick" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #00BCD4;" text="MC">
                <font>
                   <Font name="Noto Sans" size="30.0" />
                </font>
-            </Button>
-            <Button fx:id="but1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#numberClick" prefHeight="100.0" prefWidth="100.0" text="1" GridPane.rowIndex="3">
+            </JFXButton>
+            <JFXButton fx:id="but1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#numberClick" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #FFA000;" text="1" GridPane.rowIndex="3">
                <font>
                   <Font name="Noto Sans" size="45.0" />
                </font>
-            </Button>
-            <Button fx:id="but4" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#numberClick" prefHeight="100.0" prefWidth="100.0" text="4" GridPane.rowIndex="2">
+            </JFXButton>
+            <JFXButton fx:id="but4" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#numberClick" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #FFA000;" text="4" GridPane.rowIndex="2">
                <font>
                   <Font name="Noto Sans" size="45.0" />
                </font>
-            </Button>
-            <Button fx:id="but7" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#numberClick" prefHeight="100.0" prefWidth="100.0" text="7" GridPane.rowIndex="1">
+            </JFXButton>
+            <JFXButton fx:id="but7" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#numberClick" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #FFA000;" text="7" GridPane.rowIndex="1">
                <font>
                   <Font name="Noto Sans" size="45.0" />
                </font>
-            </Button>
-            <Button fx:id="butM" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#functionClick" prefHeight="100.0" prefWidth="100.0" text="M+" GridPane.columnIndex="1">
+            </JFXButton>
+            <JFXButton fx:id="butM" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#functionClick" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #00BCD4;" text="M+" GridPane.columnIndex="1">
                <font>
                   <Font name="Noto Sans" size="30.0" />
                </font>
-            </Button>
-            <Button fx:id="but8" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#numberClick" prefHeight="100.0" prefWidth="100.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            </JFXButton>
+            <JFXButton fx:id="but8" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#numberClick" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #FFA000;" text="8" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <font>
                   <Font name="Noto Sans" size="45.0" />
                </font>
-            </Button>
-            <Button fx:id="but5" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#numberClick" prefHeight="100.0" prefWidth="100.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            </JFXButton>
+            <JFXButton fx:id="but5" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#numberClick" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #FFA000;" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <font>
                   <Font name="Noto Sans" size="45.0" />
                </font>
-            </Button>
-            <Button fx:id="but2" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#numberClick" prefHeight="100.0" prefWidth="100.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="3">
+            </JFXButton>
+            <JFXButton fx:id="but2" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#numberClick" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #FFA000;" text="2" GridPane.columnIndex="1" GridPane.rowIndex="3">
                <font>
                   <Font name="Noto Sans" size="45.0" />
                </font>
-            </Button>
-            <Button fx:id="butDEL" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#functionClick" prefHeight="100.0" prefWidth="100.0" text="DEL" textOverrun="CLIP" GridPane.columnIndex="2">
+            </JFXButton>
+            <JFXButton fx:id="butDEL" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#functionClick" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #00BCD4;" text="DEL" textOverrun="CLIP" GridPane.columnIndex="2">
                <font>
                   <Font name="Noto Sans" size="30.0" />
                </font>
-            </Button>
-            <Button fx:id="but9" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#numberClick" prefHeight="100.0" prefWidth="100.0" text="9" GridPane.columnIndex="2" GridPane.rowIndex="1">
+            </JFXButton>
+            <JFXButton fx:id="but9" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#numberClick" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #FFA000;" text="9" GridPane.columnIndex="2" GridPane.rowIndex="1">
                <font>
                   <Font name="Noto Sans" size="45.0" />
                </font>
-            </Button>
-            <Button fx:id="but6" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#numberClick" prefHeight="100.0" prefWidth="100.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2">
+            </JFXButton>
+            <JFXButton fx:id="but6" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#numberClick" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #FFA000;" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2">
                <font>
                   <Font name="Noto Sans" size="45.0" />
                </font>
-            </Button>
-            <Button fx:id="but3" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#numberClick" prefHeight="100.0" prefWidth="100.0" text="3" GridPane.columnIndex="2" GridPane.rowIndex="3">
+            </JFXButton>
+            <JFXButton fx:id="but3" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#numberClick" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #FFA000;" text="3" GridPane.columnIndex="2" GridPane.rowIndex="3">
                <font>
                   <Font name="Noto Sans" size="45.0" />
                </font>
-            </Button>
-            <Button fx:id="butC" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#functionClick" prefHeight="100.0" prefWidth="100.0" text="C" GridPane.columnIndex="3">
+            </JFXButton>
+            <JFXButton fx:id="butC" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#functionClick" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #00BCD4;" text="C" GridPane.columnIndex="3">
                <font>
                   <Font name="Noto Sans" size="30.0" />
                </font>
-            </Button>
-            <Button fx:id="butDiv" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operationClick" prefHeight="100.0" prefWidth="100.0" text="/" GridPane.columnIndex="3" GridPane.rowIndex="1">
+            </JFXButton>
+            <JFXButton fx:id="butDiv" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operationClick" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #D32F2F;" text="/" GridPane.columnIndex="3" GridPane.rowIndex="1">
                <font>
                   <Font name="Noto Sans" size="45.0" />
                </font>
-            </Button>
-            <Button fx:id="butMult" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operationClick" prefHeight="100.0" prefWidth="100.0" text="*" GridPane.columnIndex="3" GridPane.rowIndex="2">
+            </JFXButton>
+            <JFXButton fx:id="butMult" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operationClick" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #D32F2F;" text="*" GridPane.columnIndex="3" GridPane.rowIndex="2">
                <font>
                   <Font name="Noto Sans" size="45.0" />
                </font>
-            </Button>
-            <Button fx:id="butSub" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operationClick" prefHeight="100.0" prefWidth="100.0" text="-" GridPane.columnIndex="3" GridPane.rowIndex="3">
+            </JFXButton>
+            <JFXButton fx:id="butSub" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operationClick" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #D32F2F;" text="-" GridPane.columnIndex="3" GridPane.rowIndex="3">
                <font>
                   <Font name="Noto Sans" size="45.0" />
                </font>
-            </Button>
-            <Button fx:id="butDot" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#functionClick" prefHeight="100.0" prefWidth="100.0" text="." GridPane.rowIndex="4">
+            </JFXButton>
+            <JFXButton fx:id="butDot" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#functionClick" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #FFA000;" text="." GridPane.rowIndex="4">
                <font>
                   <Font name="Noto Sans" size="45.0" />
                </font>
-            </Button>
-            <Button fx:id="but0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#numberClick" prefHeight="100.0" prefWidth="100.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+            </JFXButton>
+            <JFXButton fx:id="but0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#numberClick" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #FFA000;" text="0" GridPane.columnIndex="1" GridPane.rowIndex="4">
                <font>
                   <Font name="Noto Sans" size="45.0" />
                </font>
-            </Button>
-            <Button fx:id="butEq" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#functionClick" prefHeight="100.0" prefWidth="100.0" text="=" GridPane.columnIndex="2" GridPane.rowIndex="4">
+            </JFXButton>
+            <JFXButton fx:id="butEq" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#functionClick" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #D32F2F;" text="=" GridPane.columnIndex="2" GridPane.rowIndex="4">
                <font>
                   <Font name="Noto Sans" size="45.0" />
                </font>
-            </Button>
-            <Button fx:id="butAdd" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operationClick" prefHeight="100.0" prefWidth="100.0" text="+" GridPane.columnIndex="3" GridPane.rowIndex="4">
+            </JFXButton>
+            <JFXButton fx:id="butAdd" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operationClick" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #D32F2F;" text="+" GridPane.columnIndex="3" GridPane.rowIndex="4">
                <font>
                   <Font name="Noto Sans" size="45.0" />
                </font>
-            </Button>
+            </JFXButton>
          </children>
       </GridPane>
    </children>
