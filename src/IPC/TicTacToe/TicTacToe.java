@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tictactoe;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -19,7 +18,7 @@ public class TicTacToe extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("TicTacToe.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("IPC/TicTacToe/TicTacToe.fxml"));
         
         Scene scene = new Scene(root);
         

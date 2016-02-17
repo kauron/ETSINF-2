@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tictactoe;
 
 import java.net.URL;
 import java.util.Random;
@@ -56,8 +55,14 @@ public class TicTacToeController implements Initializable {
     private int turn;
     private Button[] buttons;
     private boolean win;
-    private static final String RED_BUTTON = "-fx-background-image: url(\"http://d30y9cdsu7xlg0.cloudfront.net/png/8752-200.png\");",
-            GREEN_BUTTON = "-fx-background-image: url(\"http://stratanews.net/wp-content/uploads/2013/02/At-Symbol.png\");",
+    private static final String RED_BUTTON = "-fx-background-image: url(\"http://d30y9cdsu7xlg0.cloudfront.net/png/8752-200.png\");" +
+            "-fx-background-repeat: stretch;" +
+            "-fx-background-size: 90 90;" +
+            "-fx-background-position: center center;",
+            GREEN_BUTTON = "-fx-background-image: url(\"http://stratanews.net/wp-content/uploads/2013/02/At-Symbol.png\");" +
+                    "-fx-background-repeat: stretch;" +
+                    "-fx-background-size: 90 90;" +
+                    "-fx-background-position: center center;",
             DEFAULT_BUTTON = "";
     /**
      * Initializes the controller class.
@@ -121,7 +126,7 @@ public class TicTacToeController implements Initializable {
         //Horizontal lines
         int h0 = y, h1 = (y + 1) % 3, h2 = (y + 2) % 3;
         win |= board[3 * x + h0] == board[3 * x + h1] && board[3 * x + h0] == board[3 * x + h2];
-        //Verical lines
+        //Vertical lines
         int v0 = x, v1 = (x + 1) % 3, v2 = (x + 2) % 3;
         win |= board[3 * v0 + y] == board[3 * v1 + y] && board[3 * v0 + y] == board[3 * v2 + y];
         //Descending diagonal

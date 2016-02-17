@@ -10,7 +10,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox alignment="CENTER" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tictactoe.TicTacToeController">
+<VBox alignment="CENTER" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TicTacToeController">
    <children>
       <Text fx:id="title" strokeType="OUTSIDE" strokeWidth="0.0" text="TicTacToe">
          <font>
