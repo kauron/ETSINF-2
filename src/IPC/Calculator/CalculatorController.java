@@ -25,10 +25,11 @@ public class CalculatorController implements Initializable {
     public Button butEq, butAdd, butSub, butMul, butDiv;
 
     public static final int NULL = 0, ADD = 1, SUB = 2, MUL = 3, DIV = 4;
-    public static final int UI_LIMIT = 12;
+    public static final int UI_LIMIT = 11;
     int operation, decimal, length;
     double value, operand;
     double memory;
+    boolean writeNew;
     DecimalFormat format = new DecimalFormat("#0.######");
 
     /**
@@ -40,13 +41,18 @@ public class CalculatorController implements Initializable {
         value = operand = memory = 0;
         operation = NULL;
         length = 0;
+        writeNew = true;
         updateUI();
     }
 
     public void numberClick(ActionEvent event) {
         if (length < UI_LIMIT) {
             int number = Integer.valueOf(((Button) event.getSource()).getText());
-            if (decimal == 1) {
+            if (writeNew) {
+                value = length = 0;
+                decimal = 1;
+                writeNew = false;
+            } else if (decimal == 1) {
                 value *= 10;
             } else {
                 number /= decimal;
@@ -69,8 +75,7 @@ public class CalculatorController implements Initializable {
             case "/": operation = DIV; break;
             default: operation = NULL;
         }
-        value = 0;
-        length = 0;
+        writeNew = true;
     }
 
     public void functionClick(ActionEvent event) {
@@ -124,10 +129,11 @@ public class CalculatorController implements Initializable {
         operand = aux;
         length = String.valueOf((int)Math.floor(value)).length();
         decimal = 1;
-        while (value % decimal != 0 && length < 12) {
+        while (value % decimal != 0 && length < UI_LIMIT) {
             decimal *= 10;
             length++;
         }
+        writeNew = true;
         updateUI();
         operation = NULL;
     }
