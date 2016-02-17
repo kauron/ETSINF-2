@@ -124,11 +124,11 @@ public class TicTacToeController implements Initializable {
     
     private void checkWin(int x, int y, boolean playerTurn) {        
         //Horizontal lines
-        int h0 = y, h1 = (y + 1) % 3, h2 = (y + 2) % 3;
-        win |= board[3 * x + h0] == board[3 * x + h1] && board[3 * x + h0] == board[3 * x + h2];
+        int h1 = (y + 1) % 3, h2 = (y + 2) % 3;
+        win |= board[3 * x + y] == board[3 * x + h1] && board[3 * x + y] == board[3 * x + h2];
         //Vertical lines
-        int v0 = x, v1 = (x + 1) % 3, v2 = (x + 2) % 3;
-        win |= board[3 * v0 + y] == board[3 * v1 + y] && board[3 * v0 + y] == board[3 * v2 + y];
+        int v1 = (x + 1) % 3, v2 = (x + 2) % 3;
+        win |= board[3 * x + y] == board[3 * v1 + y] && board[3 * x + y] == board[3 * v2 + y];
         //Descending diagonal
         if (x == y)
             win |= board[0] == board[8] && board[0] == board[4];
