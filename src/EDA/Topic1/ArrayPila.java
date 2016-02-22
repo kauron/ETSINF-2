@@ -2,23 +2,23 @@ package EDA;
 
 import java.lang.reflect.Array;
 
-public class ArrayStack<E> implements Stack<E>{
+public class ArrayPila<E> implements Pila<E> {
     private static final int INIT_SIZE = 10;
     private E[] stack;
     private int size;
 
-    public ArrayStack(Class<E> c) {
+    public ArrayPila(Class<E> c) {
         @SuppressWarnings("unchecked")
         final E[] a = (E[]) Array.newInstance(c, INIT_SIZE);
         stack = a;
         size = 0;
     }
 
-    public boolean isEmpty() {return size == 0;}
+    public boolean esVacía() {return size == 0;}
     public int size() {return size;}
 
     public E top() throws Exception{
-        if (isEmpty()) throw new Exception("Empty Stack");
+        if (esVacía()) throw new Exception("Empty Pila");
         return stack[size - 1];
     }
 
@@ -28,7 +28,7 @@ public class ArrayStack<E> implements Stack<E>{
     }
 
     public E pop() throws Exception {
-        if (isEmpty()) throw new Exception("Empty Stack");
+        if (esVacía()) throw new Exception("Empty Pila");
         return stack[--size];
     }
 

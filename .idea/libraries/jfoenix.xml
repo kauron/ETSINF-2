@@ -1,7 +1,9 @@
 <component name="libraryTable">
   <library name="jfoenix">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Downloads/jfoenix.jar!/" />
+      <root url="jar://$USER_HOME$/data/workspace/jfoenix.jar!/" />
+      <root url="file://$USER_HOME$/git/EDA/Lab/librerias/estructurasDeDatos/lineales" />
+      <root url="file://$USER_HOME$/git/EDA/Lab/aplicaciones/hospital" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

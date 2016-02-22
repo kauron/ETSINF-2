@@ -2,13 +2,13 @@ package EDA;
 
 import java.lang.reflect.Array;
 
-public class ArrayQueue<E> implements Queue<E>{
+public class ArrayCola<E> implements Cola<E> {
     protected static final int INIT_SIZE = 10;
     protected E[] queue;
     protected int size;
     protected int first, last; //first occupied, last occupied
 
-    public ArrayQueue(Class<E> c) {
+    public ArrayCola(Class<E> c) {
         @SuppressWarnings("unchecked")
         final E[] a = (E[]) Array.newInstance(c, INIT_SIZE);
         queue = a;
@@ -38,7 +38,7 @@ public class ArrayQueue<E> implements Queue<E>{
 
     @Override
     public E first() throws Exception {
-        if (isEmpty()) throw new Exception("Empty Queue");
+        if (isEmpty()) throw new Exception("Empty Cola");
         return queue[first];
     }
 

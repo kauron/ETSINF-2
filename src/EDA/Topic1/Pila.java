@@ -1,8 +1,8 @@
 package EDA;
 
-public interface Stack<E> {
+public interface Pila<E> {
     E pop() throws Exception;
     E top() throws Exception;
     void push(E element);
-    boolean isEmpty();
+    boolean esVacía();
 }

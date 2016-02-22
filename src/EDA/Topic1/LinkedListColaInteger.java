@@ -1,6 +1,6 @@
 package EDA;
 
-public class LinkedListQueueInteger extends LinkedListQueue<Integer> {
+public class LinkedListColaInteger extends LinkedListCola<Integer> {
     /**
      * Removes the first element if and only if there are 2+ elements
      * and the sum of the rest of elements is smaller than the first element
@@ -9,10 +9,10 @@ public class LinkedListQueueInteger extends LinkedListQueue<Integer> {
     public boolean deleteFirst() {
         if (first == last) return false;
         int sum = 0;
-        for (Node<Integer> n = first.next; n != null && first.element > sum; n = n.next) {
-            sum += n.element;
+        for (Nodo<Integer> n = first.next; n != null && first.dato > sum; n = n.next) {
+            sum += n.dato;
         }
-        if (first.element <= sum) return false;
+        if (first.dato <= sum) return false;
         first = first.next;
         first.previous = null;
         return true;

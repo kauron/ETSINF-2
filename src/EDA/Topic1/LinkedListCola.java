@@ -1,33 +1,33 @@
 package EDA;
 
-public class LinkedListQueue<E> implements Queue<E> {
-    protected Node<E> first, last;
+public class LinkedListCola<E> implements Cola<E> {
+    protected Nodo<E> first, last;
 
-    public LinkedListQueue() {
+    public LinkedListCola() {
         first = last = null;
     }
 
     @Override
     public void queue(E element) {
-        if (isEmpty()) first = last = new Node<>(element);
+        if (isEmpty()) first = last = new Nodo<>(element);
         else {
-            last.next = new Node<>(last, element);
+            last.next = new Nodo<>(last, element);
             last = last.next;
         }
     }
 
     @Override
     public E dequeue() throws Exception {
-        if (isEmpty()) throw new Exception("Empty Queue");
-        E e = first.element;
+        if (isEmpty()) throw new Exception("Empty Cola");
+        E e = first.dato;
         first = first.next;
         return e;
     }
 
     @Override
     public E first() throws Exception {
-        if (isEmpty()) throw new Exception("Empty Queue");
-        return first.element;
+        if (isEmpty()) throw new Exception("Empty Cola");
+        return first.dato;
     }
 
     @Override
@@ -38,8 +38,8 @@ public class LinkedListQueue<E> implements Queue<E> {
     @Override
     public String toString() {
         String s = "[ ";
-        for (Node<E> n = first; n != null; n = n.next) {
-            s += n.element.toString();
+        for (Nodo<E> n = first; n != null; n = n.next) {
+            s += n.dato.toString();
             if (n.next != null) s += ", ";
         }
         return s;

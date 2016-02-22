@@ -40,8 +40,6 @@ public class TicTacToeController implements Initializable {
     @FXML
     private Button bottomRight;
     @FXML
-    private Text title;
-    @FXML
     private Label winText;
 
     /*  board structure: row * 3 + column (both [0, 2])
@@ -79,9 +77,9 @@ public class TicTacToeController implements Initializable {
             bottomLeft,     bottomCenter,   bottomRight
         };
     }
-    
+
     @FXML
-    private void buttonClick(ActionEvent event) {
+    public void buttonClick(ActionEvent event) {
         if (win) {
             for (Button button : buttons) button.setStyle(DEFAULT_BUTTON);
             win = false;

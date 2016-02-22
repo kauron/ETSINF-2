@@ -5,47 +5,47 @@ package EDA;
  * Previous advances towards the top element
  * Next advances towards the end (bottom) of the stack
  */
-public class LinkedListStack<E> implements Stack<E> {
-    protected Node<E> top;
+public class LinkedListPila<E> implements Pila<E> {
+    protected Nodo<E> top;
 
-    public LinkedListStack() {top = null;}
+    public LinkedListPila() {top = null;}
 
     @Override
     public E pop() throws Exception {
-        if (isEmpty()) throw new Exception ("Empty Stack");
-        E e = top.element;
+        if (esVacía()) throw new Exception ("Empty Pila");
+        E e = top.dato;
         top = top.next;
-        if (!isEmpty())
+        if (!esVacía())
             top.previous = null;
         return e;
     }
 
     @Override
     public E top() throws Exception {
-        if (isEmpty()) throw new Exception("Empty Stack");
-        return top.element;
+        if (esVacía()) throw new Exception("Empty Pila");
+        return top.dato;
     }
 
     @Override
     public void push(E element) {
-        if (!isEmpty()) {
-            top.previous = new Node<>(top, element);
+        if (!esVacía()) {
+            top.previous = new Nodo<>(top, element);
             top = top.previous;
         } else {
-            top = new Node<>(element);
+            top = new Nodo<>(element);
         }
     }
 
     @Override
-    public boolean isEmpty() {
+    public boolean esVacía() {
         return top == null;
     }
 
     @Override
     public String toString() {
         String s = "| ";
-        for (Node<E> n = top; n != null; n = n.next) {
-            s += n.element.toString();
+        for (Nodo<E> n = top; n != null; n = n.next) {
+            s += n.dato.toString();
             if (n.next != null) s += " -> ";
         }
         return s;

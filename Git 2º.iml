@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/CSD/PPool" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/IPC/Calculator" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/IPC/TicTacToe" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/EDA/Lab" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />

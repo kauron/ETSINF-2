@@ -13,8 +13,8 @@ public class Triangle extends Shape{
      *
      * @param x Position of the angle A
      * @param y Position of the angle B
-     * @param sides Array of size 3 with the sides
-     * @param angles Array of size 3 with the angles
+     * @param sides Array of talla 3 with the sides
+     * @param angles Array of talla 3 with the angles
      * @throws Exception When the arrays are missing or the triangle cannot be solved
      */
     public Triangle (double x, double y, double[] sides, double[] angles) throws Exception {

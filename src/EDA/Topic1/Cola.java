@@ -1,6 +1,6 @@
 package EDA;
 
-public interface Queue<E> {
+public interface Cola<E> {
     void queue(E element);
     E dequeue() throws Exception;
     E first() throws Exception;

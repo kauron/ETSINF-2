@@ -5,6 +5,7 @@
  */
 
 import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.text.Text;
@@ -19,17 +20,14 @@ import java.util.ResourceBundle;
  * @author Carlos
  */
 public class CalculatorController implements Initializable {
-    public Text text;
-    public Button butMC, butM, butDEL, butC, butDot;
-    public Button but1, but2, but3, but4, but5, but6, but7, but8, but9, but0;
-    public Button butEq, butAdd, butSub, butMul, butDiv;
+    @FXML
+    private Text text;
 
-    public static final int NULL = 0, ADD = 1, SUB = 2, MUL = 3, DIV = 4;
-    public static final int UI_LIMIT = 11;
-    int operation, decimal, length;
-    double value, operand;
-    double memory;
-    boolean writeNew;
+    private static final int NULL = 0, ADD = 1, SUB = 2, MUL = 3, DIV = 4;
+    private static final int UI_LIMIT = 11;
+    private int operation, decimal, length;
+    private double value, operand, memory;
+    private boolean writeNew;
     DecimalFormat format = new DecimalFormat("#0.######");
 
     /**
@@ -42,7 +40,7 @@ public class CalculatorController implements Initializable {
         operation = NULL;
         length = 0;
         writeNew = true;
-        updateUI();
+        updateUI(format);
     }
 
     public void numberClick(ActionEvent event) {
@@ -60,7 +58,7 @@ public class CalculatorController implements Initializable {
             }
             value += number;
             length++;
-            updateUI();
+            updateUI(format);
         }
     }
 
@@ -88,7 +86,7 @@ public class CalculatorController implements Initializable {
                 decimal = 1;
                 value = operand = operation = 0;
                 length = 0;
-                updateUI();
+                updateUI(format);
                 break;
             case "DEL":
                 if (decimal > 10) {
@@ -101,14 +99,14 @@ public class CalculatorController implements Initializable {
                     value -= value % 1;
                 }
                 length--;
-                updateUI();
+                updateUI(format);
                 break;
             case "M+":
                 memory += value;
                 break;
             case "MC":
                 value = memory;
-                updateUI();
+                updateUI(format);
                 break;
             case ".":
                 decimal = 10;
@@ -128,17 +126,19 @@ public class CalculatorController implements Initializable {
         value = operand;
         operand = aux;
         length = String.valueOf((int)Math.floor(value)).length();
+        boolean scientific = false;
+        if (length >= UI_LIMIT) scientific = true;
         decimal = 1;
         while (value % decimal != 0 && length < UI_LIMIT) {
             decimal *= 10;
             length++;
         }
         writeNew = true;
-        updateUI();
+        updateUI(scientific ? new DecimalFormat("0.0E0") : format);
         operation = NULL;
     }
 
-    private void updateUI() {
+    private void updateUI(DecimalFormat format) {
         text.setText(
                 format.format(value)
         );
