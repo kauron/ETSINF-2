@@ -122,9 +122,12 @@ public class Paciente implements Comparable<Paciente>  {
      */
     public int compareTo(Paciente otro) {
         int res = 0;
-		if (estado != otro.estado) return Integer.compare(estado, otro.estado);
+		if (estado != otro.estado) res = estado - otro.estado;
         else {
-            return this.edad - otro.edad;
+            if (edad < EDAD_JOVEN || otro.edad < EDAD_JOVEN)
+                res = edad - otro.edad;
+            else if (edad > EDAD_ANCIANO || otro.edad > EDAD_ANCIANO)
+                res = otro.edad - edad;
         }
         return res;
     }
