@@ -20,13 +20,11 @@ public class LPIColaPrioridad<E extends Comparable<E>>
      *  @param e Elemento a agnadir a una Cola de Prioridad
      */
     public void insertar(E e) { 
-        inicio();
-        while (!esFin()) {
+        for (inicio(); !esFin(); siguiente()) {
             if (e.compareTo(recuperar()) > 0) {
                 super.insertar(e);
                 break;
             }
-            siguiente();
         }
         //TODO: test
     }
@@ -36,7 +34,7 @@ public class LPIColaPrioridad<E extends Comparable<E>>
 	 *
      * @return E Elemento con maxima prioridad de una CP.
      */
-    public E recuperarMin() { 
+    public E recuperarMin() {
         inicio();
         return recuperar();
     }
@@ -45,9 +43,9 @@ public class LPIColaPrioridad<E extends Comparable<E>>
 	 *  prioridad de una CP.
      *  @return E Elemento con maxima prioridad de una CP
      */
-    public E eliminarMin() { 
-	    E res = recuperarMin();
+    public E eliminarMin() {
         inicio();
+        E res = recuperar();
         super.eliminar();
 		return res;
         //TODO: test
