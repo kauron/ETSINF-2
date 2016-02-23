@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CSD/CSD.iml" filepath="$PROJECT_DIR$/CSD/CSD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EDA/EDA.iml" filepath="$PROJECT_DIR$/EDA/EDA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IPC/IPC.iml" filepath="$PROJECT_DIR$/IPC/IPC.iml" />
+    </modules>
+  </component>
+</project>
