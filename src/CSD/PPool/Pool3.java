@@ -21,6 +21,7 @@ public class Pool3  extends Pool2 { //max capacity
             await();
         }
         instructors++;
+        notifyAll();
         return log.swims(id);
     }
 
