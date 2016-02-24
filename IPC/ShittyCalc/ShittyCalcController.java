@@ -46,10 +46,12 @@ public class ShittyCalcController implements Initializable {
         try {
             add = Double.parseDouble(editText.getText());
         } catch (NumberFormatException e) {
+            //TODO: show error message
             return;
         }
         if (restando) add *= -1;
         value += add;
         valueText.setText(String.valueOf(value));
+        editText.setText("");
     }
 }
