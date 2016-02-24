@@ -90,13 +90,12 @@ public class CalculatorController implements Initializable {
                 break;
             case "DEL":
                 if (decimal > 10) {
-                    value -= value % decimal;
                     decimal /= 10;
+                    value -= value % (1.0 / decimal);
                 } else if (decimal == 10) {
                     decimal /= 10;
                 } else {
-                    value /= 10;
-                    value -= value % 1;
+                    value = Math.floor(value / 10);
                 }
                 length--;
                 updateUI(format);
