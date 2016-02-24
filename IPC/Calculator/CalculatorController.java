@@ -45,7 +45,7 @@ public class CalculatorController implements Initializable {
 
     public void numberClick(ActionEvent event) {
         if (length < UI_LIMIT) {
-            int number = Integer.valueOf(((Button) event.getSource()).getText());
+            double number = Integer.valueOf(((Button) event.getSource()).getText());
             if (writeNew) {
                 value = length = 0;
                 decimal = 1;
