@@ -29,6 +29,7 @@ public class ShittyCalcController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         restando = false;
         value = 0;
+        valueText.setText("0.0");
     }
 
     @FXML
