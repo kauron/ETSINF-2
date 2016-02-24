@@ -120,7 +120,7 @@ public class CalculatorController implements Initializable {
             case SUB: operand -= value; break;
             case MUL: operand *= value; break;
             case DIV: operand /= value; break;
-            default: System.err.println("Evaluating no operation");
+            default: return;
         }
         double aux = value;
         value = operand;
