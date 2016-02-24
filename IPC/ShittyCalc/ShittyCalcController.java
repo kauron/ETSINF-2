@@ -1,6 +1,7 @@
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.TextField;
 import javafx.scene.text.Text;
@@ -32,12 +33,13 @@ public class ShittyCalcController implements Initializable {
 
     @FXML
     public void numberClick(ActionEvent event) {
-
+        sumar(Integer.valueOf(((Button) event.getSource()).getText()));
     }
 
     @FXML
     public void restarClick(ActionEvent event) {
         restando = ((CheckBox) event.getSource()).isSelected();
+        restandoText.setVisible(restando);
     }
 
     @FXML
@@ -49,6 +51,10 @@ public class ShittyCalcController implements Initializable {
             //TODO: show error message
             return;
         }
+        sumar(add);
+    }
+
+    private void sumar(double add) {
         if (restando) add *= -1;
         value += add;
         valueText.setText(String.valueOf(value));
