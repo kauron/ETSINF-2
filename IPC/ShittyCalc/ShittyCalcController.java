@@ -1,6 +1,7 @@
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.CheckBox;
 import javafx.scene.control.TextField;
 import javafx.scene.text.Text;
 
@@ -36,7 +37,7 @@ public class ShittyCalcController implements Initializable {
 
     @FXML
     public void restarClick(ActionEvent event) {
-
+        restando = ((CheckBox) event.getSource()).isSelected();
     }
 
     @FXML
