@@ -125,7 +125,7 @@
                   <Font name="Noto Sans" size="45.0" />
                </font>
             </JFXButton>
-            <JFXButton fx:id="butEq" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#functionClick" prefHeight="100.0" prefWidth="100.0" text="=" GridPane.columnIndex="2" GridPane.rowIndex="4">
+            <JFXButton fx:id="butEq" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#functionClick" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #bdbdbd;" text="=" GridPane.columnIndex="2" GridPane.rowIndex="4">
                <font>
                   <Font name="Noto Sans" size="45.0" />
                </font>
