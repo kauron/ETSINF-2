@@ -126,8 +126,7 @@ public class CalculatorController implements Initializable {
         value = operand;
         operand = aux;
         length = String.valueOf((int)Math.floor(value)).length();
-        boolean scientific = false;
-        if (length >= UI_LIMIT) scientific = true;
+        boolean scientific = length >= UI_LIMIT;
         decimal = 1;
         while (value % decimal != 0 && length < UI_LIMIT) {
             decimal *= 10;
