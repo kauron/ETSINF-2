@@ -107,6 +107,8 @@ public class CalculatorController implements Initializable {
             case "MC":
                 value = memory;
                 updateUI(format);
+                operand = memory;
+                value = 0;
                 break;
             case ".":
                 decimal = 10;
