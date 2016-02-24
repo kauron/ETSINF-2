@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
 <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <GridPane alignment="CENTER" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #bdbdbd; -fx-grid-lines-visible: true;">
@@ -19,7 +19,10 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button fx:id="button" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" style="-fx-background-color: #a30212;" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="button" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" style="-fx-background-color: #a30212;" text="1,1" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="25.0" />
+               </font></Button>
          </children>
       </GridPane>
       <Button mnemonicParsing="false" onAction="#cerrarClick" text="Cerrar">
