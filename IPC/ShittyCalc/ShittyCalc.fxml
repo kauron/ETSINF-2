@@ -19,17 +19,17 @@
       </Text>
       <HBox alignment="CENTER">
          <children>
-            <Button mnemonicParsing="false" onAction="#numberButton" text="1">
+            <Button mnemonicParsing="false" onAction="#numberClick" text="1">
                <HBox.margin>
                   <Insets />
                </HBox.margin>
             </Button>
-            <Button mnemonicParsing="false" onAction="#numberButton" text="5">
+            <Button mnemonicParsing="false" onAction="#numberClick" text="5">
                <HBox.margin>
                   <Insets left="10.0" right="10.0" />
                </HBox.margin>
             </Button>
-            <Button mnemonicParsing="false" onAction="#numberButton" text="10">
+            <Button mnemonicParsing="false" onAction="#numberClick" text="10">
                <HBox.margin>
                   <Insets />
                </HBox.margin>
