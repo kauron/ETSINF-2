@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 
+import com.sun.xml.internal.txw2.annotation.XmlNamespace;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -20,11 +21,33 @@ import java.util.ResourceBundle;
  * @author Carlos
  */
 public class ShittyCalcController implements Initializable {
+    @FXML
+    Text valueText, restandoText;
+    boolean restando;
+    double value;
+
     /**
      * Initializes the controller class.
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
+        restando = false;
+        value = 0;
+    }
 
+    @FXML
+    public void numberClick(ActionEvent event) {
+
+    }
+
+    @FXML
+    public void restarClick(ActionEvent event) {
+
+    }
+
+    @FXML
+    public void sumarClick(ActionEvent event) {
+        double add =
+        if (restando)
     }
 }
