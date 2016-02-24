@@ -4,6 +4,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.TextField;
+import javafx.scene.input.KeyCode;
 import javafx.scene.text.Text;
 
 import java.net.URL;
@@ -30,6 +31,11 @@ public class ShittyCalcController implements Initializable {
         restando = false;
         value = 0;
         valueText.setText("0.0");
+        editText.setOnKeyPressed(
+                (keyEvent) -> {
+                    if (keyEvent.getCode() == KeyCode.ENTER) sumarClick(null);
+                }
+        );
     }
 
     @FXML
