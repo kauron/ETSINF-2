@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Calculator" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/TicTacToe" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ShittyCalc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/HandleEveryMove" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
