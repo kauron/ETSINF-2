@@ -8,10 +8,10 @@
    <children>
       <GridPane fx:id="matriz" alignment="CENTER" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #bdbdbd; -fx-grid-lines-visible: true;">
         <columnConstraints>
-          <ColumnConstraints />
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints />
         </columnConstraints>
         <rowConstraints>
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
@@ -19,7 +19,7 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button fx:id="button" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" style="-fx-background-color: #a30212;" text="1,1" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <Button fx:id="button" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" style="-fx-background-color: #a30212;" text="1,1" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <font>
                   <Font size="25.0" />
                </font></Button>
