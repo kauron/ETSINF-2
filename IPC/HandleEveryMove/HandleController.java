@@ -24,6 +24,7 @@ public class HandleController implements Initializable {
     VBox parent;
     @FXML
     GridPane matriz;
+    double x, y;
 
     /**
      * Initializes the controller class.
@@ -53,6 +54,17 @@ public class HandleController implements Initializable {
                     button.setText(col + "," + row);
                 }
         );
+        parent.setOnMousePressed(mouseEvent -> {
+            // record a delta distance for the drag and drop operation.
+            Stage stage = ((Stage) parent.getScene().getWindow());
+            x = stage.getX() - mouseEvent.getScreenX();
+            y = stage.getY() - mouseEvent.getScreenY();
+        });
+        parent.setOnMouseDragged(mouseEvent -> {
+            Stage stage = ((Stage) parent.getScene().getWindow());
+            stage.setX(mouseEvent.getScreenX() + x);
+            stage.setY(mouseEvent.getScreenY() + y);
+        });
     }
 
     @FXML
