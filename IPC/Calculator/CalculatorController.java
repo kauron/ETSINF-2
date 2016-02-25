@@ -120,7 +120,9 @@ public class CalculatorController implements Initializable {
             case ADD: operand += value; break;
             case SUB: operand -= value; break;
             case MUL: operand *= value; break;
-            case DIV: operand /= value; break;
+            case DIV:
+                if (value == 0) value = Double.NaN;
+                operand /= value; break;
             default: return;
         }
         double aux = value;
@@ -139,8 +141,10 @@ public class CalculatorController implements Initializable {
     }
 
     private void updateUI(DecimalFormat format) {
-        text.setText(
-                format.format(value)
-        );
+        if (value == Double.NaN) text.setText("NaN");
+        else
+            text.setText(
+                    format.format(value)
+            );
     }
 }
