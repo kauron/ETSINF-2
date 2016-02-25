@@ -1,4 +1,4 @@
-package librerias.estructurasDeDatos.lineales;
+package estructurasDeDatos.lineales;
 
 public class LinkedListColaInteger extends LinkedListCola<Integer> {
     /**

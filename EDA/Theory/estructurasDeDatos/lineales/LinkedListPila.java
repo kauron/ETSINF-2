@@ -1,4 +1,6 @@
-package librerias.estructurasDeDatos.lineales;
+package estructurasDeDatos.lineales;
+
+import estructurasDeDatos.modelos.Pila;
 
 /**
  * Generic stack implemented by means of a double linked list.

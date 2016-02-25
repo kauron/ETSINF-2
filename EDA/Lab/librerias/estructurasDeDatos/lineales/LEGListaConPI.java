@@ -5,8 +5,7 @@
 
 package librerias.estructurasDeDatos.lineales;
 
-import librerias.estructurasDeDatos.lineales.NodoLEG;
-import librerias.estructurasDeDatos.modelos.ListaConPI;
+import estructurasDeDatos.modelos.ListaConPI;
 
 public class LEGListaConPI<E> implements ListaConPI<E> {
     protected NodoLEG<E> pri;

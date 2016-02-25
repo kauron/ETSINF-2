@@ -1,4 +1,6 @@
-package librerias.estructurasDeDatos.lineales;
+package estructurasDeDatos.lineales;
+
+import estructurasDeDatos.modelos.Cola;
 
 public class LinkedListCola<E> implements Cola<E> {
     protected Nodo<E> first, last;

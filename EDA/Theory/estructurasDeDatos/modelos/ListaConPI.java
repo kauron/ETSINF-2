@@ -1,4 +1,4 @@
-package librerias.estructurasDeDatos.modelos;
+package estructurasDeDatos.modelos;
 
 public interface ListaConPI<E> {
     void insertar(E e);

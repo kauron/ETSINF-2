@@ -1,4 +1,4 @@
-package librerias.estructurasDeDatos.modelos;
+package estructurasDeDatos.modelos;
 
 public interface ListaConPIExt<E> extends ListaConPI<E> {
     void search(E e);

@@ -1,4 +1,6 @@
-package librerias.estructurasDeDatos.lineales;
+package estructurasDeDatos.lineales;
+
+import estructurasDeDatos.modelos.Pila;
 
 import java.lang.reflect.Array;
 

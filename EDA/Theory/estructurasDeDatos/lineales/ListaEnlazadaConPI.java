@@ -1,4 +1,6 @@
-package librerias.estructurasDeDatos.lineales;
+package estructurasDeDatos.lineales;
+
+import estructurasDeDatos.modelos.ListaConPIExt;
 
 public class ListaEnlazadaConPI<E> implements ListaConPIExt<E> {
     protected Nodo<E> first = null, last = null, pointer = null;
