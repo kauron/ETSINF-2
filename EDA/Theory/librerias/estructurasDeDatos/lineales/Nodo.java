@@ -1,4 +1,4 @@
-package EDA;
+package librerias.estructurasDeDatos.lineales;
 
 public class Nodo<E> {
     protected E dato;

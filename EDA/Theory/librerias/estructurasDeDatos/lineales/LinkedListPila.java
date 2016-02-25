@@ -1,4 +1,4 @@
-package EDA;
+package librerias.estructurasDeDatos.lineales;
 
 /**
  * Generic stack implemented by means of a double linked list.

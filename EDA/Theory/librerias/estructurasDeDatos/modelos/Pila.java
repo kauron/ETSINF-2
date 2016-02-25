@@ -1,4 +1,4 @@
-package EDA;
+package librerias.estructurasDeDatos.modelos;
 
 public interface Pila<E> {
     E pop() throws Exception;

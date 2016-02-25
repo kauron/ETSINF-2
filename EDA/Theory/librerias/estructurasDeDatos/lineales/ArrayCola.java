@@ -1,4 +1,4 @@
-package EDA;
+package librerias.estructurasDeDatos.lineales;
 
 import java.lang.reflect.Array;
 

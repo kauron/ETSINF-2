@@ -1,4 +1,4 @@
-package EDA;
+package librerias.estructurasDeDatos.lineales;
 
 public class ListaEnlazadaConPI<E> implements ListaConPIExt<E> {
     protected Nodo<E> first = null, last = null, pointer = null;

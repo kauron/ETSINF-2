@@ -1,4 +1,4 @@
-package EDA;
+package librerias.estructurasDeDatos.modelos;
 
 public interface Cola<E> {
     void queue(E element);

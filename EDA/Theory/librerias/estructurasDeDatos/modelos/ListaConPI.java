@@ -1,4 +1,4 @@
-package EDA;
+package librerias.estructurasDeDatos.modelos;
 
 public interface ListaConPI<E> {
     void insertar(E e);

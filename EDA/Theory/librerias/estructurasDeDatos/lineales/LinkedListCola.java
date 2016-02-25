@@ -1,4 +1,4 @@
-package EDA;
+package librerias.estructurasDeDatos.lineales;
 
 public class LinkedListCola<E> implements Cola<E> {
     protected Nodo<E> first, last;

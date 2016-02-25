@@ -1,4 +1,4 @@
-package EDA;
+package librerias.estructurasDeDatos.lineales;
 
 public class LinkedListStackofIntegers extends LinkedListPila<Integer> {
     /**
