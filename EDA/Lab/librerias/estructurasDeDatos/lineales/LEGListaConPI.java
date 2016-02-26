@@ -1,11 +1,6 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by Fernflower decompiler)
-//
-
 package librerias.estructurasDeDatos.lineales;
 
-import estructurasDeDatos.modelos.ListaConPI;
+import librerias.estructurasDeDatos.modelos.ListaConPI;
 
 public class LEGListaConPI<E> implements ListaConPI<E> {
     protected NodoLEG<E> pri;
