@@ -121,9 +121,8 @@ public class Paciente implements Comparable<Paciente>  {
      *    que otro y mayor que 0 en caso contrario.
      */
     public int compareTo(Paciente otro) {
-        int res = 0;
-		if (estado != otro.estado) res = estado - otro.estado;
-        else {
+        int res = estado - otro.estado;
+        if (res == 0) {
             if (edad < EDAD_JOVEN || otro.edad < EDAD_JOVEN)
                 res = edad - otro.edad;
             else if (edad > EDAD_ANCIANO || otro.edad > EDAD_ANCIANO)

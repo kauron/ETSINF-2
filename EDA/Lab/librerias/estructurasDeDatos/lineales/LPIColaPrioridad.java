@@ -20,12 +20,8 @@ public class LPIColaPrioridad<E extends Comparable<E>>
      *  @param e Elemento a agnadir a una Cola de Prioridad
      */
     public void insertar(E e) { 
-        for (inicio(); !esFin(); siguiente()) {
-            if (e.compareTo(recuperar()) > 0) {
-                super.insertar(e);
-                break;
-            }
-        }
+        for (inicio(); !esFin() && e.compareTo(recuperar()) <= 0; siguiente());
+        super.insertar(e);
         //TODO: test
     }
     
