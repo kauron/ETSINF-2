@@ -17,10 +17,11 @@ import java.util.ResourceBundle;
  */
 public class ShittyCalcController implements Initializable {
     @FXML
-    Text valueText, restandoText;
+    private Text valueText, restandoText;
     @FXML
-    TextField editText;
-    boolean restando;
+    private TextField editText;
+    @FXML
+    private CheckBox restarCheckbox;
     double value;
 
     /**
@@ -28,9 +29,9 @@ public class ShittyCalcController implements Initializable {
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        restando = false;
+        restandoText.visibleProperty().bind(restarCheckbox.selectedProperty());
         value = 0;
-        valueText.setText("0.0");
+        valueText.setText(String.valueOf(value));
         editText.setOnKeyPressed(
                 (keyEvent) -> {
                     if (keyEvent.getCode() == KeyCode.ENTER) sumarClick(null);
@@ -41,12 +42,6 @@ public class ShittyCalcController implements Initializable {
     @FXML
     public void numberClick(ActionEvent event) {
         sumar(Integer.valueOf(((Button) event.getSource()).getText()));
-    }
-
-    @FXML
-    public void restarClick(ActionEvent event) {
-        restando = ((CheckBox) event.getSource()).isSelected();
-        restandoText.setVisible(restando);
     }
 
     @FXML
@@ -62,7 +57,7 @@ public class ShittyCalcController implements Initializable {
     }
 
     private void sumar(double add) {
-        if (restando) add *= -1;
+        if (restarCheckbox.isSelected()) add *= -1;
         value += add;
         valueText.setText(String.valueOf(value));
         editText.setText("");
