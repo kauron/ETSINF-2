@@ -2,5 +2,7 @@
 package PPhilo;
 
 public class LefthandPhilo extends Philo { //ASSIMETRY
-	public LefthandPhilo(int id, int cycles, int delay, Table table) {super(id,cycles,delay,table);}
+    public LefthandPhilo(int id, int cycles, int delay, Table table) {
+        super(id, cycles, delay, table);
+    }
 }

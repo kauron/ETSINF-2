@@ -2,5 +2,7 @@
 package PPhilo;
 
 public class BothNoneTable extends RegularTable { //both or none
-	public BothNoneTable(Log log) {super(log);}
+    public BothNoneTable(Log log) {
+        super(log);
+    }
 }
