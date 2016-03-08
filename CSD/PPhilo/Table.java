@@ -1,11 +1,5 @@
 // CSD Mar 2013 Juansa Sendra
- 
-
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
-import javax.swing.event.*;
-import java.util.*;
+package PPhilo;
 
 public interface Table {
 	void begin(int id);

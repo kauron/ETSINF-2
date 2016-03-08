@@ -1,10 +1,13 @@
 // CSD Mar 2013 Juansa Sendra
+package PPhilo;
 
 import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
 import java.awt.*;
-import java.awt.event.*;
-import javax.swing.event.*;
-import java.util.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.Vector;
 
 public class PPhilo extends JPanel implements ActionListener {
     private Vector<State> state;

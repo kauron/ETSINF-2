@@ -1,11 +1,9 @@
 // CSD Mar 2013 Juansa Sendra
- 
+package PPhilo;
 
 import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
-import javax.swing.event.*;
-import java.util.*;
+import java.util.Random;
+import java.util.Vector;
 
 class Log {
 	final int variability=80;

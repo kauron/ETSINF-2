@@ -1,11 +1,5 @@
 // CSD Mar 2013 Juansa Sendra
- 
-
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
-import javax.swing.event.*;
-import java.util.*;
+package PPhilo;
 
 public class Philo extends Thread { //not prevents deadlocks. Table0
 	int id, cycles, msegDelay;

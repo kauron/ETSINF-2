@@ -1,12 +1,9 @@
 // CSD Mar 2013 Juansa Sendra
-
+package PPhilo;
  
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
-import javax.swing.event.*;
-import java.util.*;
 
 class StateRenderer extends JLabel implements ListCellRenderer {
     private static final Color HIGHLIGHT_COLOR = new Color(0, 0, 128);

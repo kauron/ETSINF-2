@@ -1,12 +1,8 @@
 // CSD Mar 2013 Juansa Sendra
-
+package PPhilo;
  
 
-import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
-import javax.swing.event.*;
-import java.util.*;
 
 public class Box extends Canvas {
 	final int R=90, r=30;

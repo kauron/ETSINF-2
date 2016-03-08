@@ -1,11 +1,5 @@
 // CSD Mar 2013 Juansa Sendra
- 
-
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
-import javax.swing.event.*;
-import java.util.*;
+package PPhilo;
 
 public class State {
     //              0        1       2      3     4       5       6        7      8      9           10          11   12    13

@@ -1,5 +1,6 @@
 // CSD Mar 2013 Juansa Sendra
- 
+package PPhilo;
+
 public class RegularTable implements Table {    //no prevention
     Log log;
     public RegularTable(Log log) {this.log=log;}
