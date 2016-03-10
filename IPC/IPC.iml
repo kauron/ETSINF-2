@@ -7,9 +7,18 @@
       <sourceFolder url="file://$MODULE_DIR$/TicTacToe" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ShittyCalc" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HandleEveryMove" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ListaPersonas" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="jfoenix" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/linux/workspace/libraries/jfoenix.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
