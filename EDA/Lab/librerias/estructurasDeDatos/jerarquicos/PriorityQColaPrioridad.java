@@ -1,5 +1,8 @@
 package librerias.estructurasDeDatos.jerarquicos;
 
+// comprueba que lo has puesto en el lugar correcto
+// package librerias.estructurasDeDatos.jerarquicos;
+
 import librerias.estructurasDeDatos.modelos.ColaPrioridad;
 import java.util.PriorityQueue;
 
@@ -9,27 +12,26 @@ import java.util.PriorityQueue;
   * @param <E> tipo de datos de la estructura, debe implementar Comparable<E>
   */
 
-public class PriorityQColaPrioridad<E extends Comparable<E>> 
-    /* COMPLETAR con extends y con implements)*/
- 
+public class PriorityQColaPrioridad<E extends Comparable<E>>
+        extends PriorityQueue<E>
+        implements ColaPrioridad<E>
+
 {
     
     /** crea una Cola de Prioridad (CP) vacia */
-    public PriorityQColaPrioridad() { /* COMPLETAR */ }
+    public PriorityQColaPrioridad() { super(); }
     
     /** atendiendo a su prioridad, inserta el Elemento e en una Cola 
      * de Prioridad (CP)
      *  @param e Elemento a agnadir a una Cola de Prioridad
      */
-    public void insertar(E e) { /* COMPLETAR */ }
+    public void insertar(E e) { super.add(e); }
     
     /** SII !esVacia(): obtiene el Elemento con maxima prioridad de una CP 
      * @return E Elemento con maxima prioridad de una CP
      */
     public E recuperarMin() { 
-	    E res = null;
-		/* COMPLETAR */ 
-		return res; 
+        return super.peek();
     }
     
      /** SII !esVacia(): obtiene y elimina el Elemento con maxima 
@@ -37,17 +39,13 @@ public class PriorityQColaPrioridad<E extends Comparable<E>>
      *  @return E Elemento con maxima prioridad de una CP
      */
     public E eliminarMin() { 
-	    E res = null;
-		/* COMPLETAR */ 
-		return res; 
+        return super.poll();
     }
     
     /** comprueba si una Cola de Prioridad esta vacia
       * @return true si una CP esta vacia y false en caso contrario
       */
     public boolean esVacia() { 
-	    boolean res = false;
-		/* COMPLETAR */ 
-		return res; 
+        return super.isEmpty();
     }
 }

@@ -1,5 +1,8 @@
 package aplicaciones.hospital;
 
+// comprueba que lo has puesto en el lugar correcto
+// package aplicaciones.hospital;
+
 import librerias.estructurasDeDatos.modelos.ColaPrioridad;
 import librerias.estructurasDeDatos.lineales.LPIColaPrioridad;
 

@@ -1,0 +1,24 @@
+#BlueJ package file
+objectbench.height=76
+objectbench.width=1880
+package.editor.height=901
+package.editor.width=1762
+package.editor.x=5
+package.editor.y=3
+package.numDependencies=0
+package.numTargets=2
+package.showExtends=true
+package.showUses=true
+project.charset=UTF-8
+target1.height=62
+target1.name=aplicaciones
+target1.type=PackageTarget
+target1.width=100
+target1.x=90
+target1.y=10
+target2.height=62
+target2.name=librerias
+target2.type=PackageTarget
+target2.width=80
+target2.x=200
+target2.y=10

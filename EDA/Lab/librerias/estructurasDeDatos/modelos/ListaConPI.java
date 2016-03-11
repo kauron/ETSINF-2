@@ -1,5 +1,8 @@
 package librerias.estructurasDeDatos.modelos;
 
+// comprueba que lo has puesto en el lugar correcto
+// package librerias.estructurasDeDatos.modelos;
+
 /**
  * Modelo de una Lista Con Punto de Interes, o de Acceso Secuencial 
  * a los Elementos de una Coleccion

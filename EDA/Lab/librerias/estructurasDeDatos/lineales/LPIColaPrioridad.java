@@ -1,5 +1,8 @@
 package librerias.estructurasDeDatos.lineales;
 
+// comprueba que lo has puesto en el lugar correcto
+// package librerias.estructurasDeDatos.lineales;
+
 import librerias.estructurasDeDatos.modelos.ColaPrioridad;
 
 /** Implementacion de una Cola de Prioridad mediante una Lista Con PI 
@@ -8,7 +11,7 @@ import librerias.estructurasDeDatos.modelos.ColaPrioridad;
   */
 
 public class LPIColaPrioridad<E extends Comparable<E>> 
-    extends librerias.estructurasDeDatos.lineales.LEGListaConPI<E>
+    extends LEGListaConPI<E>
     implements ColaPrioridad<E> {
     
     /** crea una Cola de Prioridad (CP) vacia */
@@ -19,10 +22,10 @@ public class LPIColaPrioridad<E extends Comparable<E>>
 	 *
      *  @param e Elemento a agnadir a una Cola de Prioridad
      */
-    public void insertar(E e) { 
-        for (inicio(); !esFin() && e.compareTo(recuperar()) <= 0; siguiente());
+    public void insertar(E e) {
+        inicio();
+        while (!esFin() && recuperar().compareTo(e) <= 0) siguiente();
         super.insertar(e);
-        //TODO: test
     }
     
     /** SII !esVacia(): obtiene el elemento con maxima prioridad de 
@@ -30,7 +33,7 @@ public class LPIColaPrioridad<E extends Comparable<E>>
 	 *
      * @return E Elemento con maxima prioridad de una CP.
      */
-    public E recuperarMin() {
+    public E recuperarMin() { 
         inicio();
         return recuperar();
     }
@@ -41,10 +44,9 @@ public class LPIColaPrioridad<E extends Comparable<E>>
      */
     public E eliminarMin() {
         inicio();
-        E res = recuperar();
-        super.eliminar();
+	    E res = recuperar();
+        eliminar();
 		return res;
-        //TODO: test
     }
     
     /** Comprueba si una Cola de Prioridad esta vacia.

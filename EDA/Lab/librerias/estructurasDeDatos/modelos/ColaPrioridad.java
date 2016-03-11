@@ -1,5 +1,8 @@
 package librerias.estructurasDeDatos.modelos;
 
+// comprueba que lo has puesto en el lugar correcto
+// package librerias.estructurasDeDatos.modelos;
+
 /**
  * Modelo de una Cola de Prioridad, o de Busqueda Dinamica 
  * del Elemento de maxima prioridad en una Coleccion

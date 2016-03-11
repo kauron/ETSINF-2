@@ -1,5 +1,8 @@
 package librerias.estructurasDeDatos.lineales;
 
+// comprueba que lo has puesto en el lugar correcto
+// package librerias.estructurasDeDatos.lineales;
+
 /** Clase friendly que representa un Nodo de una LEG
  *  TIENE UN:
  *  - dato, el elemento que contiene el Nodo
@@ -24,7 +27,7 @@ class NodoLEG<E> {
     }
     
     /** Crea un Nodo que contiene al Elemento e y al que no sigue ninguno
-     *  @param e Elemento que contiene un Nodo
+     *  @param dato Elemento que contiene un Nodo
      */
     NodoLEG(E dato) { this(dato, null); } 
 } 

@@ -1,5 +1,8 @@
 package aplicaciones.hospital;
 
+// comprueba que lo has puesto en el lugar correcto
+// package aplicaciones.hospital;
+
 /**
  * La clase Hospital consiste, basicamente, en un array de camas c
  * on sus pacientes asignados. 

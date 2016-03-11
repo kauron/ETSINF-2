@@ -1,0 +1,24 @@
+#BlueJ package file
+objectbench.height=76
+objectbench.width=938
+package.editor.height=211
+package.editor.width=820
+package.editor.x=-4
+package.editor.y=-6
+package.numDependencies=0
+package.numTargets=1
+package.showExtends=true
+package.showUses=true
+target1.editor.height=243
+target1.editor.width=948
+target1.editor.x=11
+target1.editor.y=29
+target1.height=50
+target1.name=PriorityQColaPrioridad
+target1.naviview.expanded=true
+target1.showInterface=false
+target1.type=ClassTarget
+target1.typeParameters=<E>
+target1.width=180
+target1.x=10
+target1.y=90
