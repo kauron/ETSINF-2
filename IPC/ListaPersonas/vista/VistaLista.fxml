@@ -9,12 +9,12 @@
          <menus>
             <Menu mnemonicParsing="true" text="_Ver">
                <items>
-                  <RadioMenuItem text="_Nombre Apellidos">
+                  <RadioMenuItem text="_Nombre Apellidos" onAction="#mostrarAccion">
                      <toggleGroup>
                         <ToggleGroup fx:id="ordenGroup" />
                      </toggleGroup>
                   </RadioMenuItem>
-                  <RadioMenuItem fx:id="menuOrdenReverso" selected="true" text="_Apellidos, Nombre" toggleGroup="$ordenGroup" />
+                  <RadioMenuItem fx:id="menuOrdenReverso" selected="true" onAction="#mostrarAccion" text="_Apellidos, Nombre" toggleGroup="$ordenGroup" />
                   <SeparatorMenuItem mnemonicParsing="false" />
                   <MenuItem mnemonicParsing="true" onAction="#ordenarAccion" text="_Ordenar" />
                </items>
