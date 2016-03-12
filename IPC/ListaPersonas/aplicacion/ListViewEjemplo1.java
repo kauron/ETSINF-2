@@ -25,6 +25,7 @@ public class ListViewEjemplo1 extends Application {
         
         stage.setScene(scene);
         stage.setTitle("Demo vista de lista");
+        stage.setResizable(false);
         stage.show();
     }
 

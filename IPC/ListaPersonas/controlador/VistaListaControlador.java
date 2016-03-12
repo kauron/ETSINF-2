@@ -50,6 +50,7 @@ public class VistaListaControlador implements Initializable {
             ventana2.setTitle("Insertar registro");
             ventana2.initModality(Modality.WINDOW_MODAL);
             ventana2.setScene(scene);
+            ventana2.setResizable(false);
             ventana2.show();
 
         } catch (IOException ex) {
@@ -83,6 +84,7 @@ public class VistaListaControlador implements Initializable {
                 ventana2.setTitle("Editar registro");
                 ventana2.initModality(Modality.WINDOW_MODAL);
                 ventana2.setScene(scene);
+                ventana2.setResizable(false);
                 ventana2.show();
             } catch (IOException ex) {
                 ex.printStackTrace();
@@ -92,8 +94,7 @@ public class VistaListaControlador implements Initializable {
     
     @FXML
     protected void mostrarAccion(ActionEvent event) {
-        String id = ((Menu) event.getSource()).getId();
-        apellidos.set(menuOrdenReverso.getId().equals(id));
+        apellidos.set(menuOrdenReverso.equals(event.getSource()));
     }
     
     @FXML
@@ -160,7 +161,7 @@ public class VistaListaControlador implements Initializable {
         });
         apellidos.addListener(
                 (observer, oldValue, newValue) -> {
-                    datos.
+                    listView.refresh();
                 }
         );
     }

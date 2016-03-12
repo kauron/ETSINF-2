@@ -3,18 +3,18 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<BorderPane xmlns="http://javafx.com/javafx/8.0.76-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.VistaListaControlador">
+<BorderPane prefHeight="300.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8.0.76-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.VistaListaControlador">
    <top>
       <MenuBar useSystemMenuBar="true">
          <menus>
             <Menu mnemonicParsing="true" text="_Ver">
                <items>
-                  <RadioMenuItem text="_Nombre Apellidos" onAction="#mostrarAccion">
+                  <RadioMenuItem onAction="#mostrarAccion" text="_Nombre Apellidos">
                      <toggleGroup>
                         <ToggleGroup fx:id="ordenGroup" />
                      </toggleGroup>
                   </RadioMenuItem>
-                  <RadioMenuItem fx:id="menuOrdenReverso" selected="true" onAction="#mostrarAccion" text="_Apellidos, Nombre" toggleGroup="$ordenGroup" />
+                  <RadioMenuItem fx:id="menuOrdenReverso" onAction="#mostrarAccion" selected="true" text="_Apellidos, Nombre" toggleGroup="$ordenGroup" />
                   <SeparatorMenuItem mnemonicParsing="false" />
                   <MenuItem mnemonicParsing="true" onAction="#ordenarAccion" text="_Ordenar" />
                </items>
