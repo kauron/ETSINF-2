@@ -19,7 +19,7 @@ public class ListViewEjemplo1 extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/vista/VistaLista.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/ListaPersonas/vista/VistaLista.fxml"));
         
         Scene scene = new Scene(root);
         

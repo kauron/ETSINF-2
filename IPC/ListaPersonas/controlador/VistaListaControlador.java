@@ -39,7 +39,7 @@ public class VistaListaControlador implements Initializable {
         // Código para mostrar la ventana de edición
         try {
 
-            FXMLLoader cargador = new FXMLLoader(getClass().getResource("/vista/VistaEditar.fxml"));
+            FXMLLoader cargador = new FXMLLoader(getClass().getResource("/ListaPersonas/vista/VistaEditar.fxml"));
             Parent root = cargador.load();
 
             ((VistaEditarControlador) cargador.getController()).setList(datos);
@@ -73,7 +73,7 @@ public class VistaListaControlador implements Initializable {
         int i = listView.getSelectionModel().getSelectedIndex();
         if (i >= 0) {
             try {
-                FXMLLoader cargador = new FXMLLoader(getClass().getResource("/vista/VistaEditar.fxml"));
+                FXMLLoader cargador = new FXMLLoader(getClass().getResource("/ListaPersonas/vista/VistaEditar.fxml"));
                 Parent root = cargador.load();
 
                 ((VistaEditarControlador) cargador.getController()).setList(datos, i);
