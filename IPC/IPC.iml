@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/ShittyCalc" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HandleEveryMove" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ListaPersonas" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/TablaPersonas" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
