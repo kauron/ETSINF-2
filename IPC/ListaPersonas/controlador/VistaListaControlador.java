@@ -1,5 +1,6 @@
-package controlador;
+package ListaPersonas.controlador;
 
+import ListaPersonas.modelo.Persona;
 import javafx.beans.property.SimpleBooleanProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ListChangeListener.Change;
@@ -13,7 +14,6 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-import modelo.Persona;
 
 import java.io.IOException;
 import java.net.URL;

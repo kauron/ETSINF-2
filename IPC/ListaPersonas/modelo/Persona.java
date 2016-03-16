@@ -1,4 +1,4 @@
-package modelo;
+package ListaPersonas.modelo;
 
 
 import javafx.beans.property.SimpleStringProperty;

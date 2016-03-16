@@ -1,4 +1,4 @@
-package modelo;
+package TablaPersonas.modelo;
 
 
 import javafx.beans.property.SimpleStringProperty;

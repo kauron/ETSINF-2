@@ -3,7 +3,7 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<BorderPane prefHeight="300.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8.0.76-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.VistaListaControlador">
+<BorderPane prefHeight="300.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8.0.76-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ListaPersonas.controlador.VistaListaControlador">
    <top>
       <MenuBar useSystemMenuBar="true">
          <menus>
