@@ -115,7 +115,8 @@ public class Ordenacion {
     // VERSION 2
     // A COMPLETAR:
     public static <T extends Comparable<T>> void mergeSort2(T[] v) {
-        v = mergeSort2(v, 0, v.length - 1);
+        T[] aux = mergeSort2(v, 0, v.length - 1);
+        System.arraycopy(aux, 0, v, 0, v.length);
     }
     
     @SuppressWarnings("unchecked")
