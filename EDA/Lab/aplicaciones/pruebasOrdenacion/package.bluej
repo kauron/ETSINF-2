@@ -2,12 +2,12 @@
 dependency1.from=TestOrdenacion
 dependency1.to=GeneradorDeString
 dependency1.type=UsesDependency
-objectbench.height=76
+objectbench.height=100
 objectbench.width=741
 package.editor.height=538
-package.editor.width=623
-package.editor.x=47
-package.editor.y=29
+package.editor.width=906
+package.editor.x=200
+package.editor.y=229
 package.numDependencies=1
 package.numTargets=2
 package.showExtends=true

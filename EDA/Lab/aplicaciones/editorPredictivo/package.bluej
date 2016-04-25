@@ -1,11 +1,14 @@
 #BlueJ package file
+dependency1.from=TestEditorPredictivo
+dependency1.to=EditorPredictivo
+dependency1.type=UsesDependency
 objectbench.height=100
-objectbench.width=373
+objectbench.width=395
 package.editor.height=400
 package.editor.width=560
-package.editor.x=960
-package.editor.y=192
-package.numDependencies=0
+package.editor.x=827
+package.editor.y=232
+package.numDependencies=1
 package.numTargets=2
 package.showExtends=true
 package.showUses=true
