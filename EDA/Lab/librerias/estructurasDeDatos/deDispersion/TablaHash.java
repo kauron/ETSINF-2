@@ -205,4 +205,18 @@ public class TablaHash<C, V> implements Map<C, V> {
         }
         return res;
     }
+    
+    public ListaConPI<C> clavesEnLongitud(int length) {
+        ListaConPI<C> lista = null;
+        for (int i = 0; i < elArray.length; i++) {
+            if (elArray[i].talla() == length) {
+                lista = new LEGListaConPI<C>();
+                for(elArray[i].inicio(); !elArray[i].esFin(); elArray[i].siguiente()){
+                    lista.insertar(elArray[i].recuperar().clave);
+                }
+                break;
+            }
+        }
+        return lista;
+    }
 }
