@@ -1,8 +1,8 @@
 package librerias.estructurasDeDatos.deDispersion;
 
-import librerias.estructurasDeDatos.modelos.Map;
-import librerias.estructurasDeDatos.modelos.ListaConPI; 
 import librerias.estructurasDeDatos.lineales.LEGListaConPI;
+import librerias.estructurasDeDatos.modelos.ListaConPI;
+import librerias.estructurasDeDatos.modelos.Map;
 
 /**
  * Implementacion de una TablaHash Enlazada con Listas con PI 
@@ -150,20 +150,19 @@ public class TablaHash<C, V> implements Map<C, V> {
     // el doble y reubica las entradas
     @SuppressWarnings("unchecked")
     protected final void rehashing() {
-        ListaConPI<EntradaHash<C, V>>[] aux = new LEGListaConPI[siguientePrimo(elArray.length * 2)];
-        for (int i = 0; i < aux.length; i++) 
-            aux[i] = new LEGListaConPI<>();
+        ListaConPI<EntradaHash<C, V>>[] aux = elArray;
+        elArray = new LEGListaConPI[siguientePrimo(elArray.length * 2)];
+
+        for (int i = 0; i < elArray.length; i++)
+            elArray[i] = new LEGListaConPI<>();
         
-        for (int i = 0; i < elArray.length; i++) {
-            for(elArray[i].inicio(); !elArray[i].esFin(); elArray[i].siguiente()) {
-                EntradaHash<C, V> elemento = elArray[i].recuperar();
-                int pos = indiceHash(elemento.clave);
-                aux[pos].insertar(new EntradaHash<C, V>(elemento.clave, elemento.valor));
+        for (int i = 0; i < aux.length; i++) {
+            for(aux[i].inicio(); !aux[i].esFin(); aux[i].siguiente()) {
+                EntradaHash<C, V> elemento = aux[i].recuperar();
+                elArray[indiceHash(elemento.clave)].insertar(new EntradaHash<>(elemento.clave, elemento.valor));
             }
         }
-        
-        elArray = aux;
-    } 
+    }
 
     /** Devuelve una ListaConPI con las talla() claves de una Tabla Hash */
     public ListaConPI<C> claves() {
