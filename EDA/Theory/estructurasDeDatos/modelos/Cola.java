@@ -1,8 +1,8 @@
 package estructurasDeDatos.modelos;
 
 public interface Cola<E> {
-    void queue(E element);
-    E dequeue() throws Exception;
-    E first() throws Exception;
-    boolean isEmpty();
+    void encolar(E element);
+    E desencolar() throws Exception;
+    E primero() throws Exception;
+    boolean esVacia();
 }

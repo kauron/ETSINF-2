@@ -2,17 +2,17 @@ package estructurasDeDatos.lineales;
 
 import estructurasDeDatos.modelos.Cola;
 
-import java.lang.reflect.Array;
+import java.util.NoSuchElementException;
 
 public class ArrayCola<E> implements Cola<E> {
-    protected static final int INIT_SIZE = 10;
-    protected E[] queue;
-    protected int size;
-    protected int first, last; //first occupied, last occupied
+    private static final int INIT_SIZE = 10;
+    private E[] queue;
+    private int size;
+    private int first, last; //first occupied, last occupied
 
-    public ArrayCola(Class<E> c) {
+    public ArrayCola() {
         @SuppressWarnings("unchecked")
-        final E[] a = (E[]) Array.newInstance(c, INIT_SIZE);
+        final E[] a = (E[]) new Object[INIT_SIZE];
         queue = a;
         size = 0;
         first = -1;
@@ -20,7 +20,7 @@ public class ArrayCola<E> implements Cola<E> {
     }
 
     @Override
-    public void queue(E element) {
+    public void encolar(E element) {
         if (first == -1) first = 0;
         if (size == queue.length) resize();
         last = (last + 1) % queue.length;
@@ -29,8 +29,8 @@ public class ArrayCola<E> implements Cola<E> {
     }
 
     @Override
-    public E dequeue() throws Exception {
-        if (isEmpty()) throw new Exception("Empty queue");
+    public E desencolar() throws NoSuchElementException {
+        if (esVacia()) throw new NoSuchElementException("Empty queue");
         size--;
         E e = queue[first];
         first = (first + 1) % queue.length;
@@ -39,19 +39,19 @@ public class ArrayCola<E> implements Cola<E> {
     }
 
     @Override
-    public E first() throws Exception {
-        if (isEmpty()) throw new Exception("Empty Cola");
+    public E primero() throws NoSuchElementException {
+        if (esVacia()) throw new NoSuchElementException("Empty Cola");
         return queue[first];
     }
 
     @Override
-    public boolean isEmpty() {
+    public boolean esVacia() {
         return size == 0;
     }
 
-    protected void resize() {
+    private void resize() {
         @SuppressWarnings("unchecked")
-        final E[] aux = (E[]) Array.newInstance(queue[0].getClass(), INIT_SIZE + size);
+        final E[] aux = (E[]) new Object[INIT_SIZE + size];
         if (first < last) {
             System.arraycopy(queue, first, aux, 0, size);
         } else {
