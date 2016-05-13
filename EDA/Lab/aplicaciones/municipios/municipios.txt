@@ -1,0 +1,4016 @@
+torre de don miguel;616;11.55;178;266
+fresno;536;12.63;243;33
+pesquera de duero;522;55.86;315;163
+santa magdalena de pulpis;826;66.49;568;257
+san justo de la vega;2058;48.39;209;103
+palafrugell;21412;26.93;732;142
+aceituna;627;40.08;191;272
+forua;965;7.94;399;38
+carucedo;689;35.0;166;101
+castilleja de guzmán;2627;2.06;207;473
+cobisa;3404;14.48;322;298
+quintana del puente;235;11.52;312;130
+cualedro;2148;117.62;120;137
+parrillas;422;51.03;264;278
+aldehuela;208;17.15;345;191
+maguilla;1078;97.87;220;403
+fermoselle;1482;68.13;188;186
+cantalapiedra;1169;71.15;257;201
+torrubia del campo;349;53.36;383;291
+potes;1500;7.64;288;51
+cañizares;536;76.34;427;245
+baltar;1126;93.99;133;44
+jérica;1611;78.28;519;289
+quiruelas de vidriales;844;27.99;220;134
+cobeña;4844;20.84;291;48
+illescas;17312;57.35;333;274
+cardiel de los montes;306;24.31;287;278
+les;944;23.35;146;38
+santa coloma de cervelló;7508;7.49;666;182
+hinojos;3806;319.88;188;483
+pinilla de toro;310;24.36;246;163
+faura;3183;1.64;537;304
+villademor de la vega;395;16.63;234;116
+medina del campo;20832;153.14;271;187
+castillejo de martín viejo;287;155.67;174;232
+villazanzo de valderaduey;616;145.88;270;97
+valdenebro de los valles;209;42.07;269;147
+pueblica de valverde;264;25.74;216;142
+guadalaviar;270;28.08;453;255
+lezama;2411;16.54;382;61
+plasencia;39982;217.94;414;50
+jarandilla de la vera;3071;61.51;230;274
+otero;285;29.57;147;108
+castrillo de la vega;657;26.42;336;162
+carrascal de barregas;694;76.6;224;211
+cabanillas del campo;8258;34.7;368;237
+san román de hornija;420;41.76;251;174
+alcantarilla;39636;16.24;482;433
+carral;5647;48.03;212;105
+robleda-cervantes;553;32.47;177;130
+arrabalde;324;15.69;217;127
+benejúzar;5419;9.33;504;425
+puertollano;50838;226.74;317;380
+villacarrillo;11117;239.55;376;422
+portillo;2551;64.42;299;36
+posadas;7352;160.28;379;117
+quintana del marco;497;23.36;218;121
+trabadelo;496;64.73;156;64
+moeche;1441;48.5;99;22
+benimantell;466;37.91;540;380
+almaraz de duero;435;45.61;215;175
+nava del rey;2157;126.1;262;185
+riudecols;1194;19.5;607;197
+agrón;374;27.0;92;67
+alovera;9184;13.65;366;239
+anguciana;492;5.05;386;93
+matallana de torío;1462;73.45;237;72
+langa;549;24.45;401;277
+constantí;6183;31.38;621;198
+valdelaguna;778;42.13;246;252
+fonollosa;1279;52.15;646;153
+cazorla;8132;305.4;381;436
+aldeanueva del camino;795;20.05;215;263
+sarracín;292;9.61;341;117
+palacios de la valduerna;484;20.42;214;112
+soto y amío;1004;69.19;217;79
+gargantilla;439;20.87;215;265
+huétor vega;10900;4.24;348;493
+carabaña;1691;47.58;368;265
+báguena;407;25.17;475;206
+alozaina;2217;33.85;275;525
+huélago;403;32.58;366;473
+fondón;999;91.16;388;506
+tiedra;373;47.31;251;162
+gallegos de argañán;349;47.14;170;237
+ribera del fresno;3234;185.62;197;390
+navarrevisca;371;39.99;274;256
+pajares de la lampreana;480;27.99;227;157
+ubrique;17162;69.75;241;528
+villanueva de la vera;2129;129.66;240;274
+ajofrín;2297;35.1;325;302
+vega de pas;916;87.53;336;50
+esgos;1259;37.79;114;112
+villaquejida;1011;53.42;233;125
+san cebrián de campos;498;32.63;294;121
+armilla;20115;4.42;345;493
+alfambra;756;122.44;493;243
+lagunilla del jubera;359;34.3;419;112
+montesclaros;398;20.58;271;276
+gradefes;1145;205.86;254;90
+palazuelo de vedija;272;32.2;259;141
+riello;768;235.93;205;53
+fontellas;861;22.26;462;134
+beceite;598;96.72;562;222
+alcazarén;706;48.04;286;182
+almenara de tormes;277;19.29;220;204
+friol;4504;292.29;109;60
+miranda de arga;965;59.79;447;101
+paradas;6990;109.43;163;49
+torrefarrera;3338;23.42;587;160
+navalacruz;254;49.89;271;252
+méntrida;3997;83.01;314;266
+badolatosa;3218;47.79;286;482
+fombellida;220;36.13;314;153
+muniesa;725;129.8;506;207
+alcubierre;446;115.31;526;151
+sardón de duero;703;19.67;299;165
+san vicente de la barquera;4557;41.04;301;31
+san andrés del rabanedo;28894;64.84;233;90
+adrada de haza;263;10.28;334;165
+haro;11463;40.53;389;93
+begonte;3550;126.8;114;53
+algar;1588;26.61;502;456
+penagos;1719;31.67;335;36
+quintana del castillo;953;155.71;208;88
+jabugo;2435;24.92;168;436
+cabuérniga;1093;86.45;307;45
+argamasilla de alba;7161;397.22;375;348
+sant joan les fonts;2697;31.98;695;120
+ablitas;2459;77.48;459;138
+trabada;1451;82.71;157;48
+barásoain;561;13.94;457;92
+san miguel de salinas;7625;54.85;507;432
+ripollet;35661;4.4;675;173
+petín;1066;30.48;146;108
+torreblascopedro;2835;61.43;345;430
+saucelle;385;45.99;167;206
+samir de los caños;211;36.58;200;160
+cazalegas;1642;29.48;286;282
+algete;18429;37.88;352;239
+santa colomba de curueño;590;91.95;243;81
+peñascosa;406;189.26;415;381
+alcaraz;1727;370.53;410;381
+pozuelo de aragón;334;32.11;471;153
+sástago;1179;300.99;531;186
+zabalza;202;14.04;449;78
+bolaños de campos;372;29.92;251;136
+guardo;7673;62.83;277;78
+calvarrasa de abajo;1097;28.16;236;213
+molinicos;1147;143.59;424;396
+rascafría;2053;150.28;331;217
+ceinos de campos;283;36.11;258;134
+santorcaz;789;27.98;368;249
+villalbilla de burgos;869;14.44;336;110
+fontiveros;897;36.42;269;215
+riego de la vega;1001;37.57;211;108
+espinosa de villagonzalo;217;38.04;303;101
+moraleja;7919;147.6;173;278
+beniel;10294;10.06;494;427
+jaulín;326;46.05;496;176
+benilloba;843;9.54;530;379
+casillas de flores;205;42.6;167;255
+forfoleda;228;38.07;224;202
+jumilla;24596;969.0;479;395
+vilamacolum;293;5.64;726;121
+villaturiel;1884;57.06;240;98
+morcillo;431;16.23;187;282
+bohoyo;382;73.87;242;260
+tortuera;218;82.21;361;215
+tomiño;12651;106.61;55;137
+villaturde;209;26.15;286;108
+cabezuela;718;35.25;221;268
+vilosell;205;18.78;605;182
+guadix;20307;324.26;373;482
+anoeta;1787;4.13;434;50
+membrilla;6467;143.94;361;359
+alcolea de tajo;864;64.47;258;298
+monterrubio de armuña;936;10.97;231;207
+gomecello;544;20.7;237;207
+miño;5256;32.97;85;36
+perafort;996;9.68;622;196
+valdepeñas;28570;487.65;334;461
+santillana del mar;4007;28.46;318;34
+lupión;1000;24.33;349;430
+calella;18034;7.86;178;22
+balaguer;15781;57.17;598;152
+cáceres;90802;1750.33;189;321
+muela;3965;143.49;243;509
+tauste;7489;405.23;480;142
+nalda;1074;24.6;410;112
+villafranca de ebro;735;63.64;514;165
+pedrezuela;3333;28.35;345;228
+biescas;1549;189.09;190;28
+vega de infanzones;918;20.8;237;101
+camponaraya;4035;29.13;172;93
+blanca;6119;87.32;473;417
+pilas;12478;45.94;193;482
+rojales;17543;27.56;510;425
+nuez de ebro;731;8.21;513;165
+santibáñez el alto;458;99.07;179;270
+pozuelo del páramo;538;36.23;223;123
+monzón;16217;155.02;563;142
+barruecopardo;512;37.85;172;204
+cenlle;1513;29.03;92;112
+villazala;904;45.42;218;109
+funes;2358;52.97;449;112
+teià;5969;6.72;683;174
+calamocha;4563;316.63;477;215
+almáchar;1892;14.4;311;519
+cerralbo;228;51.59;177;212
+puebla de almenara;495;37.67;392;299
+chimillas;359;10.04;526;123
+camarenilla;596;24.35;319;282
+biota;1135;128.8;485;117
+cuntis;5184;79.84;65;89
+calaf;3435;9.22;638;156
+esquivias;4900;24.92;337;276
+segovia;56047;163.59;129;64
+corral-rubio;414;94.76;469;369
+esparragalejo;1556;16.78;185;361
+villarmayor;219;39.05;159;45
+blanes;38368;17.89;711;159
+binéfar;9048;25.1;568;147
+genalguacil;537;31.87;254;537
+laguna dalga;795;38.41;224;112
+antequera;44547;816.72;292;503
+autol;4039;85.28;438;120
+campos del río;2182;47.29;475;427
+azagra;3735;33.71;443;114
+numancia de la sagra;4107;29.63;332;278
+falset;2742;32.02;598;200
+toén;2649;58.29;99;112
+briviesca;7227;81.2;362;95
+alcaudete;11113;236.81;319;460
+avinyó;2190;62.81;663;145
+piles;2664;3.94;544;362
+pina de ebro;2461;309.17;521;174
+sangarrén;262;32.22;527;134
+cabrillas;475;24.85;316;520
+gaucín;1946;98.24;249;539
+gorga;248;9.11;531;377
+villarrubia de santiago;2886;155.29;360;285
+papiol;3781;8.76;666;178
+fuente del arco;769;115.36;216;419
+bubión;373;14.86;361;508
+almendral de la cañada;385;33.69;282;270
+padrenda;2405;57.04;88;126
+culleredo;26707;61.73;75;42
+puebla de arenoso;209;42.53;518;276
+tembleque;2296;223.07;352;305
+aldea del fresno;2246;51.78;312;260
+bailén;18583;117.14;337;423
+bejís;428;42.35;512;291
+griñón;8797;17.42;332;267
+aguilar de campos;313;49.83;257;137
+torre del bierzo;2714;119.29;189;92
+ventas con peña aguilera;1357;140.09;311;311
+mutiloa;218;8.61;422;61
+valencia;797654;134.63;530;322
+añora;1532;112.57;273;400
+selva de mar;216;7.16;732;112
+alella;8998;9.68;682;174
+almensilla;5096;14.31;203;481
+villalcázar de sirga;206;25.41;294;112
+rótova;1320;7.66;537;362
+láncara;3083;121.66;133;72
+válor;673;58.57;376;504
+villamor de los escuderos;532;55.77;234;191
+moraleda de zafayona;3093;48.15;325;492
+fonsagrada;4748;438.45;149;53
+almonaster la real;1831;321.29;166;440
+olivares;9012;45.53;418;302
+fuentes de ropel;532;48.73;237;136
+beniparrell;1896;3.68;527;329
+otero de herreros;938;43.71;312;223
+campo de villavidel;250;13.97;237;104
+casar de palomero;1388;36.91;196;261
+bueu;12440;30.84;52;112
+carriches;323;18.67;298;285
+topas;674;112.3;231;198
+rocafort;6259;2.34;529;318
+abusejo;249;23.1;203;230
+castellón;177924;107.0;551;294
+santiago de compostela;93712;220.0;65;71
+portugalete;48386;3.21;380;39
+tobed;276;32.39;472;185
+aiguaviva;614;13.97;709;141
+pancorbo;492;58.45;375;89
+benimeli;429;3.5;550;370
+navas de estena;389;146.54;294;320
+turleque;930;100.85;347;313
+baterno;355;62.1;273;361
+espino de la orbada;316;23.45;243;202
+jerte;1303;58.95;224;267
+alcaracejos;1500;175.62;269;402
+trespaderne;1139;36.81;359;77
+magaz de cepeda;446;72.64;206;97
+pravia;9118;102.96;203;27
+nava de arévalo;928;58.26;280;212
+nigrán;17668;34.77;52;126
+librilla;4378;56.5;475;439
+valbona;215;40.72;177;42
+montferri;323;19.36;629;190
+llosa de ranes;3748;7.13;521;355
+fresnedoso de ibor;337;54.66;238;307
+moyuela;290;42.76;499;200
+mandayona;402;33.18;395;213
+portaje;398;100.55;179;289
+busot;2847;33.84;527;395
+ocón;391;60.92;423;114
+san vicente de la cabeza;513;53.02;196;151
+valjunquera;411;41.84;553;213
+san juan del molinillo;336;35.79;277;250
+gurrea de gállego;1721;191.97;508;134
+leganiel;243;45.1;383;271
+santomera;14323;44.2;492;425
+santa croya de tera;405;21.16;212;137
+guarrate;368;31.6;242;189
+ribera alta;683;119.78;333;470
+espartinas;10485;22.74;203;476
+gema;249;17.85;180;211
+pedrajas de san esteban;3558;30.72;291;184
+torredonjimeno;14010;157.78;327;447
+aracena;7351;184.45;179;439
+navatalgordo;291;20.09;274;252
+olmillos de castro;341;71.39;212;156
+vélez-málaga;69604;157.88;318;520
+san esteban de litera;497;71.9;570;143
+guijo de coria;230;74.75;183;276
+tabernas;3579;280.38;536;352
+pedreguer;7097;29.57;554;372
+benavente;18744;45.12;228;136
+rozas de puerto real;372;30.15;296;260
+mataró;119035;22.3;691;171
+güevéjar;2234;9.75;347;484
+bulbuente;258;25.44;460;149
+castillo de locubín;4887;102.55;328;465
+ituren;477;15.51;455;53
+estercuel;262;55.59;516;221
+llanera de ranes;1077;9.27;519;357
+argentona;11402;25.26;688;169
+monachil;6270;88.92;350;495
+ejido;78105;225.83;391;520
+ibahernando;535;76.95;215;333
+talayuela;9582;227.03;233;285
+bollullos par del condado;13737;49.34;180;480
+chauchina;4537;21.21;337;489
+chulilla;786;61.78;501;309
+corcubión;1887;6.52;29;66
+fuenteguinaldo;804;101.61;172;252
+bufali;203;3.19;522;366
+ribadeo;9704;108.94;151;23
+ogíjares;12145;6.91;347;495
+sotresgudo;578;172.19;314;93
+sahagún;2841;123.64;265;109
+espiel;2447;437.26;266;416
+oliana;1938;31.84;626;131
+cevico de la torre;545;50.85;301;147
+oliva de mérida;1874;254.51;203;373
+navarrete;2722;28.49;408;89
+chozas de abajo;2273;100.27;228;98
+benijófar;3707;4.36;510;425
+mayalde;235;43.71;221;191
+hontoria de valdearados;236;33.58;351;154
+calatayud;21040;154.25;459;184
+alpera;2382;178.47;482;359
+mendavia;3789;78.33;426;103
+villaseco de los reyes;403;136.05;200;198
+oliola;263;86.45;619;145
+cedrillas;569;73.57;503;252
+guadarrama;13607;56.98;319;233
+casas de benítez;1096;46.76;430;330
+san justo;304;75.12;175;126
+bergondo;6540;32.72;83;39
+laredo;12835;15.71;357;32
+casas de lázaro;505;112.32;424;374
+estepona;60328;137.5;259;546
+celanova;6104;67.31;98;125
+mojados;3221;46.21;287;178
+fuentes de béjar;267;14.47;228;246
+castillazuelo;225;15.32;555;131
+churriana de la vega;10228;6.6;344;493
+calvarrasa de arriba;667;25.73;234;217
+cuevas del almanzora;11649;264.83;444;482
+quemada;256;20.84;348;158
+brime de sog;207;17.93;207;131
+portezuelo;282;126.11;183;296
+benalmádena;52217;26.88;291;534
+benimuslem;605;4.17;524;347
+puebla del príncipe;907;33.97;385;389
+mendigorría;1036;39.43;447;89
+torresmenudas;206;11.88;222;202
+cervera;9093;55.1;245;33
+beade;557;6.4;56;121
+peñausende;491;95.02;217;189
+caminomorisco;1263;147.06;194;260
+escañuela;949;13.75;323;439
+aguarón;838;36.62;479;184
+villafáfila;597;74.0;232;147
+garínoain;478;10.52;459;92
+horche;2094;44.25;377;241
+andújar;38769;964.9;320;427
+cumbres mayores;1986;121.61;174;425
+meliana;9827;4.73;533;318
+siete iglesias de trabancos;558;61.29;257;184
+figueruelas;1191;16.99;485;153
+pelayos de la presa;2269;7.58;305;256
+portella;790;12.35;588;156
+cenizate;1251;63.26;457;335
+riudaura;429;24.1;688;123
+peñalba;753;156.7;525;293
+navalmoral de la mata;16931;155.96;237;291
+pratdip;760;36.01;601;206
+padiernos;251;36.99;277;238
+salas de los infantes;2080;31.32;365;134
+aguilar de la frontera;13653;166.48;287;466
+laguna de negrillos;1254;71.8;229;119
+villavaquerín;201;45.11;297;160
+alagón;6547;24.22;488;153
+carbajo;243;28.05;143;313
+tardáguila;246;24.69;234;201
+elda;55289;45.79;507;395
+jorquera;484;67.97;465;344
+creixell;2952;10.41;634;197
+mos;14471;53.21;123;50
+beniarbeig;1729;7.4;552;370
+bárcena de cicero;3407;36.63;352;31
+ayódar;231;24.36;530;283
+rosal;6402;44.13;49;141
+burguillos de toledo;2202;28.49;325;298
+illana;828;70.33;386;270
+cubillos del sil;1603;53.41;178;90
+andilla;325;142.78;506;296
+membrío;870;207.74;150;318
+tarazona;10991;244.01;253;197
+illano;512;102.7;160;38
+bernedo;581;130.44;409;90
+manuel;2570;6.05;523;353
+maluenda;1075;40.09;459;189
+sabiñánigo;9673;586.82;530;98
+almedíjar;268;20.9;529;293
+illar;434;19.19;402;506
+valverdón;277;21.98;223;206
+illas;1012;25.51;212;25
+carratraca;910;22.44;277;515
+sils;4347;30.05;708;151
+marchagaz;261;9.47;195;263
+barbastro;16025;107.6;559;134
+navahondilla;304;22.07;296;260
+olula del río;6446;23.52;420;478
+verea;1272;94.23;99;129
+santa eufemia del barco;259;51.84;216;159
+alcázares;14077;19.82;503;449
+portillo de toledo;2106;19.95;311;278
+morata de jalón;1379;45.87;468;175
+miranda del castañar;533;21.07;210;248
+santa cruz de bezana;10463;17.26;329;29
+broto;533;128.05;545;92
+masdenverge;1098;14.57;582;230
+albillos;229;12.36;336;116
+castilblanco de los arroyos;4986;323.54;211;455
+algodonales;5726;134.16;243;513
+alcalá de los gazules;5673;479.59;225;543
+morata de tajuña;6782;45.2;356;266
+cinctorres;516;35.06;539;240
+cantagallo;251;7.51;220;256
+bande;2292;98.96;98;134
+san cristóbal de entreviñas;1607;42.53;214;20
+santa maría de cayón;7556;48.23;332;40
+ogassa;274;45.48;678;116
+ugíjar;2599;66.96;378;508
+calzada de calatrava;4489;410.94;337;379
+borriol;4715;60.95;547;281
+mocejón;4655;30.44;329;289
+vinuesa;1004;143.05;394;142
+burela;8873;7.78;130;14
+valdepolo;1444;142.54;254;93
+castro-urdiales;29660;96.72;368;34
+cortegada;1328;26.88;83;87
+rocafort de queralt;271;8.56;624;175
+illora;10390;197.43;331;484
+puerto de béjar;422;10.39;220;257
+verdú;1014;35.72;617;165
+santa eulalia;1143;80.97;233;24
+ajalvir;3448;19.62;353;244
+poblete;1386;27.82;325;362
+pobladura del valle;332;14.15;225;129
+sariegos;3880;36.35;231;88
+redueña;263;12.87;347;223
+cenicero;2176;31.76;402;101
+palacios de la sierra;851;70.4;373;138
+mondéjar;2614;48.43;374;259
+santa cruz de mudela;4740;134.6;354;384
+villar del humo;336;150.05;459;293
+arzúa;6529;155.48;86;67
+caniles;4930;216.75;349;443
+villalpardo;1196;31.49;459;322
+cisneros;520;63.29;275;120
+mondariz-balneario;755;2.31;69;119
+caleruega;484;47.63;353;149
+camas;25694;11.65;208;475
+liétor;1474;311.57;440;391
+navarcles;5732;5.5;659;154
+garray;530;76.24;412;149
+valle de mena;3704;263.17;365;55
+mengabril;470;43.81;214;362
+puigpelat;891;9.59;625;189
+ocaña;7789;147.91;397;495
+jimena;1489;48.04;354;443
+casarabonela;2769;113.72;275;520
+taboadela;1680;25.19;106;119
+villar de torre;282;11.99;388;109
+campillo de altobuey;1716;172.41;449;313
+almoharín;2036;93.68;208;344
+suances;7707;24.56;321;31
+samaniego;313;10.64;399;94
+montiel;1638;271.29;388;379
+montalbán de córdoba;4646;33.66;281;461
+muelas del pan;796;72.61;212;171
+quart;2618;38.35;714;141
+perales de tajuña;2642;48.92;361;266
+ondara;6217;10.41;552;369
+buñol;9720;112.4;507;326
+santiago de calatrava;880;47.09;314;449
+santa maría de los llanos;780;42.56;215;248
+pampliega;376;24.4;325;121
+montejaque;995;45.46;251;525
+murueta;305;5.45;385;53
+vedra;5088;52.78;69;78
+bureta;286;11.91;467;149
+sanlúcar de barrameda;63968;170.93;190;520
+villalobón;893;19.0;295;134
+sos del rey católico;712;216.62;482;99
+salvatierra de esca;249;81.24;494;87
+gaibiel;204;18.08;524;288
+llerena;5995;162.68;209;414
+torrelodones;20452;21.95;328;240
+villasbuenas;259;39.51;177;204
+aldea del rey;2012;154.31;333;377
+caleruela;284;9.42;253;293
+diezma;830;42.09;362;481
+alcañices;1052;54.76;190;158
+pelahustán;377;44.46;290;270
+castiello de jaca;249;17.31;520;89
+arnedo;14082;85.4;329;64
+san lorenzo de el escorial;16531;56.4;315;240
+patones;518;34.47;353;219
+belchite;1647;273.68;509;187
+sierra de luna;309;43.39;499;132
+cilleruelo de abajo;290;48.16;336;145
+pliego;3864;29.43;466;432
+piedras albas;211;4.54;189;105
+caudete;10003;141.61;484;252
+vilaboa;6015;36.89;93;18
+cifuentes;2044;219.95;402;226
+soria;38205;271.77;411;153
+chillón;2107;207.78;274;372
+orís;286;27.03;678;131
+trasierra;693;58.18;176;394
+albuñuelas;1063;140.05;345;510
+cañamero;1803;151.45;245;329
+parres;5725;126.08;258;36
+nueno;521;147.24;527;116
+ituero de azaba;264;27.46;171;248
+somontín;543;16.19;416;476
+morell;2855;5.89;621;195
+cortegana;4977;173.06;163;436
+betelu;345;7.17;439;61
+ayllón;1243;128.95;360;179
+mollina;4645;74.56;286;495
+algimia de alfara;1039;14.45;530;302
+montijo;15711;119.68;175;363
+gádor;3100;87.67;410;508
+losa del obispo;523;12.17;502;305
+rosinos de la requejada;469;154.78;180;130
+mendaro;1720;25.39;416;44
+peñarandilla;248;12.73;245;218
+collbató;3780;18.21;655;168
+cambrils;29112;35.08;611;204
+granja de moreruela;323;41.27;225;149
+castellanos de moriscos;922;13.84;234;208
+torrecilla en cameros;585;30.47;402;116
+bellús;387;9.54;524;361
+ayna;890;146.81;433;390
+arenas de iguña;1867;86.82;321;49
+cardenete;652;97.51;456;300
+bargota;345;25.32;419;94
+aznalcóllar;6168;198.96;195;466
+odón;242;74.24;462;218
+crespos;605;31.92;269;219
+lantadilla;416;28.95;308;112
+mendata;373;22.39;402;42
+san cristóbal de la cuesta;659;9.92;232;207
+villaviciosa;14520;276.23;242;27
+san martín del río;229;16.58;473;204
+villarramiel;979;30.26;271;132
+arcos;1261;57.67;34;68
+palma del río;20855;200.19;251;453
+viñas;250;39.96;166;31
+hontoba;295;32.14;379;250
+canjáyar;1544;66.93;396;504
+badajoz;145257;1470.43;155;366
+torrecilla del pinar;255;19.61;322;182
+barcarrota;3664;136.11;162;392
+tordehumos;493;61.52;258;149
+belmontejo;207;52.23;419;296
+pozoantiguo;271;37.32;242;165
+villaherreros;229;40.79;298;108
+casas bajas;244;22.65;479;282
+alcobendas;105951;44.98;345;244
+navasfrías;581;59.96;163;261
+monroyo;338;79.23;550;226
+valladolid;316564;197.45;283;162
+macael;6149;43.76;420;480
+san vicente de arévalo;214;16.12;278;212
+villaselán;251;56.52;264;94
+altura;3643;129.52;522;294
+talavera de la reina;85549;185.83;277;287
+unciti;216;37.31;466;81
+torredembarra;14524;8.66;631;198
+san amaro;1355;28.95;92;109
+rosalejo;1425;41.82;273;325
+checa;334;179.68;450;240
+sanzoles;613;25.66;234;178
+alborea;820;72.05;473;336
+solana;16039;134.18;160;42
+cercedilla;6773;35.78;320;229
+jayena;1252;79.51;334;508
+talamanca de jarama;2293;39.36;352;228
+manganeses de la lampreana;637;60.02;227;154
+veguillas;289;43.7;372;408
+paterna;59043;35.85;527;320
+colmenar de montemayor;219;39.98;213;254
+vallirana;13326;23.81;661;182
+retortillo de soria;234;172.77;382;186
+beteta;394;115.35;434;241
+cardeña;1717;512.87;306;411
+ullastrell;1687;7.39;662;171
+villalar de los comuneros;435;42.74;259;169
+baltanás;1389;158.85;310;141
+alcalá de la selva;510;104.95;512;256
+otura;5883;24.34;217;44
+campo;279;22.86;109;86
+alcubillas;619;47.46;373;375
+mendaza;323;32.95;424;89
+dílar;1638;79.28;347;499
+moraña;4309;41.34;65;93
+majadas;1258;51.96;436;261
+villares de la reina;4933;21.81;231;210
+mairena del aljarafe;39389;17.7;206;480
+melgar de yuso;318;26.58;310;117
+villadangos del páramo;1102;44.93;223;98
+san leonardo de yagüe;2299;60.58;377;148
+avilés;83320;26.81;215;21
+villanueva de sigena;520;146.37;551;157
+nogueruelas;273;99.49;516;266
+oleiros;31694;43.66;78;38
+irura;1270;2.99;434;50
+pozuelos de calatrava;458;84.0;314;364
+san millán de los caballeros;201;24.69;236;115
+rielves;660;32.83;314;285
+becilla de valderaduey;334;38.23;254;129
+montearagón;556;12.01;288;285
+albornos;235;17.1;274;222
+cañete;864;86.96;457;280
+cartes;4617;19.01;320;39
+almorox;2391;64.77;302;266
+montejo de arévalo;256;35.95;286;200
+fuentelespino de haro;288;33.44;399;307
+sagra;457;5.62;547;370
+ourol;1273;142.07;118;72
+valdeaveruelo;849;17.36;362;237
+frechilla;231;34.33;408;178
+campo real;4466;61.75;359;259
+alcocer;326;61.19;403;249
+albiol;377;20.38;614;191
+torrejón del rey;3987;25.17;362;235
+moià;5486;75.83;671;149
+arguedas;2353;66.93;460;123
+villavieja del lozoya;254;23.29;343;210
+sotoserrano;662;57.69;208;252
+benisanó;2064;2.28;519;311
+eslida;892;18.13;534;292
+gorafe;506;77.05;379;469
+almería;186651;296.21;412;517
+gata de gorgos;5969;20.33;556;374
+iznájar;4843;136.36;307;486
+alcolea del río;3331;50.02;229;458
+taramundi;775;82.16;147;36
+arróniz;1135;55.21;433;93
+benalauría;466;19.75;253;535
+vegaquemada;471;72.95;247;75
+ainzón;1282;40.46;465;149
+fuenlabrada;194142;39.41;335;263
+guadalupe;2113;68.19;485;430
+tormos;339;5.35;547;372
+villasandino;231;43.71;318;109
+serón;2456;166.4;426;173
+monreal del campo;2652;89.05;475;226
+mara;207;21.09;465;189
+azuaga;8501;497.89;228;411
+vegacervera;353;34.89;237;71
+casares;4532;162.35;148;68
+villanueva de huerva;577;78.38;493;184
+aliaga;422;193.08;512;234
+val de san lorenzo;638;49.49;203;105
+casas del monte;822;27.61;213;268
+aldeamayor de san martín;2461;53.56;288;171
+cedillo del condado;2350;26.45;328;274
+valdemorillo;10316;93.68;320;246
+escatrón;1161;94.64;533;189
+traspinedo;977;26.3;297;167
+mata;977;19.18;323;42
+fortanete;208;168.21;522;246
+chiclana de segura;1154;235.99;379;408
+maspujols;542;3.57;611;196
+belalcázar;3546;355.99;257;389
+coín;20870;127.37;281;528
+igüeña;1500;206.1;195;82
+fuentes de nava;761;60.51;279;130
+mora;10317;168.57;337;307
+almagro;8482;249.73;340;366
+villa del campo;574;56.92;185;274
+pulianas;4954;6.33;347;488
+brea de tajo;523;44.33;375;266
+san pedro de gaíllos;343;26.08;335;193
+alba;250;69.53;113;42
+chiloeches;2297;45.4;371;240
+baños de montemayor;744;21.98;220;261
+cájar;4318;1.65;348;495
+ortigosa del monte;478;15.41;314;222
+ollauri;325;2.6;390;95
+güeñes;6204;41.16;376;46
+alcañiz;15587;472.12;544;206
+fuentes de ebro;4134;141.73;516;171
+hoya-gonzalo;787;114.57;463;361
+lalín;20867;326.83;89;88
+manzanilla;2403;39.69;186;476
+alco;60700;129.86;525;379
+navarredonda de la rinconada;244;13.12;210;239
+presencio;226;35.35;329;123
+azofra;279;11.84;392;105
+santo tomé;2324;73.48;56;98
+fuencaliente;1175;269.85;370;156
+masó;287;3.64;621;193
+huerta de valdecarábanos;1829;83.0;345;293
+santiago del collado;240;42.69;247;252
+deleitosa;850;144.21;231;309
+valverde del majano;807;31.0;311;213
+molló;340;43.54;688;110
+algámitas;1321;20.42;258;503
+iznatoraf;1121;86.54;379;419
+alcántara;1684;551.99;160;304
+san bartolomé de pinares;674;74.49;294;243
+jacarilla;1957;12.2;502;425
+torrejón de velasco;3804;52.32;336;270
+albalat dels sorells;3708;4.62;531;318
+casalarreina;1286;8.13;385;95
+bayubas de abajo;234;44.09;387;171
+zarzuela del pinar;552;17.76;314;190
+maya;219;7.02;468;48
+paterna del campo;3736;132.44;187;473
+paredes de nava;2141;128.98;285;125
+castielfabib;244;106.29;477;274
+casasbuenas;228;30.46;316;300
+astudillo;1168;122.95;307;121
+chera;664;49.7;496;313
+castellnou de seana;750;16.32;607;162
+valverde-enrique;213;35.9;250;114
+lumbrales;2011;69.94;169;215
+torrent;75131;69.32;729;140
+carrascal del obispo;228;40.97;210;226
+riós;2003;114.44;137;138
+canena;2089;14.32;353;427
+niebla;4072;223.62;171;477
+pinar;1067;38.01;242;521
+villanueva de las manzanas;570;31.89;240;101
+salvaleón;2081;71.8;166;392
+villamejil;846;78.98;209;94
+landete;1375;79.34;473;291
+abengibre;965;30.77;464;341
+bienvenida;2343;92.17;199;408
+peñafiel;5514;76.11;317;165
+otero de bodas;213;49.94;201;140
+tardelcuende;541;64.14;402;165
+biar;3693;98.17;508;384
+almatret;424;56.5;527;187
+benahadux;3570;16.62;412;509
+matamala de almazán;382;62.99;402;173
+moya;7974;31.87;157;67
+salteras;4692;57.46;204;473
+amoeiro;2334;39.68;99;105
+higuera de vargas;2160;67.6;155;397
+sestao;29718;3.54;381;40
+chañe;766;35.26;300;185
+valdefuentes del páramo;350;24.17;220;112
+mazcuerras;2010;55.65;312;40
+novallas;875;11.4;455;140
+azuara;674;165.81;502;191
+toledo;78618;231.76;323;293
+chercos;306;13.36;422;486
+colomera;1588;111.98;341;477
+botorrita;526;19.81;493;173
+salobreña;12288;34.91;348;524
+estremera;1486;79.1;375;270
+navalvillar de pela;4816;251.17;240;349
+murillo el cuende;648;58.72;459;106
+cospeito;5349;144.79;122;46
+bermillo de sayago;1267;189.55;204;182
+duruelo de la sierra;1364;44.84;385;140
+capellades;5386;2.95;648;171
+quintanar de la sierra;2057;59.9;379;137
+mejorada del campo;21369;17.21;353;254
+biel;221;130.73;498;108
+almendra;205;39.07;215;167
+san martín de la vega del alberche;237;50.48;258;252
+melón;1546;53.22;84;117
+cerecinos de campos;375;28.58;240;143
+montmajor;478;76.03;650;136
+porqueira;1136;43.4;155;31
+valdepiélago;451;56.81;244;72
+almendro;845;170.61;405;469
+serrada;1120;24.19;275;176
+lúcar;847;100.41;414;475
+rasueros;268;40.66;263;208
+villahermosa;2313;363.01;480;201
+morille;258;22.94;227;224
+finestrat;4945;42.25;540;389
+villanueva de azoague;320;19.19;229;138
+granadella;748;89.0;589;184
+argujillo;339;23.09;234;186
+villar de peralonso;318;31.66;197;207
+allo;1078;37.03;43;50
+yesa;264;84.68;497;292
+grañén;1992;123.98;530;141
+cogollos de guadix;710;30.26;371;488
+encinasola de los comendadores;251;33.74;180;207
+arrecife;56834;22.72;273;453
+vega de valcarce;735;69.31;157;87
+ezcaray;2038;142.85;380;112
+alió;368;7.23;625;187
+fresno de sayago;241;64.51;212;186
+hoyo de pinares;2364;80.51;300;246
+san esteban del valle;869;37.0;268;263
+sierra de fuentes;1990;25.21;195;325
+cetina;693;78.76;439;187
+magallón;1194;78.61;469;148
+santa coloma de queralt;3058;34.05;630;171
+robledo de chavela;3599;93.01;311;246
+masquefa;7747;17.12;655;173
+casas de juan núñez;1372;88.98;463;348
+quismondo;1591;15.43;306;276
+higuera de la serena;1066;58.39;225;383
+pinarejo;361;61.82;414;311
+almonacid de la cuba;300;55.21;507;189
+fiscal;296;170.06;545;99
+alcudia de veo;228;30.66;531;289
+valseca;309;23.2;314;210
+encinacorba;271;36.74;479;189
+pareja;617;91.6;401;243
+colmenarejo;7596;31.7;324;241
+manzanares el real;6612;126.7;331;229
+rubite;441;28.55;318;517
+guijo de santa bárbara;404;34.54;230;272
+rueda de jalón;364;107.37;479;163
+peal de becerro;5489;147.36;374;436
+valdelosa;562;63.43;222;197
+calles;449;64.54;496;303
+tarragona;134163;62.35;622;201
+villanueva de los caballeros;244;34.93;254;154
+barrios;21358;331.33;238;565
+colmenar del arroyo;1268;50.57;312;252
+becerreá;3264;172.05;143;73
+galilea;349;9.74;424;110
+arenzana de abajo;261;8.39;397;108
+casabermeja;3421;67.28;299;513
+elciego;1001;16.32;402;98
+astorga;12139;46.78;207;103
+corcos;241;42.59;262;84
+castañar de ibor;1212;146.97;243;311
+galapagar;30007;64.99;342;442
+gotor;392;15.52;457;169
+venta de baños;6164;14.25;295;142
+almonacid de toledo;871;95.78;331;303
+cistella;242;25.63;714;116
+lena;13009;315.51;220;50
+bañobárez;369;50.49;176;221
+villaquilambre;15068;52.69;236;88
+alcabón;728;8.02;303;283
+bullas;12020;82.17;456;427
+alhama de almería;3587;26.24;405;508
+narros de matalayegua;255;74.07;215;232
+pozuelo de zarzón;572;47.43;186;272
+aceuchal;5583;63.08;183;383
+marchena;19310;378.25;244;480
+alpartir;575;32.54;473;179
+burguillos del cerro;3238;187.54;177;402
+alfacar;5316;16.73;348;487
+génave;638;63.58;396;399
+siétamo;588;48.98;535;127
+puebla de sancho pérez;2884;56.69;187;401
+monleras;261;32.84;197;196
+leoz;273;95.5;465;88
+noreña;5158;5.66;227;33
+alquife;823;12.19;374;491
+lepe;23607;127.94;142;486
+alaejos;1586;102.49;254;186
+san morales;256;4.92;238;211
+chillarón de cuenca;379;39.41;425;276
+fonfría;1018;132.23;236;27
+mota del marqués;423;31.34;257;163
+navarrés;3068;47.04;513;349
+millares;517;105.51;138;56
+aroche;3306;498.44;156;434
+palacios de sanabria;346;37.01;180;132
+grañón;355;31.01;379;103
+roquetas de mar;71279;59.65;403;521
+san vicente de la sonsierra;1146;48.56;395;94
+nuño gómez;214;16.89;288;274
+respenda de la peña;215;65.65;285;79
+saucejo;4428;92.2;261;499
+alp;1576;44.06;444;109
+lezáun;270;19.04;439;78
+figueruela de arriba;468;152.96;185;145
+don álvaro;729;32.07;195;368
+palomero;488;20.27;195;265
+palma de gandía;1850;13.92;539;362
+lerma;2718;166.4;338;134
+mazariegos;259;25.24;350;127
+cerdido;1439;52.72;96;17
+san bartolomé;18050;40.9;60;131
+ahigal;1519;52.07;200;270
+bornos;8131;54.31;225;519
+ferreira;339;43.58;139;31
+cipérez;341;104.66;195;212
+guaro;2273;22.39;277;530
+mamblas;245;24.04;267;208
+barrax;2023;189.86;427;352
+torla;319;185.21;546;89
+morales de toro;1072;53.45;250;171
+villariezo;484;10.29;339;116
+rajadell;470;45.46;648;157
+terrateig;343;6.32;533;366
+pinto;40876;62.04;342;266
+loeches;5767;44.06;358;255
+aduna;370;6.95;435;42
+lastrilla;2829;9.44;244;256
+gobernador;312;23.0;362;469
+gurb;2344;51.15;678;140
+mazuecos;410;23.77;381;265
+cedeira;7482;85.42;61;115
+valderrueda;1058;160.78;394;169
+espinosa de los monteros;2021;137.51;349;56
+cabezas rubias;859;108.65;148;451
+madridejos;11195;262.01;350;322
+priego de córdoba;22999;288.28;314;472
+villamol;207;39.63;264;104
+almadén;6294;239.64;277;374
+jaraba;326;42.81;444;196
+rodeiro;3261;154.9;99;88
+torno;1012;22.26;92;141
+ea;870;14.17;405;34
+montseny;299;26.85;688;153
+cabrerizos;3476;11.54;233;211
+benavides;2895;74.07;216;99
+aldeanueva de figueroa;324;55.64;237;198
+cuevas del valle;559;19.17;267;261
+pontevedra;80202;118.28;60;104
+bermeo;16826;34.12;397;31
+bisbal de falset;245;14.08;592;190
+calafell;21871;20.18;641;196
+guadasequies;430;3.26;524;363
+estépar;781;102.7;329;116
+encinas de esgueva;303;30.85;318;154
+artana;1937;36.33;537;292
+molvízar;3197;21.47;345;520
+tornos;250;48.95;229;51
+prádanos de ojeda;210;21.32;304;86
+fonelas;1126;96.41;371;473
+arlanzón;431;77.74;355;112
+san juan del puerto;7520;45.33;162;481
+almendral;1273;67.5;163;385
+santoyo;250;34.69;305;120
+san fernando;95026;30.65;199;543
+aranjuez;49420;201.11;347;281
+santacara;977;33.96;459;109
+catadau;2619;35.46;519;337
+cijuela;2455;17.92;334;489
+san agustín del pozo;209;14.47;234;145
+oviedo;216607;186.65;220;35
+tagamanent;301;43.48;683;154
+torre;319;58.41;109;81
+sierro;461;27.44;415;481
+molacillos;290;23.68;230;167
+husillos;232;16.35;294;130
+higuera de calatrava;674;38.74;314;445
+beniardá;220;15.74;539;380
+hormigos;663;27.48;299;276
+crémenes;761;153.12;259;70
+pelabravo;898;23.26;234;215
+leza;230;9.92;402;94
+sestrica;425;40.88;460;174
+emperador;467;0.03;533;316
+albalat de la ribera;3429;14.29;530;342
+urnieta;5998;22.4;439;44
+lezo;5966;8.59;443;39
+gilet;2561;11.28;533;307
+cartaya;16589;225.32;145;484
+benifallet;808;62.2;581;212
+relleu;1090;76.87;533;388
+alájar;811;41.46;173;440
+alboraya;21582;8.34;531;320
+cañada del hoyo;305;90.37;443;285
+picazo;771;24.9;395;230
+molares;2991;42.74;167;440
+sebúlcor;266;27.71;331;190
+llagostera;7314;76.42;716;149
+san martín del pimpollar;259;45.64;264;256
+ibdes;525;56.31;447;193
+calanda;3737;112.25;538;215
+astigarraga;4386;11.91;440;42
+san miguel de la ribera;372;26.25;234;185
+lorquí;6714;15.75;480;425
+iglesuela del cid;491;40.29;533;248
+asturianos;289;42.6;183;132
+socovos;1951;138.61;439;406
+bolbaite;1507;40.39;513;352
+agullent;2364;16.24;521;370
+alcóntar;611;93.91;403;480
+juarros de voltoya;273;21.63;294;207
+santpedor;6557;16.92;657;226
+enix;484;66.84;403;513
+casillas;827;11.96;347;64
+santibáñez de la sierra;248;13.61;215;246
+alfamén;1452;102.04;480;178
+yebra;571;56.49;171;106
+chella;2776;43.49;514;353
+horcajo de los montes;1015;208.44;287;333
+castillo de bayuela;1065;37.3;285;276
+mojácar;6507;71.54;446;495
+abegondo;5808;83.81;80;46
+dalías;3848;141.43;388;517
+cenes de la vega;6363;6.49;350;493
+villamañán;1304;57.8;234;112
+amer;2266;40.13;403;134
+petrés;951;1.87;534;307
+ruente;1022;65.86;308;42
+arroyomolinos;9771;20.66;329;263
+villabáñez;500;51.03;325;39
+villalube;229;39.95;237;164
+san silvestre de guzmán;708;48.59;133;476
+valdoviño;6978;88.22;89;18
+cabreros del río;498;24.77;237;106
+alcuéscar;2976;108.93;197;344
+brazuelo;346;98.13;201;99
+aldeanueva de la vera;2306;37.6;227;274
+abrucena;1379;83.68;392;495
+móstoles;204535;45.36;332;260
+santiurde de toranzo;1351;36.82;328;45
+coles;3257;38.11;106;106
+beniarjó;1641;2.75;541;362
+casbas de huesca;308;132.69;544;125
+miengo;4135;24.5;325;31
+almedina;710;55.9;383;385
+used;360;85.29;541;112
+escalante;761;19.11;352;31
+olmedo;3714;129.39;285;189
+viladrau;1036;50.69;688;147
+padrón;9030;48.37;149;53
+puerto lápice;1027;54.85;354;333
+beas de guadix;379;16.24;369;484
+casas de fernando alonso;1397;30.28;419;331
+ambite;467;26.0;371;259
+burgos;174075;107.08;341;110
+humilladero;3104;34.66;284;495
+basconcillos del tozo;352;120.67;325;84
+jarafuel;837;103.09;490;347
+campotéjar;1400;35.81;345;469
+castrocontrigo;993;194.49;200;123
+valdefresno;2001;102.54;240;92
+escucha;1073;41.57;505;224
+rubio;3548;20.8;336;178
+puente de génave;2132;38.84;392;405
+vera de moncayo;441;27.66;456;149
+torre-cardela;1064;15.19;361;467
+sallent de gállego;1400;162.14;533;79
+titaguas;541;63.21;490;293
+aspariegos;305;42.16;233;159
+villalba de guardo;212;33.85;277;83
+real de san vicente;1088;54.03;285;274
+aldehuela de la bóveda;336;70.65;207;221
+castro caldelas;1687;87.61;129;108
+covelo;3515;125.44;75;120
+pedralba;2637;58.85;170;134
+castilléjar;1600;131.33;401;451
+castellnovo;1052;19.2;526;293
+barcelona;1595110;98.21;675;182
+bárboles;324;15.68;484;157
+oroso;6554;72.6;82;120
+alfés;329;32.09;587;171
+villagonzalo de tormes;207;25.56;238;218
+illueca;3279;24.86;459;171
+freila;1093;74.51;386;465
+poboleda;354;13.76;600;193
+alcalá de ebro;288;9.87;484;149
+novés;2113;41.71;516;92
+serradilla del llano;206;67.52;190;246
+abanilla;6568;235.62;492;416
+dos torres;2601;129.09;273;397
+puig;8197;26.83;534;314
+uruñuela;857;10.51;398;104
+burguillos;4876;43.14;177;402
+berrocal;380;126.24;325;204
+san esteban de nogales;321;32.24;214;123
+arjonilla;3886;42.56;318;433
+anchuras;376;231.05;277;321
+almendros;278;63.11;387;288
+pomar de valdivia;508;80.16;314;79
+alange;2033;160.29;196;373
+alconchel;1970;294.95;149;392
+villarrín de campos;574;50.09;231;151
+nigüelas;1139;30.93;350;506
+salas altas;326;20.74;556;127
+alfara del patriarca;2858;1.98;530;316
+pereruela;687;160.69;217;179
+benquerencia de la serena;979;102.81;240;379
+atarfe;14144;47.25;342;488
+castelldefels;58955;12.81;663;189
+maire de castroponce;204;14.43;222;127
+senija;658;4.79;554;377
+godelleta;3038;37.45;513;326
+revillarruz;313;16.98;344;119
+izagre;201;44.23;253;120
+chelva;1839;190.56;496;302
+cabezas del villar;393;110.07;255;230
+gratallops;253;13.38;596;196
+málaga del fresno;209;23.83;366;226
+espinosa de cerrato;207;45.28;327;138
+ponferrada;66824;283.17;177;95
+rábade;1699;5.17;118;53
+ibros;3176;55.74;352;429
+bujalance;7841;124.81;303;438
+selaya;1985;39.29;335;46
+villalbilla;8003;34.63;364;252
+ledaña;1919;65.48;455;330
+mañaria;473;17.55;401;53
+hondón de los frailes;1231;12.55;499;411
+pau;568;10.44;729;112
+zaratán;4268;20.21;279;160
+cantaracillo;227;37.07;257;217
+chozas de canales;2615;32.69;322;276
+valoria la buena;640;43.31;294;151
+alicún de ortega;555;22.83;373;460
+ledrada;560;16.95;226;249
+outes;7681;99.74;45;73
+villanueva de oscos;411;72.98;156;40
+valverde de alcalá;426;13.53;364;252
+golmayo;1688;189.83;407;153
+anaya de alba;267;37.04;240;230
+jafre;403;6.66;723;131
+malón;386;5.66;456;140
+clavijo;294;19.66;414;110
+candasnos;439;122.45;555;173
+tahal;441;94.82;422;487
+mombeltrán;1184;49.92;266;263
+morella;2863;413.54;546;238
+villafruela;240;52.01;291;123
+basauri;43250;7.01;415;61
+puente de domingo flórez;1819;59.18;163;106
+castañeda;1770;19.19;186;39
+roda;15559;398.79;503;447
+puebla de almoradiel;5822;106.13;375;313
+martín de la jara;2753;49.8;268;495
+campaspero;1406;46.79;314;173
+pedrosillo de los aires;379;70.39;227;230
+san roque;27635;146.88;273;187
+casas de haro;912;110.88;422;333
+robres;649;64.24;525;145
+pobla de claramunt;2193;18.64;647;169
+parauta;252;44.49;260;530
+guardia;2334;195.59;46;143
+alfara de carles;389;64.06;574;219
+melgar de fernamental;1889;108.62;310;106
+elorrio;7091;37.2;407;53
+amusco;479;78.86;297;123
+villar de plasencia;242;24.99;209;274
+villalba de la lampreana;287;28.22;231;154
+jabalquinto;2408;73.24;340;429
+briones;901;37.72;393;95
+amposta;19805;137.65;584;230
+pradoluengo;1470;30.54;369;112
+casavieja;1615;39.25;280;263
+benigánim;6150;33.44;527;361
+valle de matamoros;442;4.9;164;402
+buñuel;2374;36.38;469;137
+purchena;1621;56.47;417;478
+santa maría de huerta;389;49.15;428;190
+langa de duero;849;189.91;358;164
+bisaurri;239;63.19;581;99
+obanos;918;19.85;450;86
+tardajos;780;12.82;334;110
+villaflores;369;42.03;254;204
+jaurrieta;220;30.84;487;71
+cubelles;12773;13.34;647;193
+fuentes de león;2600;109.86;180;425
+areso;288;12.2;440;56
+domeño;688;68.8;481;87
+monda;2258;57.66;277;531
+begues;5898;50.39;661;185
+chapinería;1917;25.4;312;255
+cantallops;295;19.47;718;105
+cabra del santo cristo;2157;187.03;365;453
+rois;5034;92.76;56;79
+corbera;3249;20.27;661;179
+burbáguena;298;39.02;476;208
+trillo;1371;161.87;566;114
+valenzuela de calatrava;787;44.08;337;368
+bercianos del real camino;209;34.24;259;108
+sauquillo de cabezas;208;20.28;320;195
+torremocha de jarama;669;18.49;352;222
+corteconcepción;615;49.13;181;438
+albaida;6269;35.41;522;368
+hontanaya;379;53.63;390;303
+alustante;237;93.04;457;238
+bóveda;1737;91.11;114;64
+fines;2190;23.08;422;477
+entrambasaguas;3120;43.17;342;34
+cangas;25402;38.08;179;49
+castelserás;839;31.52;544;211
+mallén;3503;37.42;471;143
+burón;378;157.71;264;61
+rábano;212;27.65;320;171
+santibáñez de tera;542;18.98;215;137
+caminreal;756;44.39;476;222
+santa cruz del valle;508;29.62;267;265
+montemayor de pililla;1019;59.56;298;173
+villaveza del agua;257;26.32;228;142
+carcastillo;2506;97.0;470;108
+navata;1023;18.52;715;120
+deifontes;2483;40.48;347;481
+quintanilla de arriba;204;28.08;311;164
+collado mediano;6159;22.57;323;232
+longares;873;45.96;484;180
+bot;727;34.64;573;210
+cantimpalos;1401;26.29;315;204
+tibi;1625;70.38;518;391
+pozuelo;639;133.78;334;252
+castroverde de campos;375;64.4;249;138
+fresnillo de las dueñas;411;13.69;344;162
+castellanos de villiquera;651;32.81;228;206
+sevilla;699145;141.31;211;476
+calicasas;575;11.25;345;484
+cirat;256;41.1;526;280
+tosos;239;68.65;666;112
+jorba;742;31.03;640;165
+pedrosa del rey;211;51.93;255;168
+valdecarros;390;27.23;243;226
+agramunt;5434;79.43;614;152
+trefacio;226;25.48;173;127
+pedro muñoz;8237;101.31;191;263
+cabrejas del pinar;436;124.14;389;151
+pol;1913;125.9;109;77
+peranzanes;319;117.54;174;71
+descargamaría;233;52.92;183;261
+yecla;34161;605.64;488;385
+ciudad real;71005;284.98;328;358
+sobrado;2244;120.64;95;60
+valverde de la virgen;5787;63.63;228;94
+ares del maestre;218;118.67;544;250
+ladrillar;234;53.03;197;249
+huelma;6221;250.29;355;456
+limpias;1536;10.07;357;35
+cortes de arenoso;387;80.59;521;270
+puebla de obando;2000;23.65;174;344
+gironella;4844;6.83;658;134
+nájera;8073;37.44;396;105
+arévalo;7896;45.71;283;204
+humanes;1385;48.02;372;223
+calzadilla;479;76.34;180;278
+fuenteheridos;658;10.92;173;438
+calzadilla de tera;418;27.23;205;137
+burgohondo;1203;55.34;279;252
+sacedón;1784;111.32;397;248
+benimarfull;441;5.56;530;373
+altafulla;4415;6.92;630;200
+berga;16596;22.54;657;129
+berge;260;42.64;527;221
+chipiona;18182;32.92;185;524
+montichelvo;626;8.16;533;366
+guadalix de la sierra;5347;61.05;342;226
+monturque;1985;32.83;291;471
+alfarnatejo;478;20.36;308;504
+mugardos;5636;12.77;82;28
+pesaguero;346;69.99;294;56
+cañaveral;1286;86.48;345;492
+cañaveras;391;73.63;415;256
+calaceite;1126;81.33;563;208
+escúzar;816;46.39;337;499
+villaviciosa de odón;25709;68.05;329;256
+campanario;5470;257.32;209;149
+castronuño;1010;124.46;251;182
+siles;2466;177.85;405;402
+lugros;361;63.28;368;487
+prado del rey;6002;48.58;234;520
+mejorada;1336;46.09;274;282
+sanlúcar la mayor;12221;135.41;199;476
+cabrales;2225;238.29;274;39
+rota;27571;84.01;190;532
+calders;868;33.03;665;152
+fuente de cantos;5092;251.77;193;412
+sariego;1328;25.72;240;27
+santa maría del monte de cea;306;92.22;260;101
+piedrabuena;4860;565.36;314;355
+baños de río tobía;1740;17.59;395;112
+huércal de almería;12757;20.93;413;513
+vallmoll;1529;16.61;622;193
+berja;14508;217.42;383;515
+valdemorales;242;9.89;206;342
+hinojales;353;26.71;177;430
+camuñas;1839;102.03;355;326
+parada de arriba;262;17.81;221;211
+mahora;1411;108.14;453;341
+murillo el fruto;742;33.79;468;108
+alhama de murcia;18996;311.55;471;442
+villanueva de castellón;7493;20.3;522;351
+polícar;227;5.38;368;486
+valdeltormo;352;16.0;556;211
+olías del rey;5961;39.94;325;287
+amurrio;9879;96.36;381;59
+cazalilla;840;46.63;331;432
+casasimarro;3120;49.62;436;330
+montalbán;1492;82.04;506;222
+mieza;297;34.82;171;197
+berantevilla;446;35.73;389;86
+carmonita;595;38.89;191;346
+geldo;681;0.56;525;296
+madrigal de las altas torres;1763;106.8;267;204
+muros de nalón;1987;8.09;204;23
+talavera la real;5146;61.5;166;366
+zarzuela del monte;578;28.38;305;223
+arroyomolinos de león;1042;86.95;186;429
+magacela;652;75.82;225;364
+moralina;345;20.9;203;174
+alcázar del rey;214;46.5;391;278
+calzada del coto;281;56.03;262;108
+jamilena;3501;8.99;328;449
+carataunas;203;4.66;357;509
+fuentespalda;342;39.0;555;224
+gósol;223;55.65;646;119
+bañares;327;29.59;385;101
+catllar;3751;26.48;626;197
+castrillo de la reina;248;14.45;368;137
+frailes;1775;40.34;333;469
+palomar;555;7.76;523;368
+palomas;703;40.52;203;380
+tudanca;215;52.44;303;51
+larva;478;41.76;369;449
+cabañes de esgueva;217;26.57;336;148
+huelva;146173;151.33;156;485
+navalafuente;936;11.75;343;223
+royo;340;126.06;473;359
+láchar;2910;13.12;333;489
+hontanares de eresma;671;6.13;312;211
+robleda;536;78.85;177;130
+biosca;228;66.12;629;147
+mancera de abajo;282;23.47;255;222
+blázquez;688;102.75;242;401
+navas de san antonio;361;68.95;305;226
+robledo;1183;105.5;191;259
+tarazona de guareña;377;29.26;253;197
+silla;18597;25.03;527;330
+cubo de la solana;223;132.84;414;165
+san martín de valdeiglesias;7604;115.48;301;257
+fustiñana;2560;66.91;467;134
+berlanga;2546;127.79;389;175
+umbrete;6779;12.39;201;477
+villafranca;2892;46.23;405;75
+angüés;422;56.52;543;127
+villa del prado;5807;78.42;307;263
+mota del cuervo;6188;176.18;388;320
+chucena;2043;26.06;188;477
+vall de almonacid;279;21.12;526;291
+instinción;510;33.48;401;506
+fresno de la ribera;393;13.13;234;171
+mérida;54894;865.61;191;363
+flix;4006;115.98;583;193
+zorita de la frontera;244;32.13;255;208
+villoldo;419;40.6;290;115
+rágol;376;26.92;399;504
+palmera;813;0.98;543;362
+bicorp;603;136.5;507;347
+san fernando de henares;39843;39.86;350;252
+pueyo;317;21.04;547;92
+algerri;477;54.12;587;149
+moraleja de enmedio;4509;31.29;332;263
+hinojosa de duero;762;92.98;166;211
+villalón de campos;1971;70.02;265;129
+campo de san pedro;359;37.57;349;178
+colmenar viejo;41264;182.56;337;234
+auñón;234;52.71;392;245
+villasequilla;2556;76.95;340;292
+santa marta de tormes;14010;10.01;231;213
+cervera de pisuerga;2625;323.21;295;72
+benamargosa;1631;12.12;314;517
+taradell;5864;27.36;681;145
+bélmez de la moraleda;1894;49.44;360;451
+mozoncillo;1052;42.74;314;198
+alhabia;710;16.39;405;506
+aranguren;6483;40.6;374;48
+montemayor del río;320;15.3;217;257
+caparroso;2602;80.8;456;112
+huércal-overa;16360;317.7;440;476
+alfafara;430;19.78;520;374
+pedro martínez;1189;136.87;368;467
+ciguñuela;391;30.36;275;163
+velilla de cinca;482;16.54;567;167
+ruiloba;743;15.13;310;34
+san javier;29167;75.1;503;445
+villacastín;1600;109.57;300;226
+cabanas;3272;30.32;138;106
+priaranza del bierzo;914;33.69;172;98
+milles de la polvorosa;265;18.12;225;142
+jerez de la frontera;202687;1188.31;203;528
+alguaire;3055;50.26;586;156
+anna;2718;21.45;516;355
+jerez de los caballeros;9828;740.55;166;407
+campillo de llerena;1562;234.04;220;394
+breda;3707;5.01;698;154
+nava de la asunción;2875;83.15;296;198
+bareyo;1928;32.44;347;28
+mazarambroz;1334;216.02;322;305
+cedillo;530;61.56;125;309
+olvera;8643;193.57;251;509
+cervelló;7944;24.21;662;180
+mingorría;449;30.69;286;228
+benamejí;5095;53.35;294;484
+villarejo de órbigo;3301;36.25;216;103
+lugo;93853;329.78;121;62
+viandar de la vera;271;28.0;237;274
+montamarta;606;56.81;221;162
+castilleja del campo;631;16.22;191;476
+cea;587;112.34;97;101
+vilavella;3391;6.15;141;81
+villalengua;389;40.16;447;178
+cee;7555;57.45;30;66
+ojacastro;210;44.32;381;110
+folgoso de la ribera;1249;69.26;192;89
+villapalacios;693;87.48;402;388
+coslada;86478;12.01;348;252
+linares de la sierra;321;29.22;175;439
+samper de calanda;1003;142.8;530;196
+pedro bernardo;1099;69.01;273;265
+bimenes;1929;32.69;236;39
+carreño;10826;66.7;223;20
+santa pola;29221;58.16;520;417
+campofrío;799;46.98;178;447
+cabanes;2935;131.64;554;272
+vilanant;328;16.85;716;117
+carballo;30091;186.09;41;92
+almedinilla;2510;55.52;319;472
+olvan;893;35.41;659;131
+castejón del puente;439;25.43;561;138
+moral de sayago;327;67.04;204;175
+almoster;1286;6.03;615;195
+navianos de valverde;234;14.12;220;140
+barajas de melo;930;136.81;385;274
+escurial de la sierra;293;20.97;213;238
+algueña;1515;18.43;494;406
+navalosa;412;30.0;271;254
+navalpino;262;196.33;291;341
+carboneras;7570;95.46;443;506
+san martín de montalbán;767;133.03;302;305
+almunia de doña godina;7170;56.65;473;174
+san ildefonso;5506;144.81;324;217
+gelsa;1198;72.04;526;180
+moradillo de roa;204;13.81;336;169
+quintana redonda;557;183.92;402;163
+gallur;2996;41.71;476;145
+anchuelo;916;21.55;365;249
+arnuero;2073;24.66;348;28
+jambrina;218;16.64;229;180
+villamayor;5808;16.13;250;36
+corera;292;8.2;425;112
+leciñena;1291;178.64;516;151
+castrillo de la valduerna;202;23.51;203;112
+maría de huerva;3420;108.09;494;171
+canalejas de peñafiel;312;32.1;317;171
+paterna del madera;471;112.34;419;386
+santovenia;320;32.86;226;145
+iznalloz;7054;310.11;351;476
+arahal;18896;201.09;236;484
+motilla del palancar;5653;73.89;444;315
+ardales;2595;106.52;275;514
+villanubla;1743;45.65;277;158
+luna;855;308.93;382;71
+carrizo;2615;41.85;220;93
+cabra;21087;229.09;298;470
+candeleda;5123;213.91;254;272
+hernani;19119;39.81;439;42
+trasmiras;1724;56.74;119;134
+entrena;1391;21.03;407;108
+vianos;440;128.04;409;384
+almegíjar;412;29.42;364;511
+chiprana;309;38.98;545;190
+hospitalet de llobregat;251848;13.62;673;182
+peralada;1693;43.76;380;112
+serón de nágima;227;60.16;426;173
+híjar;1968;165.36;342;493
+grandas de salime;1107;112.55;160;46
+ansó;500;251.83;505;81
+monreal;450;22.61;466;84
+puebla del maestre;798;79.17;205;425
+aldehuela de yeltes;251;60.46;197;235
+pilar de la horadada;20338;77.91;507;440
+casas de don antonio;209;31.41;194;340
+ribesalbes;1321;8.55;536;282
+verges;1175;9.42;725;131
+estivella;1252;20.92;531;304
+torrecilla de alcañiz;450;26.76;547;212
+macotera;1468;32.93;251;222
+murias de paredes;524;202.18;200;73
+caravia;578;13.36;255;29
+noez;831;34.22;314;302
+llaurí;1318;13.63;533;346
+forcall;525;39.21;540;235
+monterrubio de la serena;2795;314.95;242;388
+boada;346;30.2;193;223
+carcabuey;2752;79.74;308;471
+villanueva de la torre;5479;11.09;304;72
+mesones de isuela;318;48.55;464;169
+montealegre del castillo;2301;177.79;476;373
+benadalid;255;20.67;251;460
+paiporta;22374;3.93;527;325
+cox;6414;16.76;501;421
+maside;3056;40.04;129;78
+peñaranda de duero;559;64.53;353;159
+olba;227;20.99;516;274
+armuña;250;45.84;306;204
+alcalalí;1395;14.4;550;375
+aldeatejada;1040;31.51;228;215
+linares de mora;309;116.28;519;260
+soto de la vega;1888;23.58;217;112
+carcedo de burgos;271;25.68;345;115
+majadahonda;63545;38.47;331;249
+san millán de la cogolla;303;31.19;388;112
+mediona;2251;47.98;644;174
+alconera;735;32.71;183;401
+santa cristina de valmadrigal;327;40.02;250;109
+carbellino;237;32.79;201;193
+oliete;490;85.48;513;211
+algemesí;27272;41.48;527;344
+arbeca;2431;58.39;604;171
+noja;2425;9.2;351;26
+ribeira;27181;68.83;77;73
+murieta;320;4.47;429;88
+burganes de valverde;811;33.03;222;142
+torreperogil;7331;90.94;365;428
+piña de campos;249;12.39;299;120
+cuéllar;9513;217.4;306;180
+san pedro manrique;583;176.2;424;134
+caudiel;714;62.38;519;287
+ribas de sil;1218;67.78;114;105
+benavites;624;4.27;537;303
+ventas de huelma;715;42.44;334;499
+fornells de la selva;1971;11.74;712;141
+cascante;3940;62.93;456;136
+aldea de san miguel;223;19.93;288;175
+navalvillar de ibor;421;55.53;243;314
+lloret de mar;34997;48.37;714;158
+almoguera;1453;119.42;382;263
+aljaraque;16368;33.82;152;484
+casarejos;235;28.08;379;151
+chueca;250;11.12;328;303
+reinosa;10220;4.12;316;62
+letur;1190;263.56;432;403
+sandiás;1525;52.83;536;103
+letux;438;30.15;506;191
+jubrique;796;39.32;254;536
+quintanar del rey;7563;79.92;442;333
+corbera de llobregat;13133;18.31;661;179
+fanzara;362;34.98;533;282
+granátula de calatrava;993;152.65;339;372
+albarracín;1075;452.72;469;254
+gea de albarracín;457;57.5;475;252
+aller;13193;375.89;231;50
+alcañizo;336;13.51;261;291
+coria del río;26831;61.99;207;483
+belianes;580;15.78;609;169
+sotillo de la adrada;4569;43.26;291;263
+palencia;82286;94.95;294;134
+quinto;2069;118.26;524;179
+carboneros;674;58.61;345;414
+renedo de la vega;239;22.25;284;103
+archena;17634;16.4;477;422
+vall-llobrega;778;5.43;729;145
+boalo;5750;39.59;328;230
+santa cruz de la zarza;4775;264.54;371;285
+rubí de bracamonte;309;25.59;271;193
+fuentes de andalucía;7365;150.18;247;470
+driebes;434;37.91;379;265
+villanueva de la cañada;15882;34.92;296;239
+bretó;223;21.69;225;145
+guisando;603;37.38;259;267
+capella;387;60.71;574;121
+guijo de granadilla;631;75.03;200;268
+lucillo;450;164.91;193;105
+mezalocha;263;60.64;490;178
+nuévalos;342;41.84;450;193
+chantada;9150;176.73;109;90
+mijares;903;46.96;319;35
+vallelado;803;36.84;300;180
+muñopedro;363;87.21;297;218
+artesa de segre;3737;176.71;611;143
+oropesa;2870;336.56;560;276
+vallfogona de balaguer;1660;27.12;598;154
+nerja;20796;85.12;331;524
+puente viesgo;2651;36.14;325;40
+cárcar;1199;40.45;439;108
+san muñoz;307;53.9;203;226
+lagartera;1591;81.02;255;291
+villanueva del duque;1652;137.64;267;402
+dénia;43704;66.2;558;373
+meaño;5479;27.77;52;103
+ollo;298;37.22;446;72
+páramo;1770;74.8;208;55
+villayón;1656;132.46;170;31
+somozas;1374;70.91;100;23
+miravet;795;32.41;586;207
+gelves;8540;8.18;208;479
+huércanos;912;21.48;399;104
+juneda;3222;47.1;598;171
+uncastillo;819;230.87;487;109
+nava;5511;95.81;338;191
+valdemaqueda;843;52.2;307;245
+arboleas;3904;66.05;434;478
+villamalea;3909;127.99;461;330
+galar;1515;41.27;455;79
+malpartida de la serena;692;26.33;231;381
+valverde del fresno;2547;196.97;160;267
+casas de don pedro;1634;142.66;475;357
+manchita;745;38.23;209;370
+nieva;353;33.81;214;18
+castillejo de iniesta;217;27.7;451;318
+gavilanes;644;29.16;217;98
+vilviestre del pinar;728;33.9;377;140
+carbonero el mayor;2547;66.35;308;201
+sacramenia;500;44.48;327;173
+totanés;420;26.04;311;304
+dehesas de guadix;531;56.95;375;461
+olot;32337;29.07;692;123
+candín;361;140.9;232;38
+maella;2051;174.88;560;200
+carbajosa de la sagrada;4673;13.71;230;215
+arcos de la frontera;30508;527.58;221;523
+poyales del hoyo;627;3.38;257;271
+maello;708;65.34;295;223
+monforte del cid;6497;79.49;510;402
+puebla de arganzón;457;18.87;390;79
+paterna del río;491;45.48;382;503
+carrocera;587;65.98;225;77
+friera de valverde;239;19.93;220;143
+andosilla;2807;51.62;456;108
+quero;1252;104.22;368;320
+valbuena de duero;500;46.57;308;162
+santa cruz del retamar;2723;129.46;311;274
+quesa;740;73.16;510;348
+alhaurín el grande;21776;73.1;285;531
+prioro;420;48.98;269;70
+cortes;3350;36.54;471;142
+deza;302;118.15;436;175
+san sebastián de los ballesteros;843;11.84;277;456
+castell de castells;517;45.92;541;377
+urrea de jalón;385;25.64;481;160
+bellcaire d'urgell;1289;31.13;604;154
+muelas de los caballeros;240;71.58;191;126
+coristanco;7528;141.28;53;48
+cariñena;3353;82.51;482;185
+villamediana;216;58.13;217;108
+antas;3244;99.14;72;106
+valdeverdeja;741;67.9;254;298
+loarre;379;74.42;516;112
+bolvir;329;10.66;658;105
+camarma de esteruelas;5759;35.43;359;243
+lucena de jalón;294;10.31;476;169
+estada;224;15.87;564;131
+alquézar;312;32.36;553;123
+salinas;1522;61.71;500;392
+bescanó;4121;36.13;708;138
+armenteros;486;38.93;241;239
+alcoletge;2289;16.41;591;162
+dúrcal;7023;76.63;348;506
+villasur de herreros;307;87.8;359;112
+sorihuela;351;20.5;228;250
+tornabous;822;24.15;612;158
+almadenejos;490;102.88;284;377
+pino;4832;132.15;118;46
+cubillas de santa marta;317;23.55;288;148
+ribadesella;6286;84.37;263;28
+meco;11719;35.11;362;243
+vara de rey;624;127.88;422;326
+palacios del pan;258;31.75;217;165
+sella;639;38.72;536;386
+san cristóbal de segovia;2761;6.35;320;213
+bayarque;244;26.37;413;480
+verín;13991;94.07;129;141
+monistrol de calders;702;21.99;666;154
+argoños;1535;5.51;353;29
+tendilla;380;22.84;383;243
+bilbao;353168;41.31;382;44
+rafelcofer;1505;2.03;542;362
+pioz;1630;19.44;371;249
+liédena;334;19.28;479;90
+aguilar de segarra;252;43.14;644;154
+chóvar;347;18.31;533;294
+granja de torrehermosa;2406;151.69;234;407
+dos hermanas;117564;160.52;215;484
+ametlla de mar;7071;67.14;597;217
+cadalso;547;7.35;299;261
+lazagurría;200;17.01;424;99
+albatana;833;30.52;465;389
+alberuela de tubo;353;20.79;540;143
+utrillas;3346;39.82;503;223
+atalaya;339;22.68;471;461
+minaya;1778;69.83;419;336
+aldeire;730;70.07;377;493
+masalavés;1652;7.48;522;347
+ayoó de vidriales;402;59.97;206;126
+cóbdar;202;31.78;425;484
+torreiglesias;350;55.08;322;202
+albalate de cinca;1131;44.23;560;157
+fraga;13592;437.64;93;134
+fregenal de la sierra;5270;236.65;173;418
+arroyo de san serván;4184;50.12;184;368
+peñaflor;3740;82.89;208;33
+luelmo;225;36.34;203;178
+nerva;5991;55.4;180;453
+hinojosa de san vicente;472;31.04;283;276
+san martín de oscos;469;66.56;156;42
+pira;488;8.09;620;179
+albelda;875;51.92;578;145
+jarque;551;43.0;456;168
+barro;3426;37.64;55;64
+rourell;362;2.28;621;193
+boadilla del monte;39791;47.2;331;254
+larraga;2047;77.1;446;94
+rollán;503;22.98;215;212
+castellfort;228;66.74;541;246
+fuenllana;270;59.96;383;375
+calzadilla de los barros;848;52.23;192;408
+gijón;274037;181.6;229;22
+maceda;3146;101.93;116;116
+marines;1566;35.72;522;302
+cieza;34898;367.02;471;414
+villalba de la sierra;580;40.95;433;266
+san martín del castañar;270;15.5;206;245
+hostalric;3773;3.38;701;154
+santiponce;7794;8.38;208;472
+cabezamesada;469;59.83;375;296
+manises;29778;19.65;526;321
+malgrat de mar;17822;8.75;708;162
+villadepera;262;30.11;203;171
+pastoriza;3690;175.03;143;55
+ademuz;1242;100.42;479;278
+medrano;219;7.46;406;108
+muñana;534;33.61;267;240
+faramontanos de tábara;468;54.39;217;148
+uclés;257;64.61;389;285
+benaoján;1632;32.0;253;525
+meis;4982;52.39;55;99
+maqueda;555;73.67;303;278
+alfafar;20321;10.1;530;326
+casar de cáceres;4879;130.3;186;315
+castejón de valdejasa;289;110.12;494;137
+malpartida de plasencia;4518;372.65;208;285
+aitona;2376;67.3;578;174
+bargas;8202;89.48;321;288
+pinos puente;13540;98.47;338;486
+alhama de aragón;1173;31.14;443;187
+puebla de sanabria;1614;81.39;174;132
+torrejoncillo del rey;621;201.46;405;283
+garlitos;688;129.32;264;366
+villanueva del campo;1021;40.09;244;137
+valdemoro;53188;64.17;425;130
+valdemanco;898;17.58;344;219
+treviana;212;34.94;378;94
+galende;1395;90.26;172;129
+cástaras;273;28.36;365;509
+capmany;518;26.53;718;109
+casas de ves;799;125.09;476;338
+rágama;270;31.66;260;210
+camariñas;6275;51.6;30;53
+enguídanos;462;165.35;460;307
+beasain;12932;30.02;427;59
+estany;379;10.11;672;145
+cervo;4776;77.86;129;13
+arauzo de miel;341;57.1;359;147
+san mateo de gállego;2708;71.62;508;148
+serranillos del valle;3169;13.28;331;267
+selva;3313;48.75;733;112
+cózar;1265;64.99;377;383
+tocina;9271;15.56;226;458
+montilla;23650;168.51;288;461
+seseña;12097;72.68;341;276
+ordes;12359;157.23;97;66
+pegalajar;3172;79.95;344;450
+torrenueva;2979;142.15;353;526
+lastras de cuéllar;439;65.42;318;187
+jaca;12759;406.34;520;94
+munébrega;431;40.99;455;191
+villagonzalo;1353;40.82;199;366
+rodezno;317;14.3;390;97
+polop;3869;22.58;545;385
+barruelo de santullán;1519;53.3;307;70
+torrico;860;33.53;254;296
+puebla de alfindén;4432;17.03;509;163
+melgar de arriba;255;35.04;261;116
+estadilla;864;50.39;566;132
+cubillas de rueda;540;86.82;257;88
+fuente vaqueros;4211;16.01;336;488
+manzanal de arriba;438;130.16;185;137
+benidoleig;1139;7.48;550;373
+florida de liébana;269;20.79;224;208
+morales de valverde;262;18.01;217;141
+castilblanco;1133;132.24;270;224
+valdestillas;1784;36.29;280;175
+rabé de las calzadas;203;10.11;333;112
+villares de órbigo;788;25.85;216;101
+artajona;1710;67.14;451;93
+negreira;6453;115.1;55;70
+cudillero;5894;100.78;201;21
+santa maría del camí;5497;37.62;635;162
+sedaví;9575;1.83;530;325
+alcorcón;166553;33.73;333;257
+fuentelencina;369;44.3;387;244
+trebujena;6906;70.0;200;514
+albaladejo del cuende;379;55.19;425;298
+roa;2372;48.92;328;158
+buenaventura;493;35.77;277;271
+canicosa de la sierra;568;29.53;379;141
+viveiro;15706;109.34;99;123
+sopelana;12123;8.39;382;34
+ordis;366;8.48;718;120
+cistérniga;7243;31.72;285;164
+orihuela del tremedal;582;71.52;457;243
+rialp;662;62.81;616;104
+rioja;1407;36.4;412;508
+nacimiento;462;80.76;402;497
+mosqueruela;686;265.03;526;257
+calonge;10009;33.89;727;145
+santibáñez el bajo;834;46.15;197;270
+quesada;5922;328.35;377;442
+camós;698;15.35;709;130
+cortes de baza;2167;140.56;393;456
+coomonte;266;10.25;220;127
+ahillones;1064;21.54;218;411
+touro;4353;115.34;80;72
+poza de la sal;358;81.9;352;87
+villoslada de cameros;375;94.71;402;127
+brea de aragón;1872;13.38;460;171
+lumbier;1373;57.4;477;88
+venturada;1571;9.79;345;224
+covaleda;1962;104.38;387;141
+espinar;8666;205.1;364;204
+fuente el sol;253;20.95;271;196
+riola;1824;5.59;533;342
+cañizo;288;41.85;238;153
+veiga;1204;290.49;72;44
+larraul;208;5.9;432;49
+catral;8105;20.01;506;418
+valdefuentes de sangusín;280;34.56;220;249
+albagés;490;26.03;594;176
+peleas de abajo;290;12.01;228;180
+puebla de castro;403;29.39;290;48
+trujillanos;1408;20.27;196;361
+cabranes;1098;38.31;244;31
+moreruela de tábara;439;68.15;217;151
+solsona;9000;17.76;638;137
+bolulla;399;13.57;546;380
+guntín;3213;154.78;123;101
+torrijos;12000;17.34;308;285
+olite;3509;84.16;457;101
+cuevas de san marcos;4048;36.96;301;484
+otívar;1136;57.47;342;517
+aljucén;241;19.07;191;355
+campillos;8330;187.83;275;500
+miajadas;10151;120.75;216;346
+fuentesaúco;1935;67.85;370;270
+buniel;359;13.28;334;112
+palomar de arroyos;213;33.62;509;226
+lucena;40746;351.09;296;475
+quicena;304;9.67;530;125
+luceni;1070;27.08;481;148
+rueda;1402;90.5;300;73
+cumbres de san bartolomé;485;144.58;168;425
+barbadillo;489;36.1;217;215
+covarrubias;634;41.07;351;131
+ataun;1599;58.73;428;62
+aleixar;862;26.15;611;195
+rus;3807;47.3;355;427
+tresjuncos;431;70.29;395;304
+lubrín;1768;138.13;434;488
+purullena;2252;21.19;370;481
+peraleda de san román;320;61.9;245;303
+ilche;273;63.72;554;140
+palamós;17400;13.98;729;147
+fuentealbilla;1951;108.29;463;337
+castejón de monegros;646;165.33;537;164
+viloria;382;11.31;424;83
+san sebastián de los reyes;68740;58.66;345;243
+mondoñedo;4701;142.65;136;20
+torrecilla de la jara;337;70.61;280;305
+oliva;27374;59.93;205;274
+peñarrubia;372;54.28;422;377
+blascomillán;245;39.6;262;224
+cañete la real;2052;165.24;266;508
+tiñosillos;800;27.25;283;215
+vegas de matute;267;21.92;308;224
+lezuza;1707;360.9;418;361
+espluga de francolí;3891;57.17;614;182
+royuela;224;32.5;503;265
+corella;7686;81.35;450;127
+biure;245;10.01;628;174
+san miguel del arroyo;786;55.51;298;178
+anglesola;1307;23.7;613;162
+panticosa;776;95.9;535;83
+torrijo del campo;579;44.04;476;222
+ontígola;2927;41.49;348;283
+barreiros;3246;72.42;143;29
+cantalejo;3764;79.43;328;191
+sarria;13422;184.62;403;48
+atienza;454;104.28;388;195
+vadocondes;420;25.69;348;162
+polopos;1645;26.58;434;502
+belmonte de tajo;1326;23.71;362;274
+rossell;1228;74.93;564;238
+ballobar;997;127.73;563;164
+frías;284;29.37;262;31
+pobladura de pelayo garcía;502;20.17;228;114
+abla;1514;45.24;393;495
+viguera;417;41.72;407;114
+chiva;12890;178.73;510;322
+sequeros;232;6.27;209;245
+yeste;3456;511.22;420;403
+carrascalejo;355;48.48;242;254
+garrucha;7920;7.68;448;491
+cantoria;3838;79.02;427;478
+cristina;569;15.81;204;369
+salar;2803;84.35;492;429
+sasamón;1269;113.11;322;105
+salas;6082;227.11;163;104
+santibáñez de béjar;582;29.8;233;248
+albudeite;1413;17.02;473;428
+museros;4834;12.45;531;315
+peñaparda;438;62.25;172;260
+baena;21138;362.51;306;458
+luyego;810;132.31;197;109
+balsareny;3410;36.71;658;145
+herrera de pisuerga;2388;99.08;305;92
+sisante;1859;134.36;425;326
+castañares de rioja;392;11.0;385;98
+monforte de lemos;19311;199.52;125;98
+coll de nargó;626;153.65;626;123
+villamontán de la valduerna;957;54.98;211;114
+villacarriedo;1764;50.74;335;45
+trevélez;835;90.96;365;504
+bédar;910;46.72;439;491
+oteiza;962;47.99;456;53
+colmenar de oreja;7656;114.32;359;276
+moralzarzal;11005;42.56;325;233
+pozán de vero;251;14.75;553;130
+navafría;376;30.43;334;206
+ayamonte;19380;141.29;130;488
+sallent;7083;65.63;533;79
+aguilón;279;59.45;492;187
+perales del alfambra;295;104.24;494;237
+alhóndiga;235;19.26;391;244
+joarilla de las matas;384;51.47;257;115
+bonares;5602;65.23;172;481
+camarasa;933;156.59;601;145
+riaza;2291;149.49;354;189
+granja;372;14.94;72;77
+conil de la frontera;20301;88.51;205;557
+sant joan de vilatorrada;10474;16.43;654;154
+castilleja de la cuesta;17034;2.23;207;476
+cistierna;3850;97.61;260;77
+durango;27476;10.91;402;50
+santa elena de jamuz;1291;62.34;217;116
+castronuevo de esgueva;370;29.2;291;159
+losacino;277;44.23;205;159
+fuensanta;346;23.96;488;436
+bardallur;282;27.34;483;159
+jódar;12168;148.78;361;443
+montserrat;5452;45.58;655;165
+quel;1955;54.78;435;120
+villar de cañas;481;70.36;406;299
+mazaleón;593;86.25;558;206
+quer;612;14.63;365;238
+cilleros;1928;208.94;166;274
+salem;482;8.61;530;361
+hoyos del espino;459;52.92;257;257
+lorca;89606;1675.21;455;455
+llacuna;878;52.44;638;175
+montefrío;6400;253.92;323;481
+igúzquiza;350;16.28;433;88
+azuébar;355;23.4;530;296
+ontiñena;610;136.96;556;160
+medellín;2380;64.96;212;361
+martín muñoz de las posadas;367;45.59;290;211
+sinarcas;1201;102.46;481;303
+tordesillas;8708;141.68;267;173
+bustillo de la vega;343;18.99;282;101
+villarrodrigo;532;78.5;403;395
+vilademuls;769;61.72;715;126
+aldeadávila de la ribera;1400;46.18;175;193
+martín miguel;220;15.3;308;213
+campillo de la jara;430;88.06;264;314
+peñaflor de hornija;381;66.21;268;157
+monzón de campos;667;45.91;295;127
+godella;12993;8.4;527;318
+peñalver;227;40.98;387;240
+sax;9716;63.48;505;391
+cogeces del monte;828;73.52;306;171
+jadraque;1492;38.91;385;215
+daimiel;18078;438.3;345;352
+saucedilla;773;60.41;229;294
+nogales;692;80.66;240;98
+berlangas de roa;218;15.71;331;159
+consuegra;10635;358.49;347;322
+cervera de la cañada;329;29.22;453;178
+paracuellos de jarama;8572;43.92;351;246
+fuentespina;694;12.03;342;163
+agost;4766;66.64;516;399
+monfarracinos;828;22.02;227;169
+fabara;1230;101.63;561;196
+porriño;16745;61.22;61;123
+carbajales de alba;671;53.69;210;162
+loranca de tajuña;1267;36.66;375;250
+aiguafreda;2375;8.0;679;153
+brenes;12022;21.45;217;464
+don benito;34540;561.69;217;361
+navalmanzano;1143;32.79;310;193
+alerre;224;8.94;525;123
+carrión de los céspedes;2261;6.01;192;477
+torás;258;16.78;63;44
+boca de huérgano;604;291.84;271;64
+derio;5191;7.4;388;40
+igualada;36923;8.17;644;167
+loporzano;527;169.28;533;123
+torres;1665;80.04;90;36
+galisancho;460;22.85;236;228
+garganta de los montes;392;39.66;342;215
+congosto;1773;36.81;180;90
+alcalá del valle;5372;46.89;257;511
+arenys de munt;7807;20.73;696;164
+acebedo;278;50.18;155;68
+bienservida;766;90.73;403;392
+miraflores de la sierra;5487;56.66;336;223
+fuente la lancha;417;7.83;265;400
+sarreaus;1680;77.29;119;129
+urdiales del páramo;533;32.84;223;109
+higueruelas;531;18.8;503;299
+utebo;15912;17.72;494;157
+aldeanueva de barbarroya;697;91.8;266;302
+tamarite de litera;3703;110.58;576;145
+quéntar;1046;66.49;354;491
+galaroza;1615;22.27;170;436
+carme;811;11.45;644;171
+trabazos;1023;93.15;143;115
+sada;13606;27.49;82;36
+tamames;966;60.69;204;235
+moclín;4091;113.11;336;480
+tapioles;202;27.64;238;147
+lucena del puerto;2624;69.27;168;482
+isar;369;66.42;328;109
+alfaro;9576;194.23;452;123
+alfarp;1423;20.58;520;336
+almodóvar del río;7682;172.53;266;445
+castiliscar;360;40.68;479;109
+sádaba;1692;129.55;479;115
+torrelobatón;529;66.09;266;162
+fuensanta de martos;3328;54.04;329;456
+begíjar;3161;42.79;349;432
+grado;10950;216.68;211;34
+dos aguas;439;121.52;506;336
+solosancho;1006;52.01;273;243
+cantillana;9927;107.7;220;460
+moclinejo;1245;14.29;310;521
+villares del saz;662;70.16;409;294
+castroverde de cerrato;255;32.46;311;154
+mollet del vallès;51365;10.8;678;169
+baeza;16135;192.78;354;432
+castrojeriz;883;136.07;316;115
+fontanar;1626;15.46;371;229
+vera;12256;58.03;456;149
+villanueva de alcorón;213;99.17;423;233
+estrella;340;77.23;382;433
+valdeprado del río;324;89.33;319;72
+fuente palmera;10530;74.73;261;453
+baños de molgas;1922;67.64;115;119
+rabanales;703;80.04;195;156
+santa ana la real;484;26.57;169;440
+bérchules;852;69.59;370;506
+salou;23398;15.07;616;204
+manresa;73140;41.64;655;156
+mariana;297;39.96;430;271
+arroyo del ojanco;2468;57.31;387;407
+oseja de sajambre;285;73.31;265;53
+gálvez;3378;55.0;308;305
+montemolín;1545;202.72;199;419
+santoña;11574;11.53;354;30
+villaluenga de la vega;631;26.31;280;98
+gérgal;1093;229.49;406;495
+beniatjar;260;11.37;527;368
+tardienta;1022;90.65;521;137
+brull;227;41.13;683;149
+adamuz;4469;334.84;294;428
+ancín;360;9.48;427;87
+alforja;1730;38.02;607;195
+quintanar de la orden;11469;87.87;378;315
+santiuste de san juan bautista;684;45.57;291;198
+ardón;655;48.65;234;104
+escurial;884;100.71;213;238
+lobeira;1089;68.88;52;94
+pueyo de santa cruz;377;9.29;561;147
+nava de ricomalillo;679;39.53;268;309
+motril;58501;109.77;351;523
+vadillo de la guareña;334;44.16;247;189
+santa maría de ordás;339;45.58;220;83
+parada de rubiales;340;31.59;242;198
+pétrola;873;74.61;463;370
+murcia;422861;886.0;488;432
+castril;2571;243.26;394;445
+bodonal de la sierra;1143;68.37;179;419
+brunete;8967;48.94;324;252
+pinos genil;1252;13.99;352;492
+peligros;10597;10.14;345;487
+santa colomba de somoza;503;179.1;196;103
+bobadilla del campo;360;32.7;266;195
+portas;3129;22.62;58;93
+berriozar;8636;2.71;456;75
+berbinzana;692;12.98;447;97
+real de gandía;2110;6.07;541;361
+lerín;1822;98.16;439;101
+pinós;7442;126.48;638;148
+león;135059;39.03;234;92
+torrox;15616;50.05;325;521
+garriguella;795;21.15;726;112
+almuradiel;976;66.16;352;392
+comares;1568;25.5;310;515
+onda;24140;108.42;537;285
+salt;27673;6.47;710;137
+vilafant;5193;8.37;719;117
+bentarique;284;11.34;402;506
+palomeque;825;22.28;327;274
+valdevimbre;1109;68.01;232;105
+dólar;582;78.59;381;491
+somiedo;1494;291.38;196;55
+valero;391;26.27;214;244
+dosbarrios;2389;111.59;353;293
+alcover;4731;46.28;618;190
+ribaforada;3466;28.95;466;136
+san lorenzo de la parrilla;1322;59.89;417;294
+daya vieja;459;3.14;510;423
+cebrones del río;606;21.21;220;117
+castellar de n'hug;221;46.83;666;115
+corte de peleas;1257;42.32;172;377
+albalatillo;265;9.15;543;156
+alguazas;8572;23.74;481;427
+mislata;43336;2.06;527;322
+mohedas de la jara;518;60.42;259;313
+tielmes;2487;26.88;362;266
+baralla;3034;141.16;139;71
+horcajo de las torres;659;47.32;262;204
+villanueva de gumiel;286;22.33;345;156
+santa olalla;3263;72.61;312;67
+montesinos;4284;15.05;510;428
+vega de tera;434;44.15;203;136
+guijuelo;5593;63.23;229;243
+huécija;548;19.02;402;506
+castrejón de la peña;507;106.4;290;77
+ciruelos;577;22.94;341;178
+oliva de la frontera;5718;149.34;158;411
+higuera de la sierra;1392;24.48;184;443
+pozoamargo;386;53.38;426;330
+tabuenca;424;85.72;463;158
+mojonera;7872;23.87;399;523
+aldealengua;618;5.48;236;211
+almenar de soria;322;105.99;426;159
+esguevillas de esgueva;318;41.52;303;154
+lominchar;1530;22.26;327;277
+onil;7622;48.41;513;384
+santa cristina de la polvorosa;1220;38.94;226;136
+cabezarados;367;80.36;308;368
+regumiel de la sierra;426;20.67;382;138
+oña;1350;161.64;358;82
+saro;513;17.82;333;42
+saceruela;690;247.28;290;361
+bembibre;10053;63.42;146;126
+santa clara de avedillo;220;16.81;229;185
+batea;2112;127.62;570;202
+fuente de pedro naharro;1269;63.72;381;288
+torrelaguna;4394;43.4;350;222
+lardero;7378;20.36;411;104
+coirós;1660;33.87;86;44
+cuenca;52980;911.06;430;278
+carranque;3041;24.7;329;271
+mequinenza;2480;307.45;568;182
+cebolla;3504;36.77;291;287
+añover de tajo;5175;39.64;337;285
+bormujos;16548;12.17;206;477
+mieres;44992;146.03;223;44
+orcera;2089;126.21;401;407
+arapiles;486;25.26;231;217
+nueva villa de las torres;387;35.81;264;190
+villamandos;343;16.23;234;123
+aldea del obispo;348;37.85;215;315
+truchas;619;301.38;185;116
+quintana de la serena;5130;141.55;229;377
+garralda;201;21.51;479;66
+laluenga;234;36.47;549;136
+erla;434;18.96;497;127
+mucientes;686;63.82;281;154
+torrijo de la cañada;314;74.57;445;175
+buenavista de valdavia;404;81.64;290;89
+sort;2264;105.13;616;106
+frómista;838;46.59;301;116
+escalonilla;1591;50.95;304;288
+puerto lumbreras;12964;144.81;448;462
+alaraz;602;49.17;251;228
+palomares del río;5738;13.0;207;481
+campillo;2237;90.72;481;260
+quintana y congosto;608;88.34;208;117
+graus;3472;299.79;570;123
+santovenia de pisuerga;3260;13.82;285;158
+villada;1111;64.87;269;117
+figueroles;580;12.09;538;274
+casar;8581;51.84;196;261
+almenar;3596;66.47;584;151
+villavieja de yeltes;967;50.84;183;219
+santa cruz de paniagua;346;83.81;191;268
+dúdar;296;8.37;353;491
+velefique;327;66.35;415;489
+ivars de noguera;340;27.06;586;147
+san pedro del romeral;565;57.44;333;53
+tineo;11539;540.83;186;38
+allande;2169;342.24;175;42
+ciutadilla;227;18.0;617;169
+san pedro del arroyo;481;18.55;275;224
+cañete de las torres;3182;103.52;306;440
+fuentes claras;605;36.91;476;219
+banastás;249;4.66;526;123
+valdeavero;992;18.79;362;237
+olivella;2842;38.81;655;186
+madrigal de la vera;1763;41.63;246;272
+sueca;28112;92.52;533;342
+herencia;8580;226.74;360;331
+segura;1319;9.22;423;62
+machacón;519;18.69;237;215
+fuentenovilla;513;37.34;376;256
+ampudia;626;133.17;279;142
+montederramo;1072;135.57;125;116
+ausejo;964;56.58;428;110
+grove;11226;21.89;47;99
+san martín de pusa;837;104.54;288;299
+santisteban del puerto;4927;372.92;369;412
+turégano;1159;70.77;324;198
+portell de morella;264;49.4;537;244
+zorita;1731;186.96;224;207
+ugena;4473;15.16;331;272
+bugarra;826;40.31;508;311
+gilena;3915;50.97;271;486
+cómpeta;3712;54.23;325;517
+vilabella;789;18.2;627;191
+begur;4086;20.98;735;140
+abiego;292;38.19;547;127
+erro;760;143.62;469;66
+cabezón de liébana;688;81.43;291;53
+aldehuela de jerte;350;11.76;197;282
+cervera de los montes;319;31.69;278;280
+ortuella;8577;7.73;377;39
+valderredible;1137;298.24;332;75
+grávalos;250;30.91;438;129
+benifairó de les valls;2011;4.35;536;303
+santa eufemia;982;187.34;106;64
+lucillos;562;40.5;288;285
+sorbas;2842;249.16;431;495
+velada;2678;144.6;268;285
+villagarcía de campos;395;37.44;255;152
+fonz;1034;51.86;566;134
+sabadell;201712;37.53;671;169
+bolaños de calatrava;12237;87.9;343;364
+villabona;5750;17.74;175;23
+santa maría del campo;653;60.32;413;315
+nulles;414;10.73;625;191
+olula de castro;229;33.6;411;491
+guadalmez;901;71.99;269;377
+valverde de júcar;1225;56.21;426;304
+cardona;5164;66.4;647;142
+mansilla mayor;358;14.48;242;98
+olocau;1338;37.4;521;305
+baños de valdearados;420;36.52;349;153
+cervera del maestre;724;93.24;567;250
+paradela;2240;121.12;119;79
+minglanilla;2532;109.64;460;318
+navarredondilla;302;20.27;277;250
+valdealgorfa;686;46.93;550;211
+rasquera;934;50.93;586;210
+montán;383;34.1;136;79
+villares;5431;88.63;241;33
+san pedro bercianos;312;23.51;227;106
+cabanillas de la sierra;697;14.07;345;223
+cogollos;464;31.25;342;121
+ojós;626;45.28;476;419
+matapozuelos;1049;50.51;279;179
+hontoria del pinar;836;80.84;371;147
+chinchón;5071;115.91;357;274
+tudelilla;429;19.06;431;114
+daroca;2274;52.05;471;201
+gerena;6016;129.9;201;465
+olombrada;719;66.51;315;179
+robledollano;408;61.74;238;313
+castrogonzalo;523;25.03;233;137
+quintanaortuño;216;5.57;342;103
+tivenys;926;53.5;581;217
+galindo y perahuy;623;44.14;217;213
+istán;1437;99.33;270;535
+campillo de arenas;1985;116.72;345;464
+fontanarejo;280;76.95;294;341
+castroverde;3148;174.15;135;60
+alhambra;1168;580.25;378;364
+almaluez;221;159.11;422;189
+muel;1225;79.17;490;175
+formentera del segura;3518;4.33;509;425
+teo;17441;79.3;68;81
+morales del vino;2345;23.68;225;176
+piera;13652;57.12;651;173
+albelda de iregua;2918;23.03;411;109
+peñaranda de bracamonte;6510;22.96;255;217
+santa maría la real de nieva;1266;179.75;301;204
+herrera;6450;53.48;305;92
+alcadozo;761;99.58;439;384
+zarra;543;49.72;402;42
+alcalá de henares;198723;87.72;360;248
+benegiles;384;23.33;231;163
+amieva;847;113.9;263;44
+tales;830;14.53;534;288
+loriguilla;1256;72.42;499;307
+parcent;1061;11.77;549;377
+bielsa;524;202.41;564;89
+cangas de onís;6599;212.75;260;36
+almonacid de zorita;803;44.9;389;259
+lagunilla;552;42.52;281;104
+yecla de yeltes;314;57.19;183;212
+pedrola;3302;113.74;482;152
+sant pere de riudebitlles;2319;5.33;648;176
+hoyo de manzanares;7298;45.31;331;237
+daya nueva;1761;7.09;509;422
+monterroso;4121;114.59;106;78
+herreruela de oropesa;471;10.54;254;292
+villamanta;2192;63.15;317;261
+sancedo;576;31.0;152;57
+riudellots de la selva;1877;13.36;712;143
+carlet;15189;45.62;522;340
+aberin;343;21.25;438;90
+caspe;8495;503.15;550;193
+alanís;1887;280.19;226;428
+ruesga;1129;87.96;294;72
+piornal;1541;36.39;218;274
+samos;1768;136.77;136;82
+aldearrubia;495;32.84;238;210
+montoro;9752;586.12;302;429
+alcorisa;3650;121.2;530;218
+abárzuza;579;23.02;436;83
+piloña;8243;283.89;246;36
+pozuelo de alarcón;79826;43.2;334;252
+valverde;4914;103.65;156;84
+zamora;66138;149.28;224;173
+graja de iniesta;399;28.22;456;319
+san asensio;1309;32.33;395;99
+hinojosa;280;42.11;403;145
+frades de la sierra;241;28.3;222;235
+albalá;830;38.49;200;338
+toreno;3836;103.53;181;84
+rena;650;10.78;221;353
+villar del pedroso;713;242.4;257;305
+serradilla del arroyo;400;80.54;190;245
+torrecilla de la orden;308;59.88;254;193
+fayón;434;67.19;571;191
+bronchales;508;59.6;461;245
+cartajima;255;21.47;258;530
+marchamalo;4849;31.2;369;234
+mula;16570;634.06;466;427
+guijo de galisteo;1510;62.28;187;276
+puerto serrano;7005;79.85;236;509
+alhendín;5755;50.81;344;495
+granucillo;203;32.48;215;132
+leiro;1860;38.3;86;36
+montalbo;768;73.96;399;293
+foz;9841;100.29;177;35
+pezuela de las torres;744;41.44;371;252
+autilla del pino;242;34.58;288;137
+gualba;1065;23.14;694;156
+gualchos;2278;31.03;359;523
+pedrosa de duero;509;69.86;325;157
+hormilla;459;15.86;394;104
+lladó;605;13.64;712;117
+borrenes;436;36.38;169;101
+tapia de casariego;4254;65.99;156;20
+berlanga del bierzo;420;27.89;176;82
+altarejos;283;91.32;418;289
+espejón;200;21.97;366;148
+ariza;1242;103.08;435;186
+navacerrada;2575;27.29;324;229
+langayo;360;48.37;312;168
+tinajas;372;46.89;405;259
+villardeciervos;495;85.55;131;145
+ibias;1797;333.3;160;60
+amoroto;409;12.94;409;38
+valdilecha;2506;42.48;364;263
+sorzano;267;10.23;407;112
+ricla;2916;90.67;472;171
+garriga;14183;19.07;681;159
+eljas;1074;32.55;163;267
+alameda de la sagra;3242;33.03;335;282
+colindres;7490;5.94;355;33
+algorfa;3645;18.36;506;425
+doñinos de salamanca;1123;14.05;224;213
+reocín;7959;32.09;319;36
+ráfol de salem;421;4.33;529;366
+sellent;454;14.01;518;355
+pedroso;2259;314.25;90;23
+encinas de abajo;638;20.86;240;215
+leiva;288;12.71;473;460
+subirats;3008;55.91;654;182
+quiroga;3939;317.39;138;101
+tarifa;17619;419.67;414;461
+benasque;2080;233.28;582;92
+villasabariego;1254;59.75;244;97
+ponts;2682;30.77;620;142
+hita;408;56.49;378;223
+siurana;205;10.52;604;191
+torrejón de la calzada;6153;8.98;335;268
+san martín de rubiales;202;19.4;325;162
+hernán-pérez;525;35.76;183;267
+zarzalejo;1404;20.63;314;243
+borge;1041;24.39;311;517
+bellpuig;4576;35.13;609;164
+matilla de los caños del río;668;69.29;214;223
+mura;232;47.67;664;158
+plan;323;93.36;570;93
+bretocino;289;12.94;224;145
+madrid;3132463;605.77;342;254
+muro;6741;58.61;38;90
+madridanos;534;32.1;233;174
+terrer;541;33.75;453;185
+reus;104835;52.97;615;198
+azpeitia;14054;69.39;422;49
+malcocinado;477;26.24;228;422
+huesa;2700;138.43;377;447
+corduente;402;232.92;439;221
+mondariz;5320;85.12;71;119
+arcos de jalón;1802;441.54;422;193
+cañamares;536;40.52;381;430
+darro;1470;50.65;364;478
+castrillo-tejeriego;208;35.92;303;158
+cártama;18865;105.1;287;525
+arbo;3887;42.93;78;127
+herguijuela;364;41.97;223;329
+pollos;744;50.53;260;176
+becerril de la sierra;4887;30.35;325;230
+villardefrades;206;36.22;253;157
+pedraza;481;31.58;105;75
+cervantes;1844;277.63;149;72
+perafita;394;15.98;672;134
+luciana;429;113.84;308;358
+moros;469;53.5;448;180
+huete;2034;377.57;399;274
+barraco;2156;153.9;288;248
+fuente el fresno;3585;119.46;337;340
+cadreita;2052;27.2;456;120
+borja;4653;107.29;464;148
+villalazán;360;15.04;234;173
+ayora;5489;446.58;492;352
+gestalgar;761;69.73;504;313
+barrado;502;21.29;217;277
+villalmanzo;485;23.91;339;132
+masueco;387;19.76;177;195
+fuensaldaña;1316;25.09;280;158
+benacazón;6089;32.16;200;478
+cútar;649;19.42;311;517
+anguiano;535;90.89;393;116
+san pedro de rozados;345;102.19;225;224
+arquillos;1966;66.24;356;417
+trabanca;257;29.7;188;193
+manlleu;20091;17.29;681;136
+cuevas del campo;2032;96.61;385;460
+turre;3264;107.96;444;493
+bercero;238;41.37;264;168
+valmojado;3298;26.18;319;268
+ares;5598;18.31;83;31
+guitiriz;5974;293.97;102;49
+puértolas;227;99.86;559;95
+albuera;1856;26.37;163;377
+antella;1526;17.57;518;351
+benalúa;3300;8.69;523;406
+nules;13007;50.53;543;294
+busquístar;334;18.03;364;509
+aldover;946;20.26;580;218
+becedas;314;32.2;231;254
+marchal;388;7.84;369;482
+horcajo de santiago;4025;96.03;381;296
+cartagena;207286;558.08;496;460
+montejo de la sierra;330;31.95;350;204
+boal;2099;120.28;163;31
+santas martas;929;118.8;246;104
+legorreta;1439;8.62;429;56
+nava de roa;250;22.35;325;164
+paniza;741;47.31;483;189
+revellinos;331;27.64;234;145
+torres del carrizal;480;30.35;229;164
+fitero;2224;43.23;446;132
+uceda;2032;47.25;354;222
+villalcampo;594;64.77;207;171
+bonastre;584;25.0;634;193
+páramo del sil;1550;190.17;183;75
+san agustín del guadalix;9522;38.28;345;233
+arcones;268;31.75;340;201
+fréscano;237;18.41;469;145
+ledesma;1876;141.22;77;77
+larrodrigo;264;49.63;241;229
+pozo de guadalajara;1116;11.43;370;248
+tudela de duero;7946;60.52;291;167
+vallgorguina;2193;22.17;695;162
+peramola;370;55.67;624;132
+san pedro de latarce;593;44.35;249;156
+castronuevo;322;48.09;237;157
+borox;2772;60.26;339;278
+urueña;223;44.07;255;156
+espinosa de henares;718;39.42;377;217
+llavorsí;330;69.03;621;101
+capileira;560;56.9;361;506
+cabrera;2314;22.4;267;83
+carmona;27578;924.12;304;44
+roales;523;10.78;223;169
+casasola de arión;339;27.73;254;167
+cabrero;349;6.63;217;274
+palos de la frontera;8529;49.25;159;487
+porcuna;6847;175.57;254;506
+villanúa;478;58.19;521;86
+hoyales de roa;252;12.78;331;160
+hospital de órbigo;1052;4.58;217;101
+plasenzuela;521;36.67;207;329
+villar de domingo garcía;240;76.83;422;266
+linares;61262;196.7;259;29
+puente del congosto;271;34.04;237;248
+besalú;2265;4.77;705;121
+benamaurel;2382;127.89;398;460
+ayerbe;1111;63.89;513;115
+cádiar;1671;47.32;370;508
+mijas;64288;148.8;288;534
+cervatos de la cueza;320;71.46;280;115
+navaleno;949;25.03;381;148
+barcial del barco;298;19.01;229;141
+vilamalla;1106;8.76;720;120
+herrerías;685;40.34;436;495
+pozo alcón;5527;138.61;385;453
+bollullos de la mitación;7729;62.36;203;480
+buendía;534;88.5;395;256
+alpuente;828;138.33;493;293
+garbayuela;542;84.14;268;353
+serranillos;318;20.74;331;267
+ador;1463;13.81;539;363
+torrecilla de los ángeles;688;43.29;186;265
+cortelazor;295;39.93;175;436
+milagros;490;22.03;342;167
+camargo;30663;36.58;329;33
+monegrillo;486;183.16;527;163
+vilablareix;2266;6.1;710;138
+campello;25055;55.27;529;399
+torregamones;310;37.07;200;174
+arándiga;428;50.22;466;171
+fuenterroble de salvatierra;267;27.25;225;241
+hinojosa del valle;555;46.03;200;395
+benaocaz;701;69.39;242;526
+casaseca de las chanas;387;12.56;229;178
+daganzo de arriba;7895;43.77;354;243
+gualta;349;9.1;729;134
+san juan de la nava;577;60.78;285;248
+sabiote;4246;112.19;364;425
+valtierra;2526;50.27;459;121
+calzada de los molinos;370;25.94;287;112
+piñor;1444;52.69;102;112
+berrioplano;2906;26.03;455;73
+pajares de los oteros;389;61.82;240;112
+arenas del rey;2157;116.77;329;506
+san bartolomé de las abiertas;546;56.86;283;296
+celadas;405;100.45;486;249
+puebla de don rodrigo;1281;424.87;288;351
+adra;23742;90.05;380;524
+marjaliza;304;65.8;328;316
+villamiel de toledo;796;41.68;316;285
+galápagos;1584;33.99;362;232
+capela;1471;58.0;92;31
+tiana;7417;7.94;681;175
+huecas;520;27.42;314;282
+redondela;29987;52.08;62;115
+villafrechós;510;60.49;254;143
+bigastro;6588;4.1;500;425
+almoines;2086;2.12;541;361
+bercial de zapardiel;261;17.31;269;206
+albánchez;697;35.13;427;484
+higuera de las dueñas;327;35.18;290;266
+alcublas;829;43.51;512;298
+brozas;2195;398.84;166;311
+chimeneas;1467;90.33;334;495
+ger;444;32.7;657;105
+torre de juan abad;1296;399.73;377;388
+holguera;762;37.19;190;291
+torres de la alameda;6881;43.79;360;252
+segura de león;2170;104.39;180;422
+olesa de montserrat;22257;16.69;659;169
+sena de luna;430;147.71;213;70
+esplús;731;73.0;567;151
+alcolea de calatrava;1651;70.79;317;358
+rincón de la victoria;35714;28.48;307;525
+abrera;10840;19.98;659;171
+quintanilla de onésimo;1191;55.17;304;164
+tricio;439;6.35;397;106
+bellvís;2428;46.73;598;160
+puertomingalvo;252;103.62;526;263
+pozorrubio;412;44.7;383;296
+manzaneque;505;12.22;336;310
+villaescusa;3468;28.02;248;28
+arredondo;546;46.83;347;42
+arroyo de la luz;6477;128.06;177;321
+culla;669;116.3;542;259
+matilla de arzón;218;30.25;231;129
+villafranca de duero;366;10.39;250;178
+tordillos;489;25.09;247;221
+castilruiz;249;38.81;435;145
+artés;5179;17.88;662;151
+albalate de las nogueras;303;40.11;422;256
+azuqueca de henares;28155;19.68;365;241
+romeral;842;78.92;356;304
+coripe;1446;51.46;242;506
+santibáñez de vidriales;1183;75.88;209;131
+benabarre;1167;157.14;579;127
+ejea de los caballeros;16935;609.92;487;126
+moreda de álava;275;8.67;415;98
+valdeolea;1265;83.72;314;71
+neda;5649;23.68;88;38
+higueruela;1306;205.45;482;293
+carcelén;663;75.36;476;349
+ampuero;3951;32.34;357;36
+escobar de polendos;220;39.65;317;204
+nonaspe;1056;111.45;566;195
+orgaz;2772;154.48;329;309
+boquiñeni;1033;18.87;480;147
+gójar;4964;12.01;347;497
+mascaraque;529;65.61;334;304
+barjas;313;62.66;154;90
+igea;707;54.25;436;131
+cañaveral de león;409;34.77;180;429
+alicún;272;5.87;403;506
+torre de miguel sesmero;1232;57.99;164;385
+abades;905;31.98;308;215
+entrimo;1390;84.52;89;141
+palacios del sil;1275;181.4;185;71
+alicante;322673;201.27;524;405
+herguijuela de la sierra;301;31.52;206;252
+bárcena de pie de concha;794;30.53;321;53
+grijota;1326;28.58;291;132
+montellano;7037;116.71;373;40
+cenicientos;2023;67.49;297;263
+robledillo de trujillo;450;44.78;211;337
+meruelo;1467;16.37;348;28
+dicastillo;696;33.41;436;92
+galinduste;510;31.63;237;234
+almarcha;578;64.36;417;307
+peñalsordo;1287;47.33;260;370
+moncada;21109;15.83;529;316
+masroig;525;15.79;593;200
+suflí;280;10.13;416;480
+almogía;4299;162.89;292;519
+recas;3249;31.05;325;280
+guillena;9995;226.63;207;465
+perelló;2895;100.62;711;140
+ujué;217;112.12;466;99
+calañas;4355;282.45;160;456
+sant joan de les abadesses;3586;53.19;681;119
+alcanadre;762;31.08;431;105
+fondarella;788;5.35;601;163
+monesterio;4368;322.35;195;425
+cintruénigo;6837;37.34;448;130
+espinoso del rey;637;48.28;279;310
+villanueva de perales;1149;31.18;318;257
+hornachuelos;4669;909.22;254;443
+espot;359;97.37;613;94
+armentera;783;5.77;55;101
+bustillo del páramo;1539;71.77;331;95
+campillo de ranas;208;91.69;362;204
+castellar de la frontera;2995;178.84;241;554
+acered;204;30.4;460;208
+gor;953;181.03;382;477
+teresa de cofrentes;698;110.8;492;349
+hoyos;979;15.09;315;67
+albal;14840;7.37;527;327
+alameda;5367;65.11;287;489
+noáin;5322;48.07;459;81
+robliza de cojos;230;21.83;212;219
+monfero;2400;171.67;95;39
+villalonga;4141;43.32;169;22
+calera y chozas;4303;219.53;268;292
+sot de ferrer;484;8.64;529;298
+salinas de pisuerga;410;21.2;302;73
+logroño;145866;79.57;412;101
+san esteban de la sierra;400;20.83;216;246
+ortigueira;7406;210.03;105;12
+martiago;331;47.36;183;250
+parla;98628;24.51;337;266
+valverde de la vera;605;46.95;240;274
+priego;1114;80.34;420;250
+santo domingo de silos;311;78.91;357;138
+baza;22718;545.39;394;469
+hermisende;350;108.75;160;138
+valdelacasa;300;8.22;223;246
+tuéjar;1300;121.92;493;300
+comillas;2467;18.61;307;34
+añorbe;526;24.1;453;87
+lumpiaque;975;29.55;477;163
+fresno de torote;1778;31.59;357;240
+arcos de la polvorosa;269;12.24;227;141
+saldaña;3083;131.95;282;98
+ejulve;222;109.49;520;226
+siete aguas;1349;110.59;499;322
+jalance;1059;94.77;490;342
+cármenes;419;154.22;234;64
+andoain;14215;27.17;436;46
+velayos;233;20.45;288;222
+salillas de jalón;365;2.51;476;168
+cazalla de la sierra;5095;357.1;224;436
+pont de suert;2418;148.39;594;106
+guareña;7326;238.34;269;239
+gallegos del río;707;77.79;200;156
+jimera de líbar;470;27.17;251;530
+lobón;2663;57.65;175;368
+albuñol;6190;62.94;369;520
+cubillos;377;24.7;383;156
+santiurde de reinosa;317;30.98;319;57
+foz-calanda;289;37.87;536;215
+bonete;1270;125.06;475;366
+aranzueque;419;21.42;377;248
+adsubia;668;14.67;543;368
+fuendejalón;868;75.83;468;153
+villaverde de medina;544;58.19;266;187
+zaragoza;654390;966.14;501;163
+almansa;25272;531.91;490;366
+congosto de valdavia;225;68.92;288;83
+lanteira;605;52.78;372;492
+santa elena;1005;145.48;350;406
+vertavillo;213;57.36;306;148
+málaga;561250;395.13;300;525
+casillas de coria;484;61.97;174;285
+feria;1369;73.72;178;392
+costur;555;21.93;542;274
+balsa de ves;222;76.35;483;337
+meira;1794;46.55;137;46
+agoncillo;1137;34.73;422;103
+nuevo baztán;5828;20.2;366;256
+cerezo de arriba;208;48.66;349;193
+baños de la encina;2743;392.27;337;418
+jerez del marquesado;1107;82.75;372;491
+villaluenga del rosario;476;59.46;245;526
+valdepeñas de jaén;4224;183.8;334;461
+grazalema;2218;122.41;246;521
+fuente-tójar;799;23.66;315;466
+talarn;382;27.82;603;123
+castrillón;22772;55.34;166;34
+fuerte del rey;1287;35.09;331;440
+padul;7961;89.15;345;503
+dozón;1923;74.23;95;93
+san cebrián de castro;318;66.15;224;158
+vitigudino;2923;52.33;185;208
+aldeaquemada;571;120.28;360;401
+moratalla;8379;954.82;444;416
+hornillo;397;24.22;223;429
+ferreruela;586;94.27;481;204
+gallifa;224;16.2;672;158
+cobeja;2150;17.7;332;282
+laracha;10871;125.95;63;44
+moaña;18587;35.06;53;115
+doña mencía;5002;15.2;304;464
+valdorros;211;16.64;341;123
+san vitero;659;64.23;190;152
+plasencia de jalón;363;34.77;481;159
+matadepera;8266;25.29;667;165
+silleda;9053;167.96;83;84
+tragacete;365;61.39;446;257
+goizueta;815;89.97;445;50
+rairiz de veiga;1732;72.11;106;130
+lebrija;25614;375.21;206;510
+cihuri;209;9.76;385;94
+punta umbría;14274;38.77;155;491
+vegadeo;4342;82.76;150;28
+pantón;3073;143.24;119;98
+ascó;1616;74.32;584;196
+casas de don gómez;356;31.16;176;282
+villatoro;202;56.02;342;109
+alborache;1038;27.33;508;329
+cariño;4680;47.2;104;7
+trijueque;1320;35.63;381;226
+arriate;3971;8.27;258;519
+franco;4015;78.03;398;83
+almanza;640;141.99;265;88
+cofrentes;978;103.18;490;340
+corgo;4095;157.33;129;66
+torre de cabdella;792;165.53;607;105
+sanchonuño;855;29.27;307;186
+pino del río;244;51.99;278;88
+batres;1403;21.58;328;267
+santo domingo de la calzada;6537;40.09;383;104
+beniflá;375;0.62;541;362
+torres de berrellén;1440;53.81;490;154
+carenas;213;31.22;449;189
+preixana;411;21.33;611;165
+beire;305;22.25;459;103
+galdames;829;44.35;375;44
+camaleño;1100;161.81;285;51
+villabrázaro;332;23.27;226;132
+calahorra;23768;93.57;439;114
+coria;12767;103.46;180;285
+albox;11166;168.42;430;476
+fresno de la vega;623;15.14;237;110
+almendralejo;31072;164.27;187;380
+cabeza del caballo;418;44.98;179;200
+ribatejada;540;31.82;359;234
+maría;1504;225.63;428;451
+algaba;14064;17.68;209;470
+morón de la frontera;28165;431.94;241;495
+almajano;205;9.9;419;147
+marín;25885;36.68;57;108
+adanero;304;31.42;290;215
+cretas;636;52.66;564;215
+lújar;497;36.88;358;520
+monteagudo de las vicarías;242;97.04;428;182
+bujaraloz;1022;120.92;543;173
+fortaleny;991;4.57;534;344
+alamedilla;777;90.71;368;461
+pozuelo del rey;447;31.0;362;256
+canfranc;672;71.56;522;83
+torre de santa maría;668;19.07;203;338
+fortuna;8939;149.33;488;417
+conquista de la sierra;218;41.77;225;331
+vega de tirados;224;28.11;217;207
+cervera del río alhama;2922;152.56;440;134
+teverga;1916;173.81;204;51
+santa maría del campo rus;736;93.63;413;315
+solana de los barros;2819;65.03;180;377
+pitillas;580;42.38;459;105
+arroyomolinos de la vera;521;23.19;218;280
+benicolet;577;11.29;533;363
+codos;261;62.69;473;189
+santiz;276;27.05;217;195
+san martín de trevejo;919;24.76;164;267
+segura de la sierra;2005;225.02;401;408
+carballeda de avia;1600;47.01;86;112
+lillo;2962;151.4;217;34
+losar de la vera;2999;82.08;233;274
+cubells;385;39.47;607;147
+cerceda;5587;111.27;125;72
+molinaseca;822;79.27;180;97
+lantarón;964;61.77;43;72
+canillas de albaida;854;33.21;325;515
+jimena de la frontera;10025;345.66;241;546
+montehermoso;5710;96.45;190;277
+polán;3752;158.7;314;299
+aspa;265;10.07;590;173
+aspe;19246;70.9;508;405
+cañada juncosa;342;42.72;428;374
+regueras de arriba;355;11.35;218;114
+arenal;1100;27.08;334;38
+argés;4668;23.74;343;70
+rábano de aliste;432;56.15;185;154
+arenas;1391;26.3;257;35
+salamanca;155921;39.34;230;212
+muñogalindo;417;18.77;273;239
+beas de granada;1087;23.2;353;488
+ateca;2068;84.71;450;185
+espolla;404;43.6;722;108
+corpa;503;25.91;365;252
+almonacid de la sierra;821;54.12;476;180
+albaida del aljarafe;2586;10.93;200;472
+aznalcázar;3860;449.84;196;481
+valdefuentes;1457;27.14;203;337
+san nicolás del puerto;674;44.93;230;430
+cabezarrubias del puerto;576;100.59;314;385
+poza de la vega;250;24.29;278;93
+benalúa de las villas;1352;21.65;342;472
+cullera;23406;53.82;537;344
+paderne;2710;39.83;170;23
+fuente de piedra;2341;90.62;283;495
+ronquillo;1395;76.52;200;451
+freginals;451;17.38;581;234
+ontur;2360;54.38;467;384
+beariz;1360;55.97;92;109
+linares de riofrío;993;27.9;215;240
+cabezón de la sal;8086;33.56;311;40
+arenas de san juan;1040;63.09;352;341
+san vicente de alcántara;5841;275.31;146;331
+hernialde;334;4.17;434;51
+alba de tormes;5134;46.51;237;223
+santa amalia;4405;73.59;209;355
+torelló;13449;13.48;681;132
+serrejón;467;124.15;221;296
+albatera;11102;61.54;502;417
+benarrabá;547;24.9;251;537
+mayorga;1957;150.65;245;565
+rubí;70494;32.2;667;174
+boñar;2182;180.62;249;72
+puebla del río;11851;374.73;207;484
+conquista;485;38.55;295;401
+matabuena;236;21.42;338;202
+guadalajara;77925;235.51;371;237
+santa maría de la alameda;1120;74.41;310;239
+monreal de ariza;220;62.06;432;187
+castellar;3654;157.36;670;164
+nuñomoral;1494;94.78;197;252
+cabezabellosa;439;33.56;210;274
+castrocalbón;1163;88.3;211;121
+getafe;159300;78.38;340;261
+perales del puerto;988;36.28;171;272
+alatoz;585;63.86;475;349
+aldeacentenera;794;110.56;231;318
+albaladejo;1488;48.94;428;276
+aranda de moncayo;230;91.2;450;167
+arbizu;1021;14.54;436;68
+escarabajosa de cabezas;356;16.04;308;180
+collado de contreras;243;18.44;271;218
+trazo;3548;101.3;66;61
+murtas;742;71.7;374;513
+colunga;3908;97.57;251;27
+villar del buey;757;134.23;200;185
+san miguel del pino;261;7.45;273;173
+cogolludo;645;96.87;376;213
+berrobi;587;2.77;436;51
+collado;213;44.94;234;29
+povedilla;595;49.43;403;379
+argente;252;62.58;485;233
+vic;38321;30.79;679;141
+olivares de júcar;461;50.0;418;302
+aguilafuente;736;60.57;318;193
+fuensalida;9759;68.37;312;280
+aguilar del río alhama;598;54.11;438;140
+villar del rey;2540;98.87;162;347
+oencia;496;98.33;155;95
+martorell;25844;12.84;661;175
+cornago;491;80.54;432;131
+villadecanes;2180;24.24;167;93
+san martín de la vega;16057;105.93;348;267
+santiago millas;358;39.69;204;108
+cambil;2943;139.89;348;455
+peralta de alcofea;633;116.14;547;141
+albalate del arzobispo;2238;205.69;522;201
+valdés;13838;353.52;311;523
+olivenza;11652;430.14;147;380
+ferrol;75181;82.65;83;27
+muro de alcoy;8611;30.24;527;374
+casinos;2560;41.48;512;305
+fuenmayor;3071;34.29;406;101
+santa comba;10588;203.7;96;138
+estepa;12397;189.97;273;482
+belinchón;353;79.73;378;280
+moral de la reina;208;42.49;263;137
+cehegín;15798;299.29;449;423
+picón;681;59.57;320;353
+san pedro de mérida;852;22.73;200;361
+sotillo de la ribera;598;42.46;334;152
+calatorao;2972;48.15;475;171
+algarinejo;3957;92.11;315;481
+dueñas;3007;124.35;292;145
+aliaguilla;800;103.81;476;303
+asteasu;1456;16.76;432;48
+torre del campo;14339;182.08;331;447
+pinseque;2953;16.09;489;156
+pradilla de ebro;637;25.45;480;145
+villanueva de gállego;4013;75.99;505;153
+villar de ciervo;345;56.84;168;229
+mora de rubielos;1615;166.23;509;265
+morata de jiloca;292;23.09;461;191
+balboa;417;51.04;146;28
+bellcaire d'empordà;651;12.54;728;130
+benamocarra;3007;5.74;315;519
+binaced;1530;78.49;563;149
+navas del rey;2369;50.78;310;255
+benidorm;69058;38.51;544;391
+degaña;1288;87.16;178;67
+villaverde de guadalimar;431;69.08;408;397
+encinas de arriba;268;8.78;236;226
+codorniz;425;64.28;290;204
+pedrosa de la vega;347;21.06;281;101
+torres de barbués;324;13.94;527;138
+navalagamella;2000;76.05;317;249
+guadalcanal;2994;274.97;220;423
+laspaúles;287;81.75;586;101
+bustarviejo;1984;57.32;341;221
+miralcamp;1368;14.83;601;165
+alcanar;9969;47.1;579;243
+villanueva de los infantes;5800;135.06;380;377
+villablino;11168;228.23;192;67
+cabañas de ebro;537;8.53;483;151
+mira;993;212.86;45;55
+puebla de la calzada;5685;14.25;175;364
+medina de las torres;1370;87.37;187;406
+peñíscola;6884;78.97;575;257
+ginestar;1052;15.72;706;134
+ronda;36122;481.31;160;33
+villatuerta;1044;23.81;439;87
+villamantilla;652;23.99;316;259
+aldeanueva de ebro;2725;39.08;444;119
+huéscar;8236;473.46;407;444
+segorbe;8889;106.12;524;294
+alfajarín;1963;137.57;512;164
+fuentes;505;107.6;263;307
+villahermosa del río;447;108.88;527;268
+pradejón;3770;31.76;434;112
+castellolí;468;25.3;648;165
+argamasilla de calatrava;5646;165.94;320;377
+laviana;14312;130.99;234;44
+algaida;4527;89.78;479;423
+malpica de bergantiños;6432;61.22;51;39
+miramar;1984;2.56;544;361
+castalla;9673;114.6;513;386
+alcalá del júcar;1386;146.82;470;342
+mas de las matas;1462;29.99;537;222
+valcabado;338;10.11;224;169
+candelario;1018;60.17;225;256
+navas de san juan;5052;175.77;419;417
+casarrubios del monte;4576;92.42;322;270
+tarazona de la mancha;6553;212.58;442;338
+pampaneira;322;17.47;361;508
+ripoll;10867;73.33;677;121
+montejo de tiermes;233;167.27;369;182
+fariza;678;90.4;195;179
+valdepiélagos;418;17.59;354;226
+cambre;22513;40.74;52;42
+campos;8759;149.69;110;101
+boimorto;2370;82.34;89;62
+novelda;26525;75.65;508;402
+naval;288;47.32;560;121
+almuniente;567;37.56;529;140
+molina de segura;59365;169.5;483;427
+cacabelos;5350;32.66;51;98
+peralta;5746;88.57;425;400
+rute;10269;132.4;303;481
+navalcán;2312;59.73;342;465
+babilafuente;946;22.6;243;212
+fuentes de valdepero;232;42.93;295;131
+moguer;18381;203.45;162;484
+castellote;819;233.19;533;224
+aliseda;2011;80.51;171;325
+puebla de cazalla;11013;189.81;249;487
+pulgar;1542;38.6;317;305
+boltaña;977;139.45;555;103
+querol;533;71.92;550;241
+callosa de segura;17423;24.77;502;421
+santa fe de mondújar;494;34.87;407;506
+valdeobispo;770;42.1;196;277
+camarzana de tera;1013;47.62;209;136
+santa maría del páramo;3132;20.08;224;110
+espirdo;606;26.01;320;210
+hinojares;447;40.04;381;451
+riópar;1471;80.92;412;394
+ulea;991;40.04;476;421
+neila;215;68.59;381;131
+astillero;16393;6.83;334;33
+pedraza de alba;275;23.25;246;228
+jaén;116393;424.3;336;447
+almonacid del marquesado;509;47.15;395;296
+espelúy;762;25.49;331;428
+casas del castañar;630;24.63;216;274
+santiago de la puebla;445;53.33;251;224
+mogarraz;303;9.05;207;248
+arenys de mar;14164;6.45;696;167
+sevilleja de la jara;905;233.95;270;315
+torroella de montgrí;10924;66.11;729;134
+huerta;309;14.2;240;212
+miguel esteban;5491;93.0;376;319
+benahavís;3253;145.45;264;539
+prat de llobregat;62663;31.53;671;185
+alcolea de cinca;1168;83.24;558;157
+huerto;257;86.72;542;141
+madrigueras;4733;73.31;449;340
+betanzos;13328;24.19;85;42
+villavendimio;207;15.62;248;167
+valga;6071;40.64;60;84
+tomares;21099;5.17;208;476
+camarena;2993;66.22;493;272
+galisteo;1980;79.52;195;285
+prades;649;32.98;607;187
+puebla de montalbán;8004;141.34;304;293
+tejeda de tiétar;931;52.83;217;282
+brañosera;267;62.48;307;67
+masnou;21935;3.21;683;174
+huéneja;1218;116.74;382;492
+benimodo;2141;12.52;521;341
+tíjola;3949;67.52;413;478
+riaño;540;97.63;226;38
+tona;7578;16.5;678;147
+cádiz;128554;12.3;193;539
+montizón;1932;211.99;375;406
+manzanares;18791;474.22;373;186
+cimanes de la vega;576;26.04;233;127
+benasal;1328;79.58;544;255
+ossó de sió;235;26.03;618;154
+bóveda del río almar;264;23.01;255;221
+alpandeire;284;31.24;255;531
+alcalá de gurrea;276;71.42;513;131
+dolores;6954;18.7;502;447
+benasau;210;9.04;533;380
+ampolla;2662;35.67;592;224
+villanázar;344;18.29;222;137
+bailo;229;164.43;506;98
+espeja de san marcelino;218;71.78;368;151
+montillana;1350;75.17;343;467
+puebla de don fadrique;2554;523.38;413;433
+valderrey;574;60.23;209;106
+gondomar;13371;74.51;53;127
+geria;478;18.18;274;167
+lucena del cid;1580;137.04;535;274
+mansilla de las mulas;1946;35.36;243;99
+navia;9044;63.11;169;23
+alcoy;58358;130.0;524;380
+nívar;785;11.18;348;484
+almoradí;17945;42.72;508;422
+tornavacas;1238;76.6;228;265
+montanejos;604;37.8;522;278
+munera;3876;229.43;411;355
+menasalbas;3246;179.44;308;310
+oliva de plasencia;284;88.73;205;274
+almuñécar;27076;83.36;342;525
+coronada;2260;81.17;229;363
+cantavieja;727;124.56;529;244
+quijorna;2378;25.71;321;252
+villagatón;672;167.06;200;89
+villarroya de la sierra;600;91.6;450;175
+muga de sayago;423;36.42;199;182
+montánchez;2063;112.66;201;341
+barromán;235;20.03;271;204
+langreo;45668;82.46;228;40
+calera de león;1082;68.38;191;423
+vall d'alba;2747;52.92;550;270
+nombela;999;121.56;295;272
+lupiana;249;31.0;378;239
+palaciosrubios;476;36.48;257;206
+cirauqui;486;41.47;444;87
+valle;1174;25.84;218;55
+cantalpino;1043;78.47;248;206
+toro;9738;324.79;244;171
+berzocana;535;133.59;241;325
+villamoronta;306;13.29;284;106
+vigo;294772;109.06;72;73
+abenójar;1618;423.43;304;366
+cheste;7872;71.44;513;321
+valls;23948;55.35;622;189
+rúa;4905;35.91;129;17
+torre-pacheco;29187;189.4;497;450
+cabeza la vaca;1521;64.0;186;425
+pruna;2950;100.64;254;506
+villamediana de iregua;5535;20.42;414;104
+ibi;23609;62.52;519;384
+hellín;30366;781.19;456;392
+periana;3525;58.76;312;510
+cáseda;1093;85.61;473;98
+torrecaballeros;1003;42.14;323;211
+aldeaseca de la frontera;329;24.3;255;215
+cobreros;637;77.7;170;131
+gandesa;3040;71.05;576;206
+berango;6280;8.87;382;35
+nambroca;3090;82.02;328;299
+modúbar de la emparedada;398;11.75;344;116
+badalona;216201;20.95;679;176
+pechina;3514;46.06;405;478
+confrides;303;39.98;536;380
+retortillo;251;64.57;382;186
+palacios de goda;450;52.99;279;201
+poveda de las cintas;291;23.74;253;206
+valdeavellano de tera;238;19.46;405;140
+beas de segura;5571;159.37;387;412
+erandio;23960;17.97;383;40
+mombuey;420;39.11;191;134
+casariche;5453;52.9;280;484
+tous;1152;127.52;514;346
+casares de las hurdes;565;20.75;194;252
+onzonilla;1622;21.78;234;97
+carboneras de guadazaón;899;100.65;449;292
+domingo pérez;547;12.93;352;467
+cunit;11102;9.65;644;195
+villastar;351;39.05;486;263
+fuentepelayo;991;30.9;314;193
+trigueros del valle;340;37.8;287;148
+guijo;406;67.28;217;524
+frigiliana;2834;40.51;329;519
+antigüedad;385;62.83;317;140
+gibraleón;11794;328.34;155;476
+fabero;5324;54.47;175;79
+villalba de los alcores;508;100.67;275;145
+murillo de río leza;1675;46.06;419;106
+alburquerque;5805;723.23;153;341
+sant sadurní d'anoia;11790;18.95;653;179
+cevico navero;235;44.05;314;145
+ataquines;772;42.6;278;196
+miguelturra;12912;118.37;331;359
+esparragosa de la serena;1104;21.7;233;383
+archidona;8736;185.59;302;498
+pitiegua;225;19.75;240;204
+alcoba;753;307.1;220;95
+destriana;657;56.22;205;112
+préjano;229;42.4;428;123
+navajas;700;7.89;523;292
+castillonroy;382;37.58;581;145
+coaña;3473;65.8;167;24
+castro del río;8058;219.92;297;454
+ventas de retamosa;2180;18.9;317;272
+puebla del salvador;269;48.09;456;315
+fuentelapeña;899;58.19;245;191
+huesca;49819;161.04;527;126
+guadamur;1788;38.23;315;296
+avión;2693;120.52;82;108
+mercadal;4838;138.34;318;39
+bercianos del páramo;758;35.09;227;108
+colmenar;3530;65.95;305;511
+lubián;377;94.39;159;134
+santiso;2102;67.39;93;73
+sudanell;833;8.26;584;169
+navalmoral;476;43.35;280;249
+sayalonga;1490;18.3;323;519
+ricote;1531;86.67;473;419
+velilla de ebro;248;59.79;527;182
+montroy;2500;31.39;516;333
+villarejo-periesteban;471;33.43;412;292
+santa eulalia de oscos;554;47.12;152;44
+almazán;5823;166.53;407;174
+puerto de santa cruz;396;33.72;218;333
+proaza;794;76.79;210;44
+mazarrón;32616;318.87;476;460
+hoyocasero;345;52.48;269;254
+san esteban de gormaz;3283;406.71;369;167
+guardamar del segura;15132;35.58;514;423
+garrafe de torío;1232;125.27;237;82
+villarluengo;204;159.88;522;235
+ulldecona;6566;126.81;577;239
+gata;1702;94.18;176;266
+simancas;4873;42.57;277;167
+utiel;12053;236.91;483;315
+paterna de rivera;5520;14.01;217;539
+tarancón;14214;106.84;381;282
+zotes del páramo;520;53.94;225;116
+palenzuela;257;75.72;316;129
+benlloch;1115;43.52;553;267
+nerpio;1596;435.78;420;419
+vega de espinareda;2560;132.01;173;83
+fernán-núñez;9555;29.8;283;455
+valverde de mérida;1159;51.65;197;363
+alpedrete;12016;12.64;323;234
+dodro;3053;36.12;57;83
+villanueva de la sierra;546;43.62;187;268
+narón;36245;66.91;142;77
+segurilla;1182;22.8;275;282
+viso;2824;254.42;132;86
+igualeja;1012;43.87;260;531
+salvatierra de los barros;1829;74.96;171;395
+piña de esgueva;345;29.96;300;156
+constantina;6687;481.31;232;440
+buenache de alarcón;665;64.16;428;309
+castromonte;379;87.01;265;153
+espeja;287;98.4;368;151
+villanueva del ariscal;5769;4.7;203;475
+eulate;338;7.74;426;79
+torquemada;1059;83.63;306;134
+espejo;3691;56.64;378;77
+san juan de énova;413;1.86;524;352
+torrelavega;55418;35.54;321;36
+navia de suarna;1552;242.56;153;64
+mazaricos;5179;187.3;42;67
+tolox;2349;94.44;273;526
+castrillo de villavega;218;33.94;296;103
+tobarra;7962;324.96;456;388
+casatejada;1354;111.82;228;292
+santa ana de pusa;495;19.44;284;300
+alcolea;957;67.52;229;458
+torremocha;1050;63.83;352;222
+alacón;405;47.5;513;208
+ohanes;772;32.41;396;502
+ojos negros;510;90.92;466;229
+alfondeguilla;902;28.33;536;296
+castellbisbal;11540;31.04;663;175
+orba;2503;17.73;547;373
+escariche;210;30.09;378;252
+cadrete;2445;11.86;497;169
+granada;236207;88.02;347;491
+sigüenza;4275;386.87;402;204
+aranga;2219;119.65;95;45
+alameda del valle;244;25.01;333;215
+palazuelos de eresma;3498;36.7;321;215
+mirandilla;1368;41.59;194;357
+gordaliza del pino;322;27.32;258;110
+tórtola de henares;657;26.88;373;230
+sant pere de torelló;2272;54.93;682;130
+orce;1383;324.96;411;451
+miranda de ebro;38417;101.33;383;86
+lanjarón;3823;60.38;353;510
+cardeñosa;538;40.5;389;201
+vezdemarbán;607;47.89;246;162
+escalona;3307;73.15;301;271
+orea;236;71.25;453;241
+milagro;3116;28.34;451;117
+garganta la olla;1063;48.06;223;274
+azután;306;21.61;260;299
+aldea;3927;30.18;137;53
+solórzano;1067;25.5;348;34
+sena;547;104.69;156;59
+laguna de duero;21214;29.13;283;167
+rincón de soto;3544;19.86;447;119
+alhaurín de la torre;31884;82.7;292;528
+navas de oro;1474;62.27;299;195
+valdelacasa de tajo;466;72.9;251;304
+viana;3711;78.87;105;93
+pantoja;3301;28.16;333;280
+san pedro de ceque;621;49.0;206;132
+higuera la real;2509;125.64;171;421
+humanes de madrid;16497;19.46;333;265
+laspuña;312;45.29;561;99
+villanueva del rosario;3547;43.96;304;504
+roperuelos del páramo;701;54.48;222;119
+gumiel de mercado;387;57.71;335;153
+ribadumia;4658;19.71;53;98
+cordobilla de lácara;1010;36.93;185;346
+toral de los guzmanes;657;21.11;234;117
+santa maría de la vega;430;17.88;221;130
+poal;647;8.86;601;159
+villamuelas;742;43.36;340;298
+perdiguera;647;109.77;516;154
+teruel;34236;440.41;489;257
+layos;438;18.39;321;300
+morasverdes;351;51.88;195;239
+castrillo del val;637;22.54;348;112
+robledillo de la vera;317;12.83;234;276
+espera;3998;123.44;221;514
+tafalla;11115;98.08;456;98
+alcanó;249;21.12;587;175
+iznate;889;7.47;314;520
+villalobos;324;43.18;240;140
+sotalbo;254;90.46;275;244
+casarrubuelos;2894;5.32;333;271
+guadahortuna;2154;121.24;358;462
+briñas;252;2.44;390;92
+leaburu;384;3.5;435;53
+acebo;709;57.02;143;44
+velilla del río carrión;1554;198.94;277;75
+villamayor de los montes;228;40.71;337;129
+corral de almaguer;6043;328.7;370;300
+puerto real;38974;195.96;200;539
+oria;2777;234.75;436;44
+palomares del campo;841;60.98;403;287
+paracuellos de jiloca;507;32.0;459;186
+molledo;1742;71.07;228;36
+orio;4839;9.81;271;29
+arganza;806;39.99;181;42
+villavicencio de los caballeros;282;36.06;254;131
+cebanico;212;89.75;266;82
+san martín de unx;452;50.17;463;98
+matanza;270;53.58;245;119
+alcora;10765;94.9;540;278
+santa marta;4310;119.73;146;121
+sesa;250;30.84;537;136
+molina de aragón;3534;168.33;444;221
+corral de calatrava;1260;148.77;319;368
+cuadros;1878;109.7;231;84
+canencia;495;52.7;339;217
+villalpando;1651;126.92;244;145
+cañada rosal;3122;25.45;254;460
+bernardos;612;29.13;304;200
+pujerra;328;24.38;259;532
+pulpí;7911;94.68;452;475
+peguerinos;328;87.01;311;237
+villamanrique de tajo;759;29.32;368;278
+llanes;13627;263.59;173;130
+castuera;6675;432.04;236;377
+albondón;915;34.48;368;517
+castejón;3964;18.07;408;255
+iza;905;51.49;453;75
+valdeolivas;263;46.05;413;246
+rapariegos;250;24.52;287;202
+luque;3306;140.76;308;464
+marinaleda;2670;24.82;269;477
+cotes;373;6.33;519;352
+quintanilla de onsoña;209;51.06;286;101
+arrigorriaga;12341;16.21;387;48
+viñuela;1881;27.22;316;514
+cañada;1203;19.32;505;381
+cuevas bajas;1441;16.53;296;487
+seva;3191;30.51;681;148
+pedroche;1662;121.65;280;399
+catarroja;25650;13.04;529;327
+sobradiel;903;12.06;493;156
+sot de chera;428;38.75;500;310
+biscarrués;221;30.18;509;119
+navalcarnero;18620;100.22;324;261
+villoruela;975;17.27;245;210
+benatae;582;44.46;373;417
+cuarte de huerva;4726;8.95;499;167
+lousame;3756;93.65;47;78
+albacete;164771;1125.91;446;358
+berbegal;481;49.03;551;140
+sartaguda;1412;14.91;435;108
+torremocha del campo;246;141.25;402;211
+fresno de cantespino;308;63.33;352;182
+pals;2540;25.71;731;138
+catoira;3480;29.44;55;87
+vimianzo;8364;187.27;38;53
+bayárcal;273;38.02;382;502
+santa cruz de los cáñamos;615;17.72;388;384
+farlete;439;104.12;523;159
+hervás;4015;59.78;218;263
+torreblanca;5885;29.79;501;458
+rebollar;230;11.51;230;33
+cabanillas;1495;35.66;466;134
+encinedo;904;195.01;177;116
+burujón;1381;35.45;307;291
+cordovín;205;4.6;391;108
+mañón;1693;82.21;112;14
+potríes;911;3.07;541;363
+fene;14222;26.29;88;29
+viana de cega;1864;17.98;281;171
+matadeón de los oteros;288;46.44;246;112
+lucainena de las torres;664;123.2;426;500
+peleagonzalo;362;13.29;240;174
+fuentearmegil;255;60.54;370;157
+valencia de don juan;4565;58.5;237;114
+cesuras;2323;79.46;85;50
+onís;807;75.42;269;38
+puebla de lillo;724;171.4;251;62
+puebla del prior;552;35.88;199;389
+herce;383;17.21;428;120
+tirgo;259;9.04;383;95
+rozas de madrid;79876;58.31;331;248
+alba de yeltes;255;22.36;192;234
+siero;49491;211.23;229;34
+pobla de segur;3089;33.38;607;117
+villaralbo;1793;22.05;228;174
+piedralaves;2197;55.25;284;260
+riba;710;8.03;349;42
+fuentespreadas;345;20.07;232;186
+salmoral;237;23.0;254;224
+entrín bajo;601;9.74;169;377
+montejo;222;29.11;232;237
+pereiro de aguiar;5934;60.89;108;110
+garcillán;426;22.41;308;211
+brazatortas;1119;271.82;308;383
+galera;1135;117.89;406;449
+huerta del marquesado;222;35.69;456;272
+alosno;4409;191.07;146;464
+coca;2093;98.45;155;59
+cervera del llano;281;55.49;414;299
+megeces;474;19.04;291;180
+sitges;26225;43.7;655;193
+allariz;5506;85.96;108;123
+santa cruz de la sierra;281;44.6;218;333
+cañizal;575;35.29;246;197
+alcolea del pinar;417;113.35;411;207
+carrizosa;1509;26.04;382;369
+codo;227;11.36;509;185
+llamas de la ribera;1053;59.88;220;89
+cabañas de yepes;292;17.97;350;291
+moreruela de los infanzones;428;31.26;227;163
+taboada;3537;146.67;90;33
+cardeñajimeno;783;12.17;345;112
+alberca;1158;60.73;204;248
+aguaviva;703;42.15;416;187
+sollana;4708;39.23;530;336
+mecerreyes;288;59.63;348;129
+fuenlabrada de los montes;1948;191.92;271;347
+venta del moro;1455;272.59;475;321
+erustes;232;9.52;295;287
+brihuega;2835;296.41;388;228
+elgorriaga;219;3.87;456;53
+melgar de tera;478;40.91;210;138
+valdemaluque;250;62.98;379;160
+cardedeu;15775;12.24;686;163
+alcalá la real;22324;261.36;328;470
+berlanga de duero;1056;220.18;389;175
+férez;793;126.14;438;405
+cabezuela del valle;2126;56.57;221;268
+lapuebla de labarca;882;5.99;402;99
+cabañas del castillo;450;105.27;238;316
+mahide;446;108.87;189;145
+villanueva del pardillo;13985;25.35;325;248
+pozuelo de calatrava;2826;99.67;333;388
+santa olalla del cala;2142;202.93;197;438
+calamonte;6095;7.85;188;366
+corrales;4076;67.07;157;92
+caudete de las fuentes;773;34.6;480;315
+navamorcuende;718;110.81;279;272
+améscoa baja;818;30.2;430;79
+algeciras;114012;85.8;241;568
+villaseca de la sagra;1649;31.76;331;285
+alhama de granada;6016;433.5;325;504
+villaobispo de otero;655;31.79;207;99
+boceguillas;719;41.54;345;185
+torija;806;35.28;379;228
+llanera;13382;106.69;636;145
+villamanín;1091;176.25;230;67
+santa maría de la isla;612;12.75;214;110
+cala;1287;83.94;192;433
+serra;2838;57.29;527;307
+carracedelo;3614;32.32;168;95
+sanchidrián;799;26.6;291;218
+ballestero;499;138.69;412;368
+moraleja del vino;1390;19.49;230;175
+noblejas;3383;69.67;356;285
+castellcir;584;33.96;674;153
+sotragero;260;5.49;340;106
+tábara;936;112.68;213;149
+montmeló;8873;3.88;679;169
+casas de los pinos;528;68.21;417;333
+dumbría;3890;125.19;32;62
+carrión de calatrava;2792;95.77;334;355
+carnota;5017;70.9;34;73
+montesa;1425;48.11;514;361
+algimia de almonacid;303;20.33;527;289
+obejo;1824;214.65;278;421
+almadén de la plata;1577;255.78;206;440
+paradinas de san juan;540;35.63;258;211
+albolote;16450;78.58;344;487
+saelices;648;80.62;174;234
+aldea del cano;743;28.69;192;336
+alcaucín;2286;45.13;317;511
+salvacañete;300;120.28;466;276
+arnedillo;485;48.33;424;120
+hornachos;3829;295.94;206;390
+remondo;342;8.47;296;185
+cabacés;343;31.21;593;191
+mestanza;821;370.0;320;388
+villamayor de campos;459;26.32;247;143
+torrejón de ardoz;113176;32.62;353;250
+martín del río;467;54.88;501;221
+collsuspina;323;15.1;675;149
+ceclavín;2095;159.49;166;296
+cuerva;1505;37.51;368;79
+lécera;736;109.2;512;195
+ariño;867;81.93;517;207
+sevilla la nueva;7387;25.13;323;257
+ibeas de juarros;1298;130.27;350;112
+medina de pomar;5777;205.78;353;67
+villahoz;368;50.53;328;130
+belver de los montes;403;68.55;241;157
+gerindote;2213;44.26;307;285
+guadalcázar;1331;72.37;271;449
+alcocer de planes;216;4.39;529;372
+corbillos de los oteros;280;31.8;241;106
+alcalá del obispo;367;47.85;535;130
+gómara;404;68.27;425;164
+san juan de aznalfarache;19943;4.11;208;477
+crecente;2698;57.46;134;44
+sant cugat del vallès;74345;48.27;670;175
+cortes de la frontera;3738;175.87;248;532
+pedrera;5161;60.64;228;27
+fresno el viejo;1117;64.46;258;195
+san isidro;1561;11.69;490;456
+mozárbez;420;44.85;230;221
+san pedro;1249;83.12;148;71
+gordoncillo;521;23.36;244;126
+miranda de azán;430;24.07;228;218
+santa oliva;2988;9.46;640;191
+gátova;466;30.41;522;300
+carpio;4516;46.68;261;193
+magán;2368;29.18;328;287
+beriáin;3308;5.43;459;82
+belorado;2156;133.41;370;105
+almonte;20726;859.21;180;485
+albesa;1575;37.46;589;154
+ayegui;1568;9.61;436;88
+igriés;514;19.17;527;120
+cáñar;395;26.35;356;509
+caso;1936;307.94;247;49
+arrúbal;479;7.35;423;104
+albalate de zorita;1052;53.32;390;261
+cartelle;3487;94.29;92;117
+castropodame;1851;59.97;183;93
+fuliola;1241;11.16;609;157
+víznar;797;13.0;349;487
+villafranca del bierzo;3533;177.37;164;92
+soneja;1429;29.1;527;296
+salares;228;10.29;323;515
+poleñino;237;33.02;533;145
+grajal de campos;254;25.37;266;112
+villafranca del campo;360;66.54;475;232
+porzuna;4047;211.9;315;346
+cigales;3876;60.97;284;153
+peñas de san pedro;1255;158.75;438;377
+villanueva del rey;1217;215.8;258;466
+aledo;1046;49.74;462;445
+bogarra;1056;166.01;426;388
+malagón;8124;364.8;414;464
+lodosa;4776;45.34;433;105
+talayuelas;1101;106.59;479;294
+santa maría del berrocal;465;28.34;244;245
+robledo del mazo;417;136.71;273;311
+sorihuela del guadalimar;1234;55.31;378;414
+porto;257;200.82;86;31
+lora de estepa;829;18.09;277;484
+fuentidueña de tajo;1920;60.59;372;274
+aldeaseca;290;24.25;277;206
+algatocín;936;19.71;251;536
+mata de cuéllar;308;20.08;297;180
+morés;447;21.46;462;175
+albarreal de tajo;662;41.58;311;291
+algar de palancia;542;13.15;530;299
+garcihernández;564;47.59;242;219
+ribadavia;5390;25.16;89;115
+burriana;33255;46.99;547;291
+cuevas del becerro;1847;16.0;265;514
+jun;2377;3.69;347;488
+laguardia;1484;81.08;405;95
+lanaja;1461;183.7;533;153
+castropol;3922;125.77;151;23
+agudo;1891;229.96;439;119
+navaconcejo;2087;51.4;220;270
+tornadizos de ávila;416;95.47;288;237
+catí;861;102.35;553;249
+lizoáin;296;65.53;468;77
+canals;13771;21.84;518;361
+benizalón;293;31.97;424;488
+santa marina del rey;2237;45.61;218;98
+torralba de oropesa;269;23.45;258;288
+maracena;19659;4.89;345;489
+olost;1193;29.03;671;137
+albiztur;302;13.09;430;53
+villabuena del puente;865;26.07;244;182
+cambados;13591;23.44;51;99
+perilla de castro;202;33.03;217;157
+fresneda;472;39.48;222;33
+hornos;673;117.58;370;439
+arcenillas;318;12.08;228;176
+bello;309;52.49;233;53
+herrera de los navarros;648;105.01;490;195
+hinojosas de calatrava;621;102.52;316;385
+enguera;5762;241.75;513;358
+encinasola;1614;177.76;160;421
+falces;2583;114.89;449;108
+salmerón;200;36.39;455;406
+sonseca;10818;59.56;327;305
+beas;4270;144.66;166;473
+micereces de tera;573;34.04;217;137
+cabrils;6698;6.99;686;171
+papatrigo;284;21.0;277;219
+navahermosa;4204;129.79;172;436
+villamartín;12362;211.88;342;61
+bordils;1625;7.38;718;132
+boborás;3057;87.82;88;104
+villangómez;294;38.35;337;123
+turís;6053;80.51;512;329
+bonillo;3131;502.67;407;361
+canet de mar;13181;6.32;698;167
+santa cruz de moya;335;110.75;479;287
+ambel;330;61.46;459;151
+herreruela;388;113.72;159;322
+cuenca de campos;246;47.87;264;131
+villanueva de duero;1159;37.43;274;171
+almodóvar del campo;6790;1208.27;314;377
+alloza;698;81.6;522;212
+llera;953;71.5;207;397
+metauten;281;22.58;431;86
+genovés;2731;15.16;525;358
+blancos;1086;47.56;110;136
+sant pere de ribes;27509;40.88;652;190
+cocentaina;11209;52.94;527;375
+borobia;310;62.57;443;160
+sabero;1502;24.94;258;75
+vecinos;316;45.06;217;226
+cabrillanes;1019;169.16;201;66
+calzada de valdunciel;669;20.03;227;204
+venialbo;504;42.05;237;182
+llers;1144;21.25;718;115
+leganés;182431;43.09;338;260
+carmena;915;46.7;301;287
+villarino de los aires;1011;102.64;183;190
+sorvilán;659;34.33;365;519
+torralba de los sisones;224;44.8;469;217
+níjar;25287;599.77;426;506
+torrecilla de la abadesa;328;27.34;262;174
+fatarella;1170;56.48;579;197
+navaridas;218;8.92;402;95
+castellar de santiago;2209;95.5;365;391
+granja de rocamora;2271;7.17;501;419
+santa ana;322;34.99;493;455
+novillas;643;25.28;473;141
+aguadulce;2060;13.69;268;486
+lalueza;1136;88.19;537;148
+cardeñadijo;935;9.21;343;114
+salomó;445;12.25;629;193
+fiñana;2426;133.96;390;492
+lora del río;19194;293.69;237;456
+palafolls;8061;16.42;708;160
+torrejón el rubio;619;221.88;209;300
+argelaguer;423;12.72;702;120
+cubel;203;58.62;459;202
+lopera;3988;67.9;312;434
+osor;372;52.15;698;140
+navalonguilla;361;90.75;238;263
+alcollarín;315;79.92;225;338
+benferri;1601;12.36;496;421
+wamba;371;38.16;271;160
+anguita;251;127.22;417;207
+bohonal de ibor;532;64.6;240;299
+villabrágima;1136;67.13;260;149
+alberite;2451;20.24;412;106
+becerril de campos;973;78.96;288;127
+turón;330;55.58;378;514
+andorra;8156;141.36;527;212
+osuna;17698;592.49;260;487
+torrellas;315;2.53;451;143
+porrera;477;28.77;600;196
+linyola;2655;28.72;604;158
+ibarra;4273;5.03;376;49
+béjar;15016;45.74;223;255
+martiherrero;268;22.79;279;233
+guiamets;332;11.76;594;202
+sepúlveda;1314;123.99;192;229
+chilluévar;1615;38.78;380;430
+júzcar;201;33.66;257;532
+tudela;32760;215.06;291;167
+abertura;471;62.71;220;338
+aldea real;365;25.28;314;196
+moraleja de sayago;282;33.7;210;197
+luesia;416;126.83;493;109
+encinas reales;2438;34.21;296;484
+boecillo;2999;24.12;284;171
+fuentes de jiloca;284;27.35;464;193
+morón de almazán;242;62.06;414;179
+arén;322;119.32;510;116
+canillas de aceituno;2336;42.03;320;514
+pobla de mafumet;1734;6.13;621;196
+higuera de llerena;378;113.4;210;403
+ciempozuelos;20010;49.64;345;271
+escacena del campo;2154;135.36;188;473
+garcibuey;215;12.51;211;245
+martín de yeltes;503;63.24;194;226
+campillo de azaba;215;26.03;171;245
+endrinal;276;33.54;221;239
+ventalló;725;25.61;724;125
+titulcia;960;9.95;348;274
+padules;536;26.49;394;504
+almaraz;1309;33.91;228;296
+alar del rey;1089;57.91;307;87
+algadefe;324;15.33;234;120
+granollers;58854;14.97;682;164
+rasines;1045;42.89;356;40
+loja;21341;447.53;315;492
+fuenterrobles;731;49.45;475;314
+sesma;1295;71.33;433;101
+lama;2995;111.76;134;73
+ferreras de abajo;636;88.15;205;143
+villarejo del valle;461;41.6;268;263
+ulldemolins;493;38.05;601;186
+san rafael del río;532;21.15;571;239
+sant feliu de guíxols;21155;15.92;724;152
+peraleda de la mata;1469;92.06;240;294
+fuengirola;65421;10.37;288;539
+pozoblanco;17307;329.92;512;400
+henarejos;231;145.9;467;293
+barcience;381;18.98;311;285
+veganzones;278;21.96;325;196
+manganeses de la polvorosa;772;16.37;224;134
+puente del arzobispo;1441;0.98;257;298
+cadalso de los vidrios;2864;47.64;299;261
+redován;6982;9.45;500;422
+alfara de algimia;515;11.71;531;300
+incio;2185;146.09;133;88
+ramales de la victoria;2367;32.97;355;44
+alfarnate;1365;33.99;308;506
+villadiego;1834;327.96;324;98
+hazas de cesto;1281;21.89;348;33
+monasterio de rodilla;215;37.14;354;103
+manzaneda;1069;114.59;140;112
+lozoya;632;57.94;336;213
+hernansancho;210;19.38;282;221
+alcázar de san juan;29693;666.78;369;327
+canalejas del arroyo;349;60.95;410;256
+cogul;214;17.41;590;175
+muñoveros;213;19.37;327;197
+almodóvar del pinar;487;95.03;444;304
+millanes;251;17.61;234;294
+terradillos;3389;33.11;237;222
+alesanco;478;17.17;391;105
+torresandino;759;93.2;329;148
+tierz;585;6.54;531;126
+royuela de río franco;250;50.61;327;136
+sotillo del rincón;210;60.54;403;141
+faraján;308;20.41;257;532
+alginet;12605;24.07;525;337
+algarrobo;5907;9.73;322;521
+mañeru;372;12.98;446;87
+lentegí;333;23.76;343;517
+os de balaguer;958;135.03;592;145
+almargen;2114;34.36;266;504
+albuñán;441;8.53;373;488
+olmos de esgueva;219;24.84;294;159
+córdoba;323600;1255.24;280;439
+vilasantar;1469;59.22;90;57
+pinofranqueado;1671;146.84;191;261
+monteagudo;1159;10.84;489;429
+pedro abad;2924;23.46;298;433
+sanchotello;251;14.03;224;252
+marbella;126422;116.82;274;539
+remolinos;1209;18.51;485;148
+valencina de la concepción;7796;25.14;206;473
+elche de la sierra;3929;239.49;435;397
+armuña de almanzora;333;7.95;415;478
+rafelguaraf;2453;16.26;526;353
+monterde;221;55.94;453;196
+santander;181802;34.76;335;28
+iniesta;4366;232.3;452;325
+yeles;3655;20.33;335;274
+navales;357;17.17;240;226
+benuza;697;172.9;170;106
+medinaceli;749;205.37;413;197
+planes;803;38.87;533;373
+alpicat;5648;15.25;583;160
+ereño;260;10.67;402;36
+tolosa;17888;37.39;434;53
+san mamés de burgos;297;5.01;336;112
+campo de criptana;14314;302.41;374;327
+san pedro del pinatar;22217;22.32;507;443
+torreorgaz;1747;28.78;196;329
+marcilla;2687;21.88;453;112
+santibáñez de la peña;1302;111.74;283;75
+santa fe;14934;38.2;407;506
+pontós;201;13.65;718;123
+cortes de pallás;962;233.01;498;338
+abarán;12968;114.94;472;416
+honrubia;1696;110.34;422;311
+albares;528;29.44;189;92
+soto del barco;4085;35.34;206;23
+albuixech;3646;4.42;533;316
+estrada;21908;280.77;148;73
+muras;891;163.82;112;28
+maranchón;257;153.32;426;206
+navaluenga;2261;73.53;428;379
+soportújar;257;14.16;358;509
+beniarrés;1335;20.21;530;370
+villafufre;1091;30.08;331;42
+arenas de san pedro;6778;194.62;262;268
+ávila;53794;230.71;284;235
+valdesamario;218;61.73;213;83
+villarrabé;264;80.29;279;105
+casas de millán;721;152.91;192;296
+yuncler;2905;17.52;329;280
+tordómar;374;30.06;331;132
+rinconada;34211;139.48;266;230
+escalona del prado;587;31.79;317;197
+mancha real;10616;97.7;345;447
+olivares de duero;314;29.33;303;163
+laza;1683;215.91;126;131
+fuente del maestre;6920;179.7;184;391
+arjona;5826;158.45;321;436
+montemayor;3984;57.98;65;48
+carballedo;2886;138.85;142;67
+fuente-álamo;2684;133.39;489;453
+santa pau;1567;48.84;698;126
+golmés;1610;16.79;604;163
+fuenterrebollo;369;35.91;328;187
+marugán;579;28.99;302;217
+buitrago del lozoya;1936;26.5;345;210
+guarromán;2926;96.21;342;417
+pesquera;254;72.3;249;250
+san clemente;6879;277.51;234;22
+rafal;3901;1.62;504;423
+fuentesaúco de fuentidueña;295;25.85;320;179
+coreses;1153;43.16;232;169
+curtis;4244;116.57;93;53
+castrelo de miño;1997;39.74;89;115
+yuncos;7645;15.1;331;277
+benicarló;25248;47.86;576;252
+sotillo de las palomas;200;18.85;277;276
+sant just desvern;15391;7.78;670;182
+enériz;281;9.55;453;87
+olmos de ojeda;277;103.6;300;83
+agullana;753;27.49;714;106
+vall de ebo;297;32.43;543;372
+cidones;346;71.2;402;149
+chiclana de la frontera;74261;205.45;203;547
+mirabel;738;49.3;197;293
+pórtugos;408;20.83;362;508
+vilvestre;527;46.52;169;202
+cosuenda;384;31.68;477;182
+mélida;785;26.11;463;110
+salobre;591;49.53;406;386
+manzanera;543;168.66;504;280
+olesa de bonesvalls;1556;30.78;657;184
+martos;24141;261.1;325;451
+san emiliano;721;210.73;230;25
+manilva;12249;35.58;253;550
+cadaqués;2806;26.52;738;115
+altea;22648;34.43;549;386
+navezuelas;714;59.99;242;319
+cebreros;3438;137.47;297;250
+posada de valdeón;543;164.6;271;51
+santervás de la vega;540;70.68;278;99
+valderas;2045;99.63;493;444
+hinojal;432;63.45;190;305
+macastre;1299;37.66;507;329
+abadía;321;45.08;212;265
+pastrana;1121;95.7;187;524
+hontalbilla;360;38.36;317;184
+abadín;3065;196.03;126;35
+valencia del ventoso;2204;99.19;183;411
+turcia;1178;31.99;217;97
+botarell;998;11.95;608;200
+mata de alcántara;347;33.5;163;304
+santa colomba de las monjas;304;6.79;228;140
+mairena del alcor;19363;69.72;224;477
+fresneda de cuéllar;207;11.56;298;186
+montgat;9778;2.86;682;175
+grisén;468;4.75;486;154
+sanet y negrals;727;3.94;550;370
+murla;574;5.81;547;375
+sober;2836;133.35;119;101
+budia;227;66.1;395;237
+castrillo de don juan;285;48.94;320;151
+carcaboso;978;20.3;197;280
+fuentecén;268;17.05;331;163
+godall;817;33.94;578;235
+san bartolomé de la torre;3327;56.62;147;471
+camporrobles;1405;89.5;472;309
+iruela;1982;123.97;382;436
+quirós;1405;208.79;212;51
+corullón;1090;83.04;163;93
+ribafrecha;1006;34.58;417;110
+san cristóbal de la polantera;911;24.56;216;108
+requena;20440;814.21;489;321
+zamudio;3226;18.08;388;42
+burgo;2034;118.35;112;28
+aranda de duero;31940;127.28;342;159
+samboal;515;47.46;300;191
+maleján;303;0.08;463;148
+bétera;19491;75.1;526;314
+flores de ávila;372;43.04;262;215
+cepeda;436;10.73;208;249
+carrión de los condes;2312;63.37;290;112
+pozal de gallinas;519;35.1;277;186
+chirivel;1794;196.56;422;461
+frades;2817;81.56;127;77
+castejón de sos;738;31.55;580;98
+muruzábal;304;5.94;451;86
+fornelos de montes;2036;83.1;71;112
+arrieta;552;14.47;397;79
+almenara;5440;27.63;539;302
+arcicóllar;754;30.55;317;280
+cabeza del buey;5620;475.02;254;377
+badarán;662;20.69;392;109
+sangarcía;442;37.52;300;213
+almarza;647;101.13;411;140
+muros;9931;72.91;38;78
+escorial;14492;68.75;412;388
+cimanes del tejar;861;73.94;221;90
+noalejo;2060;49.66;344;465
+salvatierra de santiago;335;33.45;208;335
+san adrián;5977;21.15;59;114
+iturmendi;380;9.77;431;71
+pallaresos;3538;5.45;624;197
+serradilla;1721;259.19;203;296
+navalperal de pinares;965;49.83;301;240
+boiro;18547;86.58;45;88
+tremp;6022;302.47;603;123
+solivella;686;21.28;619;176
+otos;520;11.07;436;411
+juncosa;520;76.8;634;186
+bierge;235;145.03;547;123
+ferreras de arriba;495;47.99;200;143
+sariñena;4206;275.57;542;151
+castromocho;240;52.96;277;134
+moral de calatrava;5276;188.2;348;369
+náquera;4814;38.71;527;309
+balazote;2392;65.15;430;366
+rábanos;483;101.53;365;112
+teulada;13281;32.24;557;377
+cella;3002;124.68;479;250
+san vicente del palacio;218;37.9;275;193
+san miguel de valero;372;28.55;215;244
+pedralba de la pradería;318;105.11;170;134
+lanestosa;294;1.25;356;46
+regencós;326;6.29;732;140
+belmonte;2257;92.93;269;29
+calasparra;10282;184.9;455;414
+prádena;602;46.33;342;200
+quintela de leirado;801;31.26;90;126
+canet lo roig;927;68.67;564;243
+san martín de la virgen de moncayo;284;5.42;450;148
+barbate;22582;143.36;215;564
+usagre;1985;240.74;200;405
+murchante;3446;13.22;457;134
+orihuela;80468;365.44;497;425
+abejar;405;23.43;393;151
+trescasas;590;32.66;322;212
+fuente obejuna;5359;591.44;243;411
+tordera;14017;84.6;706;158
+rubielos de mora;752;63.72;514;270
+aldeanueva de san bartolomé;522;34.61;260;310
+sarrión;1085;140.44;505;274
+lobios;2321;168.38;123;105
+colera;592;24.21;731;106
+alamillo;604;67.29;279;380
+acedera;842;82.47;234;352
+osa de la vega;654;53.34;395;307
+cabañas de la sagra;1732;16.52;327;282
