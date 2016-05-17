@@ -112,5 +112,30 @@ public class GrafoDirigido extends Grafo {
         }
         return true;
     }
+
+    public boolean esConexo() {
+        boolean[] connected = new boolean[numVertices()];
+        ListaConPI<Integer> lista = new LEGListaConPI<>();
+
+        connected[0] = true;
+        lista.insertar(0);
+
+        while (!lista.esVacia()) {
+            int i = lista.recuperar();
+            lista.eliminar();
+
+            for (elArray[i].inicio(); elArray[i].esFin(); elArray[i].siguiente()) {
+                int v = elArray[i].recuperar().destino;
+                if (!connected[v]) {
+                    connected[v] = true;
+                    lista.insertar(v);
+                }
+            }
+        }
+
+        for (boolean connexion : connected)
+            if (!connexion) return false;
+        return true;
+    }
 }
 
