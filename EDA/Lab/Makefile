@@ -8,6 +8,3 @@ test-grafos: grafos
 
 test-grafos-2: grafos
 	java librerias.estructurasDeDatos.grafos.TestGrafos2
-
-clean:
-	find . -name *.class -exec rm {} \;
