@@ -52,39 +52,39 @@ cleanLibs: cleanGrafos cleanModelos cleanLineales cleanJerarquicos cleanDispersi
 cleanApps: cleanMunicipios cleanLetras cleanHospital cleanPruebasOrdenacion cleanEditorPredictivo
 
 cleanGrafos:
-	rm librerias/estructurasDeDatos/grafos/*.class
+	rm -f librerias/estructurasDeDatos/grafos/*.class
 
 cleanModelos:
-	rm librerias/estructurasDeDatos/modelos/*.class
+	rm -f librerias/estructurasDeDatos/modelos/*.class
 
 cleanUtil:
-	rm librerias/util/*.class
+	rm -f librerias/util/*.class
 
 cleanLineales:
 	mv librerias/estructurasDeDatos/lineales/PruebaLEGLPI.class{,.bak}
-	rm librerias/estructurasDeDatos/lineales/*.class
+	rm -f librerias/estructurasDeDatos/lineales/*.class
 	mv librerias/estructurasDeDatos/lineales/PruebaLEGLPI.class{.bak,}
 
 cleanJerarquicos:
-	rm librerias/estructurasDeDatos/jerarquicos/*.class
+	rm -f librerias/estructurasDeDatos/jerarquicos/*.class
 
 cleanDispersion:
-	rm librerias/estructurasDeDatos/deDispersion/{EntradaHash,TablaHash}.class
+	rm -f librerias/estructurasDeDatos/deDispersion/{EntradaHash,TablaHash}.class
 
 cleanMunicipios:
-	rm aplicaciones/municipios/*.class
+	rm -f aplicaciones/municipios/*.class
 
 cleanPruebasOrdenacion:
-	rm aplicaciones/pruebasOrdenacion/*.class
+	rm -f aplicaciones/pruebasOrdenacion/*.class
 
 cleanLetras:
-	rm aplicaciones/letras/*.class
+	rm -f aplicaciones/letras/*.class
 
 cleanHospital:
-	rm aplicaciones/hospital/{Hospital,Paciente,EficienciaCPGui,Urgencias}.class
+	rm -f aplicaciones/hospital/{Hospital,Paciente,EficienciaCPGui,Urgencias}.class
 
 cleanEditorPredictivo:
-	rm aplicaciones/editorPredictivo/*.class
+	rm -f aplicaciones/editorPredictivo/*.class
 
 
 
