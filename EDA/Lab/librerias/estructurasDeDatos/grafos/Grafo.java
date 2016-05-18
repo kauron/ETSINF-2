@@ -6,6 +6,7 @@ import librerias.estructurasDeDatos.modelos.ColaPrioridad;
 import librerias.estructurasDeDatos.lineales.LEGListaConPI;
 import librerias.estructurasDeDatos.lineales.ArrayCola;
 import librerias.estructurasDeDatos.jerarquicos.PriorityQColaPrioridad;
+import java.util.Arrays;
 import java.util.ArrayList;
 
 /** Clase abstracta Grafo: Base de la jerarquia Grafo, que define el
@@ -105,6 +106,33 @@ public abstract class Grafo {
      * codificados en los arrays caminoMin y distanciaMin, respectivamente
      */
     protected void dijkstra(int origen) {
+        distanciaMin = new double[numVertices()];
+        caminoMin = new int[numVertices()];
+        visitados = new int[numVertices()];
+
+        Arrays.fill(distanciaMin, Double.MAX_VALUE);
+        Arrays.fill(caminoMin, -1);
+
+        ColaPrioridad<DijkstraPair> cp = new PriorityQColaPrioridad<>();
+        cp.insertar(new DijkstraPair(origen));
+
+        distanciaMin[origen] = 0;
+
+        while (!cp.esVacia()) {
+            int v = cp.eliminarMin().position;
+            if (visitados[v] == 0) {
+                visitados[v] = 1;
+                ListaConPI<Adyacente> listaW = adyacentesDe(v);
+                for (listaW.inicio(); !listaW.esFin(); listaW.siguiente()) {
+                    Adyacente w = listaW.recuperar();
+                    if (distanciaMin[w.destino] > distanciaMin[v] + w.peso) {
+                        distanciaMin[w.destino] = distanciaMin[v] + w.peso;
+                        caminoMin[w.destino] = v;
+                        cp.insertar(new DijkstraPair(w.destino, w.peso));
+                    }
+                }
+            }
+        }
     }
 
     /**Devuelve la distancia minima entre los vertices origen y destino
@@ -113,6 +141,7 @@ public abstract class Grafo {
       * @return Distancia minima desde origen hasta destino
      */
     public double distanciaMinima(int vOrigen, int vDestino) {
+        if (vOrigen == vDestino) return 0;
         dijkstra(vOrigen);
         return distanciaMin[vDestino];
     }
@@ -125,5 +154,32 @@ public abstract class Grafo {
       * minimo entre origen y destino
       */
     public ListaConPI<Integer> caminoMinimo(int origen, int destino) {
+        ListaConPI<Integer> res = new LEGListaConPI<>();
+        res.inicio();
+        if (origen != destino) {
+            dijkstra(origen);
+            for (int v = destino; v != origen; v = caminoMin[v]) {
+                if (v == -1) return new LEGListaConPI<>();
+                res.insertar(v);
+                res.inicio();
+            }
+        }
+        res.insertar(origen);
+        return res;
+    }
+}
+
+class DijkstraPair implements Comparable<DijkstraPair> {
+    int position;
+    double cost;
+
+    public DijkstraPair(int p) {this(p, 0);}
+    public DijkstraPair(int p, double c) {position = p; cost = c;}
+
+    public int compareTo(DijkstraPair pair) {
+        double res = cost - pair.cost;
+        if (res == 0) return 0;
+        else if (res > 0) return 1;
+        else return -1;
     }
 }
