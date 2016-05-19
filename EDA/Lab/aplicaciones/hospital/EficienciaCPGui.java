@@ -35,7 +35,7 @@ public class EficienciaCPGui extends JFrame implements ActionListener {
     private static final int NUM_REP = 200;
     private static final int NUM_REP1 = 10, NUM_REP2 = 50;
     private static final int INC_TALLA = 1000;
-    
+
     private Font fontNormal = new Font("TimesRoman", Font.PLAIN, 12);
     private Font fontItalic = new Font("TimesRoman", Font.ITALIC, 12);
     private Font fontNormalBig = new Font("TimesRoman", Font.PLAIN, 14);
@@ -46,21 +46,21 @@ public class EficienciaCPGui extends JFrame implements ActionListener {
     private javax.swing.JLabel labelDiscos;
     private javax.swing.JButton[] jButtonCronometrar;
     private Grafica[] grafica;
-    
+
     /**
      * Constructor de la clase
-     */         
+     */
     public EficienciaCPGui() {
         getContentPane().setLayout(null);
         jButtonCronometrar = new javax.swing.JButton[4];
         for (int i = 0; i < 4; i++) {
             jButtonCronometrar[i] = new javax.swing.JButton("Generar");
         }
-        jButtonCronometrar[0].setBounds(270, 2, 100, 24); 
+        jButtonCronometrar[0].setBounds(270, 2, 100, 24);
         // 250 era la x 2 es la Y 120 era ancho 24 es alto
-        jButtonCronometrar[1].setBounds(670, 2, 100, 24); 
+        jButtonCronometrar[1].setBounds(670, 2, 100, 24);
         // 650 era la x 2 es la Y 120 era ancho 24 es alto
-        jButtonCronometrar[2].setBounds(270, 360, 100, 24); 
+        jButtonCronometrar[2].setBounds(270, 360, 100, 24);
         // 250 era la x 360 es la Y 120 era ancho 24 es alto
         jButtonCronometrar[3].setBounds(670, 360, 100, 24);
         for (int i = 0; i < 4; i++) {
@@ -69,13 +69,13 @@ public class EficienciaCPGui extends JFrame implements ActionListener {
             getContentPane().add(jButtonCronometrar[i]);
         }
         grafica = new Grafica[4];
-        grafica[0] = new Grafica(360, 340, Grafica.LINEAL, 
+        grafica[0] = new Grafica(360, 340, Grafica.LINEAL,
                                "lineal", "logaritmica", "insertar");
-        grafica[1] = new Grafica(360, 340, Grafica.CTE, 
+        grafica[1] = new Grafica(360, 340, Grafica.CTE,
                                "logaritmica", "constante", "insertar");
-        grafica[2] = new Grafica(360, 340, Grafica.CTE, 
+        grafica[2] = new Grafica(360, 340, Grafica.CTE,
                                "logaritmica", "constante", "eliminarMin");
-        grafica[3] = new Grafica(360, 340, Grafica.LOG, 
+        grafica[3] = new Grafica(360, 340, Grafica.LOG,
                                "logaritmica", "constante", "eliminarMin");
         grafica[0].setBounds(20, 20, 360, 340);
         grafica[0].setSerie(0, Grafica.LINEAL);
@@ -96,17 +96,17 @@ public class EficienciaCPGui extends JFrame implements ActionListener {
         jLabel.setBounds(10, 2, 300, 18);
         jLabel.setFont(fontBold);
         getContentPane().add(jLabel);
-        
+
         jLabel = new JLabel("insertar de PriorityQColaPrioridad");
         jLabel.setBounds(410, 2, 300, 18);
         jLabel.setFont(fontBold);
         getContentPane().add(jLabel);
-        
+
         jLabel = new JLabel("eliminarMin de LPIColaPrioridad");
-        jLabel.setBounds(10, 362, 300, 18);     
+        jLabel.setBounds(10, 362, 300, 18);
         jLabel.setFont(fontBold);
         getContentPane().add(jLabel);
-        
+
         jLabel = new JLabel("eliminarMin de PriorityQColaPrioridad");
         jLabel.setBounds(410, 362, 300, 18);
         jLabel.setFont(fontBold);
@@ -116,15 +116,15 @@ public class EficienciaCPGui extends JFrame implements ActionListener {
         setResizable(false);
         setTitle("Eficiencia de las implementaciones de Cola de Prioridad");
     }
-        
+
     /** Gestion de los eventos de la ventana */
-    public void windowActivated(WindowEvent e) { }            
+    public void windowActivated(WindowEvent e) { }
     public void windowClosed(WindowEvent e) { }
     public void windowDeactivated(WindowEvent e) { }
     public void windowDeiconified(WindowEvent e) { }
     public void windowIconified(WindowEvent e) { }
     public void windowOpened(WindowEvent e) { }
-    
+
     @SuppressWarnings("unchecked")
     private ColaPrioridad<Paciente>[] crearCPs(int talla, boolean lpi,
                                                boolean insertar) {
@@ -137,14 +137,14 @@ public class EficienciaCPGui extends JFrame implements ActionListener {
         }
         return cp;
     }
-    
+
     private double medirInsertar(ColaPrioridad<Paciente>[] cp, int numRep) {
         double t = 0.0;
         for (int i = 0; i < NUM_CPS; i++) {
             double medida = 0.0;
             for (int rep = 0; rep < numRep; rep++) {
                 long inicio = System.nanoTime();
-                for (int j = 0; j < NUM_REP; j++) {                    
+                for (int j = 0; j < NUM_REP; j++) {
                     cp[i].insertar(new Paciente(""));
                 }
                 long fin = System.nanoTime();
@@ -155,7 +155,7 @@ public class EficienciaCPGui extends JFrame implements ActionListener {
         }
         return t / NUM_CPS;
     }
-    
+
     private double medirEliminar(ColaPrioridad<Paciente>[] cp) {
         double t = 0.0;
         for (int i = 0; i < NUM_CPS; i++) {
@@ -175,7 +175,7 @@ public class EficienciaCPGui extends JFrame implements ActionListener {
         }
         return t / NUM_CPS;
     }
-    
+
     /** Gestion de los eventos de la ventana */
     public void actionPerformed(ActionEvent e) {
         ColaPrioridad<Paciente>[] cp;
@@ -223,13 +223,13 @@ public class EficienciaCPGui extends JFrame implements ActionListener {
         }
         sp.setVisible(false);
     }
-        
+
     /** Grafica */
     private class Grafica extends JPanel {
         private static final int LINEAL = 0;
         private static final int LOG = 1;
         private static final int CTE = 2;
-        private final Color[] serieCOLOR = 
+        private final Color[] serieCOLOR =
         {Color.blue, Color.red, Color.black, Color.green, Color.pink};
         private Font fontLeyenda = new Font("TimesRoman", Font.BOLD, 12);
         private Font fontSmall = new Font("TimesRoman", Font.PLAIN, 10);
@@ -239,9 +239,9 @@ public class EficienciaCPGui extends JFrame implements ActionListener {
         private ArrayList<Double>[] series;
         private int[] tipoSerie;
         private int tipo;
-        
+
         @SuppressWarnings("unchecked")
-        Grafica(int ancho, int alto, int tipo, String coste1, 
+        Grafica(int ancho, int alto, int tipo, String coste1,
                 String coste2, String coste3) {
             setLayout(null);
             JLabel label;
@@ -261,28 +261,28 @@ public class EficienciaCPGui extends JFrame implements ActionListener {
             label.setFont(fontLeyenda);
             label.setForeground(serieCOLOR[2]);
             add(label);
-            
+
             series = new java.util.ArrayList[3];
             resetSeries();
-            
+
             tipoSerie = new int[3];
             for (int i = 0; i < series.length; i++) { tipoSerie[i] = -1; }
         }
-        
+
         void setSerie(int serie, int tipo) {
             tipoSerie[serie] = tipo;
         }
-        
+
         void resetSeries() {
             for (int i = 0; i < series.length; i++) {
                 series[i] = new java.util.ArrayList<Double>();
             }
         }
-        
+
         double log(double n) {
             return Math.log(n) / Math.log(2);
         }
-        
+
         void ajusteLineal() {
             double t = 0;
             for (int j = 1; j <= series[2].size(); j++) {
@@ -290,23 +290,23 @@ public class EficienciaCPGui extends JFrame implements ActionListener {
             }
             t /= series[2].size();
             for (int i = 0; i < 2; i++) {
-                series[i] = new java.util.ArrayList<Double>();    
+                series[i] = new java.util.ArrayList<Double>();
                 double valor = t;
                 for (int j = minX; j <= maxX; j++) {
                     series[i].add(valor);
                     switch (tipoSerie[i]) {
-                        case LINEAL: 
+                        case LINEAL:
                             valor += t; break;
                         case CTE:
                             break;
                         case LOG:
                             valor += log(t * (j - minX + 1)); break;
-                        default: 
+                        default:
                     }
                 }
             }
         }
-        
+
         void ajusteConstante() {
             double t = 0;
             for (int j = 1; j <= series[2].size(); j++) {
@@ -314,28 +314,28 @@ public class EficienciaCPGui extends JFrame implements ActionListener {
             }
             t /= series[2].size();
             for (int i = 0; i < 2; i++) {
-                series[i] = new java.util.ArrayList<Double>();    
+                series[i] = new java.util.ArrayList<Double>();
                 double valor = t;
                 for (int j = minX; j <= maxX; j++) {
                     series[i].add(valor);
                     switch (tipoSerie[i]) {
-                        case LINEAL: 
+                        case LINEAL:
                             valor += t; break;
-                        case CTE: 
+                        case CTE:
                             break;
-                        case LOG: 
+                        case LOG:
                             valor += log(t * (j - minX + 1)); break;
                         default:
                     }
                 }
             }
         }
-        
+
         void ajusteLogaritmico() {
-            double t = series[2].get(0), 
+            double t = series[2].get(0),
                        ult = series[2].get(series[2].size() - 1);
             double a = 1.0, valor;
-            ult *= 1.25; 
+            ult *= 1.25;
             if (series[2].size() > 1) {
                 do {
                     valor = t;
@@ -350,13 +350,13 @@ public class EficienciaCPGui extends JFrame implements ActionListener {
                     for (int j = minX; j <= maxX; j++) {
                         series[i].add(valor);
                         switch (tipoSerie[i]) {
-                            case LINEAL: 
+                            case LINEAL:
                                 valor += t; break;
-                            case CTE: 
+                            case CTE:
                                 break;
-                            case LOG: 
-                                valor += a * log(t * (j - minX + 1) 
-                                         * INC_TALLA); 
+                            case LOG:
+                                valor += a * log(t * (j - minX + 1)
+                                         * INC_TALLA);
                                 break;
                             default:
                         }
@@ -364,14 +364,14 @@ public class EficienciaCPGui extends JFrame implements ActionListener {
                 }
             }
         }
-        
+
         /** Ajustar las series calculadas */
         void ajustarSeries() {
             if (tipo == LINEAL) { ajusteLineal(); }
             else if (tipo == CTE) { ajusteConstante(); }
             else { ajusteLogaritmico(); }
         }
-        
+
         /** Anyade un nuevo dato */
         void addPoint(double tiempo) {
             series[2].add(tiempo);
@@ -379,13 +379,13 @@ public class EficienciaCPGui extends JFrame implements ActionListener {
             updateMaxY();
             this.paintImmediately(0, 0, getWidth(), getHeight());
         }
-        
+
         private void updateMaxY() {
             maxY = 1;
             double min = -1;
             for (int s = 0; s < series.length; s++) {
                 for (Double d : series[s]) {
-                    if (d.doubleValue() > maxY) { 
+                    if (d.doubleValue() > maxY) {
                         maxY = ((int) d.doubleValue()) + 1;
                     }
                     if (min == -1 || d.doubleValue() < min) {
@@ -396,14 +396,14 @@ public class EficienciaCPGui extends JFrame implements ActionListener {
             if (min > maxY / 3.0) { maxY *= 2; }
             incY = (maxY - minY) / 10.0;
         }
-        
+
         /** Dibujado del componente */
         protected void paintComponent(Graphics g) {
             super.paintComponent(g);
             Graphics2D g2d = (Graphics2D) g;
-            g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING, 
+            g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING,
                                  RenderingHints.VALUE_ANTIALIAS_ON);
-            g2d.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, 
+            g2d.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING,
                                  RenderingHints.VALUE_TEXT_ANTIALIAS_ON);
             gx1 = 40;
             gy1 = 10;
@@ -422,12 +422,12 @@ public class EficienciaCPGui extends JFrame implements ActionListener {
                 int x = gx1 + i * w / ticks;
                 g2d.drawLine(x, gy2, x, gy2 + 4);
                 String s = "" + (i + minX);
-                g2d.drawString(s, x - fm.stringWidth(s) / 2, 
+                g2d.drawString(s, x - fm.stringWidth(s) / 2,
                                gy2 + 4 + fm.getHeight());
             }
             //String s = "discos";
             String s = "Num. Pacientes x 1000";
-            g2d.drawString(s, gx1 + (w - fm.stringWidth(s)) / 2, 
+            g2d.drawString(s, gx1 + (w - fm.stringWidth(s)) / 2,
                            gy2 + 2 + 2 * fm.getHeight());
             ticks = (int) ((maxY - minY) / incY);
             for (int i = 0; i <= ticks; i++) {
@@ -440,22 +440,22 @@ public class EficienciaCPGui extends JFrame implements ActionListener {
             //s = "Num. movimientos";
             s = "Tiempo Promedio (ns.)";
             g2d.translate(10, (h + fm.stringWidth(s)) / 2);
-            g2d.rotate(-Math.PI / 2.0);            
+            g2d.rotate(-Math.PI / 2.0);
             g2d.drawString(s, 0, 0);
             g2d.setTransform(orig);
             drawSeries(g2d);
         }
-        
+
         private int getPointX(int discos) {
             int ticks = maxX - minX;
             return gx1 + (discos - minX) * w / ticks;
         }
-        
+
         private int getPointY(double dato) {
             double ticks = maxY - minY;
             return gy2 - (int) (dato * h / ticks);
         }
-        
+
         private void drawSeries(Graphics2D g) {
             Shape clip = g.getClip();
             g.setClip(gx1, gy1, w, h);
@@ -478,7 +478,7 @@ public class EficienciaCPGui extends JFrame implements ActionListener {
      */
     public class Splash extends JFrame {
         private JProgressBar pbar;
-        
+
         public Splash(int numPasos) {
             super("Midiendo tiempos...");
             setLayout(null);
@@ -490,14 +490,14 @@ public class EficienciaCPGui extends JFrame implements ActionListener {
             setLocationRelativeTo(null);
             setVisible(true);
         }
-        
+
         public void step(int talla) {
             this.setTitle("Midiendo tiempos: talla = " + talla);
             pbar.setValue(pbar.getValue() + 1);
             pbar.paintImmediately(0, 0, 300, 18);
         }
     }
-    
+
     /**
     * Metodo principal que crea una instancia de la interfaz grafica
     */

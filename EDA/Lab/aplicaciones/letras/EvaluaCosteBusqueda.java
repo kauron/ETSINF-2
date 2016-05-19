@@ -10,11 +10,11 @@ import java.net.URLConnection;
 
 /**
  * Estudia la complejidad empirica de la busqueda en una Tabla Hash.
- * 
+ *
  * Se estudian las tallas....
  * Se utiliza como funcion de dispersion....
- * 
- * @author (EDA) 
+ *
+ * @author (EDA)
  * @version (Marzo 2016)
  */
 public class EvaluaCosteBusqueda {
@@ -26,37 +26,37 @@ public class EvaluaCosteBusqueda {
 
     private static final int NUM_IMGS = 22000;
 
-  
+
     public static void main(String args[]) {
         try {
            String nomF = "aplicaciones" + File.separatorChar + "letras"
-                + File.separatorChar + "res" + File.separatorChar 
+                + File.separatorChar + "res" + File.separatorChar
                 + "costeBusqueda.txt";
            PrintWriter pw = new PrintWriter(new File(nomF));
            int fdis = Imagen.SUMA_TODOS;
            Imagen[] imgs = cargarImagenes(fdis);
-           
+
            long avgTime = 0;
-           
-           
+
+
            for (int t = TALLA_INI; t <= TALLA_FIN; t += TALLA_INCR) {
                TablaHash<Imagen, String> tabla = new TablaHash<Imagen, String>(t);
                for (int i = 0; i < t; i++) tabla.insertar(imgs[i], "");
 
                long initTime = System.nanoTime();
-               
-             
-        
-             
+
+
+
+
            }
            /** COMPLETAR */
-           
+
            pw.close();
         } catch (IOException e) {
             System.out.println("Problemas al abrir el fichero");
         }
      }
-       
+
      private static Imagen[] cargarImagenes(int fdis) throws IOException {
          Imagen[] imgs = new Imagen[NUM_IMGS];
          URL url = new URL(Imagen.NOM_URL);
@@ -72,7 +72,6 @@ public class EvaluaCosteBusqueda {
         }
         return imgs;
      }
-       
-    
+
+
 }
-  

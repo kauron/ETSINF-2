@@ -1,13 +1,13 @@
 package librerias.estructurasDeDatos.grafos;
 
-import librerias.estructurasDeDatos.modelos.ListaConPI;
+import librerias.estructurasDeDatos.jerarquicos.PriorityQColaPrioridad;
+import librerias.estructurasDeDatos.lineales.LEGListaConPI;
 import librerias.estructurasDeDatos.modelos.Cola;
 import librerias.estructurasDeDatos.modelos.ColaPrioridad;
-import librerias.estructurasDeDatos.lineales.LEGListaConPI;
-import librerias.estructurasDeDatos.lineales.ArrayCola;
-import librerias.estructurasDeDatos.jerarquicos.PriorityQColaPrioridad;
+import librerias.estructurasDeDatos.modelos.ListaConPI;
+
 import java.util.Arrays;
-import java.util.ArrayList;
+import java.util.NoSuchElementException;
 
 /** Clase abstracta Grafo: Base de la jerarquia Grafo, que define el
  *  comportamiento de un grafo.<br>
@@ -140,16 +140,16 @@ public abstract class Grafo {
       * @param destino Vertice destino
       * @return Distancia minima desde origen hasta destino
      */
-    public double distanciaMinima(int vOrigen, int vDestino) {
-        if (vOrigen == vDestino) return 0;
-        dijkstra(vOrigen);
-        return distanciaMin[vDestino];
+    public double distanciaMinima(int origen, int destino) {
+        if (origen == destino) return 0;
+        dijkstra(origen);
+        return distanciaMin[destino];
     }
 
     /** Devuelve decodificado en una Lista Con PI el camino minimo con pesos
       * entre los vertices origen y destino de un grafo.
-      * @param origen  Vertice origen del camino a decodificar
-      * @param destino Vertice destino del camino a decodificar
+      * @param origen  Vértice origen del camino a decodificar
+      * @param destino Vértice destino del camino a decodificar
       * @return ListaConPI<Integer> con los vertices que componen el camino
       * minimo entre origen y destino
       */
@@ -167,14 +167,129 @@ public abstract class Grafo {
         res.insertar(origen);
         return res;
     }
+
+    public boolean esConexo() {
+        boolean[] connected = new boolean[numVertices()];
+        ListaConPI<Integer> lista = new LEGListaConPI<>();
+        int verticesConnected = 1;
+
+        connected[0] = true;
+        lista.insertar(0);
+
+        while (!lista.esVacia()) {
+            lista.inicio();
+            int i = lista.recuperar();
+            lista.eliminar();
+
+            ListaConPI<Adyacente> listaAdyacentes = adyacentesDe(i);
+
+            for (listaAdyacentes.inicio(); !listaAdyacentes.esFin(); listaAdyacentes.siguiente()) {
+                int v = listaAdyacentes.recuperar().destino;
+                if (!connected[v]) {
+                    connected[v] = true;
+                    verticesConnected++;
+                    lista.insertar(v);
+                }
+            }
+        }
+        return verticesConnected == numVertices();
+    }
+
+    public int numIsolated() {
+        boolean[] connected = new boolean[numVertices()];
+        int count = 0;
+        for (int i = 0; i < numVertices(); i++) {
+            ListaConPI<Adyacente> lista = adyacentesDe(i);
+            if (!lista.esVacia()) {
+                if (!connected[i]) {
+                    connected[i] = true;
+                    count++;
+                }
+                for (lista.inicio(); !lista.esFin(); lista.siguiente()) {
+                    if (!connected[lista.recuperar().destino]) {
+                        connected[lista.recuperar().destino] = true;
+                        count++;
+                    }
+                }
+            }
+        }
+        return numVertices() - count;
+    }
+
+    public boolean inCycle(int v) {
+        boolean[] visited = new boolean[numVertices()];
+        return inCycle(v, visited, v);
+    }
+
+    private boolean inCycle(int v, boolean[] visited, int origen) {
+        ListaConPI<Adyacente> lista = adyacentesDe(v);
+        boolean res = false;
+        visited[v] = true;
+        for (lista.inicio(); !lista.esFin() && !res; lista.siguiente()) {
+            int destino = lista.recuperar().destino;
+            if (!visited[destino])
+                res = inCycle(destino, visited, origen);
+            else if (destino == origen) {
+                ListaConPI<Adyacente> adyOrigen = adyacentesDe(origen);
+                boolean falsePositive = false;
+                for (adyOrigen.inicio(); !adyOrigen.esFin() && !falsePositive; adyOrigen.siguiente()) {
+                    if (lista.recuperar().equals(adyOrigen.recuperar()))
+                        falsePositive = true;
+                }
+                res = !falsePositive;
+            }
+        }
+        return res;
+    }
+
+    public boolean isBridgeEdge(int origin, int dest) throws NoSuchElementException {
+        boolean antes = esConexo();
+        Adyacente edge = null;
+        ListaConPI<Adyacente> lista = adyacentesDe(origin);
+        for (lista.inicio(); !lista.esFin() && edge == null; lista.siguiente()) {
+            if (lista.recuperar().destino == dest) {
+                edge = lista.recuperar();
+
+                lista.eliminar();
+            }
+        }
+        if (edge == null) throw new NoSuchElementException("No such edge");
+        boolean despues = esConexo();
+        boolean res = antes && !despues;
+        insertarArista(origin, edge.destino, edge.peso);
+        return res;
+    }
+
+    /**
+     * Busca si una arista es un puente (si el grafo se desconectaría al eliminarla)
+     * @param i Origen de la arista
+     * @param j Destino de la arista
+     */
+    public boolean esAristaPuente(int i, int j) {
+        visitados = new int[numVertices()];
+        DFSSinIJ(i, i, j);
+        return visitados[j] == 0;
+    }
+
+    protected void DFSSinIJ(int v, int i, int j) {
+        visitados[v] = 1;
+        ListaConPI<Adyacente> l = adyacentesDe(v);
+        for (l.inicio(); !l.esFin() && visitados[j] == 0; l.siguiente()) {
+            int destino = l.recuperar().destino;
+            if (visitados[destino] == 0)
+                if (!(v == i && destino == j)) // si no es la arista
+                    if (destino == j) visitados[j] = 1;
+                    else DFSSinIJ(destino, i, j);
+        }
+    }
 }
 
 class DijkstraPair implements Comparable<DijkstraPair> {
     int position;
-    double cost;
+    private double cost;
 
-    public DijkstraPair(int p) {this(p, 0);}
-    public DijkstraPair(int p, double c) {position = p; cost = c;}
+    DijkstraPair(int p) {this(p, 0);}
+    DijkstraPair(int p, double c) {position = p; cost = c;}
 
     public int compareTo(DijkstraPair pair) {
         double res = cost - pair.cost;
