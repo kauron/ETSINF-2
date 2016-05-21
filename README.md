@@ -1,5 +1,5 @@
 # ETSINF Informatics Engineering Year 2
-In general all java code is IntelliJ ready.
+In general all java code is IntelliJ ready. Feel free to comment mistakes and make pull requests.
 ## IPC
 Some lab implementations, may be more or less advanced compared to the lab guides.
 
@@ -7,7 +7,7 @@ For the Calculator, the library [jfoenix](http://jfoenix.com) is needed.
 ## ETC
 Some assembly code for the labs (not complete)
 ## EDA
-Complete implementation of the lab (up to Practice 3)
+Complete implementation of the lab
 
 Lab code is [Bluej](http://www.bluej.org) ready.
 ## FSO
