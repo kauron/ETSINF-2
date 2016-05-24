@@ -1,0 +1,114 @@
+## ESTRUCTURA DE COMPUTADORES   (ETSInformatica)
+##  
+##
+## LAB 13. Synchronization by interrupts
+##
+## Initial handler code
+
+
+##############################################################
+##              HANDLER DATA SEGMENT                        ##
+##############################################################
+
+			.kdata
+var1:	    .word 0xFFFFFFFF
+context:    .space 16
+
+#############################################################
+##                  HANDLER CODE                           ##
+#############################################################
+
+          .ktext 0x80000080
+
+    ## Save the user program context
+    .set noat
+    sw $at, 0x0($k1)
+    .set at
+    sw $t0, 0x4($k1)
+    sw $a0, 0x8($k1)
+    sw $v0, 0xC($k1)
+
+    ## Identify and handle interrupts
+    j test_handler
+
+retexec:    ## Restore context
+    .set noat
+    lw $at, 0x0($k1)
+    .set at
+    lw $t0, 0x4($k1)
+    lw $a0, 0x8($k1)
+    lw $v0, 0xC($k1)
+
+    ## Set user mode and return to the user program
+    mfc0 $k0, $14               # return to the correct address
+	rfe
+	jr $k0
+
+
+#############################################################
+##                    Individual handlers                  ##
+#############################################################
+test_handler:
+        mfc0 $t0, $13
+        # Check if interrupt
+        move $v0, $t0
+        li $a0, 0x3C
+        and $v0, $v0, $a0
+        bne $v0, $zero, retexec     # Not interrupt
+        # Check interrupt line
+        li $a0, 0x1400
+        and $t0, $t0, $a0
+        li $a0, 0x400
+        beq $a0, $t0, int0          # int0
+        li $a0, 0x1000
+        beq $a0, $t0, int2          # int2
+        j retexec
+
+int0:   # KEYBOARD
+        li $v0, 11
+        li $a0, '*'
+        syscall
+
+        li $t0, 0xffff0000
+        lw $a0, 4($t0)
+        j retexec
+
+int2:   # CLOCK
+        la $t0, 0xffff0010
+        li $a0, 0x1
+        sb $a0, 0($t0)
+        j retexec
+
+
+#############################################################
+##                    Starting code                        ##
+#############################################################
+
+          .text
+          .globl __start
+__start:
+    ## Starting code
+    la $k1, context
+    # 1.1. Enable interrupts for the keyboard
+    la $t0, 0xffff0000
+    li $t1, 0x2
+    sb $t1, 0($t0)
+
+    # 1.2. Enable interrupts for the clock
+    la $t0, 0xffff0010
+    li $t1, 0x1
+    sb $t1, 0($t0)
+
+    # 2. Unmask the exception coprocessor state register interrupt line
+    # 3. Enable interrupts in the processor state register
+    li $t1, 0x501
+    mtc0 $t1, $12
+
+
+    ## Jump to user program
+	jal main
+
+    ## Ending code
+	li $v0, 10
+	syscall	 # exit function
+
