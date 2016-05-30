@@ -2,7 +2,7 @@
 
 
 ## Interfaces de línea de comando
-Pros
+### Pros
 * Instrucciones directas
 * Flexibles, opciones, múltiples argumentos
 * Acciones rápidas y concisas
