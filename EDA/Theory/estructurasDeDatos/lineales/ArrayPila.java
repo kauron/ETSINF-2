@@ -2,8 +2,6 @@ package estructurasDeDatos.lineales;
 
 import estructurasDeDatos.modelos.Pila;
 
-import java.lang.reflect.Array;
-
 public class ArrayPila<E> implements Pila<E> {
     private static final int INIT_SIZE = 10;
     private E[] stack;
@@ -11,7 +9,7 @@ public class ArrayPila<E> implements Pila<E> {
 
     public ArrayPila(Class<E> c) {
         @SuppressWarnings("unchecked")
-        final E[] a = (E[]) Array.newInstance(c, INIT_SIZE);
+        final E[] a = (E[]) new Object[INIT_SIZE];
         stack = a;
         size = 0;
     }
@@ -36,7 +34,7 @@ public class ArrayPila<E> implements Pila<E> {
 
     private void resize() {
         @SuppressWarnings("unchecked")
-        final E[] aux = (E[]) Array.newInstance(stack[0].getClass(), INIT_SIZE + size);
+        final E[] aux = (E[]) new Object[INIT_SIZE + size];
         System.arraycopy(stack, 0, aux, 0, stack.length);
         stack = aux;
     }

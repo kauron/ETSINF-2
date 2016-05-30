@@ -1,6 +1,6 @@
 package librerias.estructurasDeDatos.deDispersion;
 
-/** Clase envolvente del par (clave, valor) de una Tabla Hash para 
+/** Clase envolvente del par (clave, valor) de una Tabla Hash para
  *  usar como dato en la ListaConPI que representa cada cubeta
  *  @author (EDA)
  *  @version (Febrero 2016)
@@ -8,7 +8,7 @@ package librerias.estructurasDeDatos.deDispersion;
  *  @param <V>, el tipo de los valores asociados a las claves
  */
 
-class EntradaHash<C, V> {    
+class EntradaHash<C, V> {
     protected C clave;
     protected V valor;
 

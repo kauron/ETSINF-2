@@ -5,8 +5,8 @@ package aplicaciones.hospital;
 
 /**
  * La clase Hospital consiste, basicamente, en un array de camas c
- * on sus pacientes asignados. 
- *        
+ * on sus pacientes asignados.
+ *
  * @version Febrero 2014
  */
 
@@ -26,19 +26,19 @@ public class Hospital {
         camas = new Paciente[capacidad];
         ingresados = altas = fallecidos = ocupacionMaxima = ocupadas = 0;
     }
-    
+
     /**
      * Comprueba si hay camas libres en un Hospital
      * @return true si hay camas libres, false en caso contrario
      */
-    public boolean hayCamasLibres() {        
+    public boolean hayCamasLibres() {
         return (camas.length - ocupadas) > 0;
     }
-    
+
     /**
-     * SII hayCamasLibres(): ingresa al paciente p en la primera cama 
+     * SII hayCamasLibres(): ingresa al paciente p en la primera cama
      * libre de un Hospital.
-     * 
+     *
      * @param p Paciente a ingresar
      */
     public void ingresarPaciente(Paciente p) {
@@ -50,38 +50,38 @@ public class Hospital {
             { camas[i] = p; break; }
         }
     }
-    
+
     /**
-     * Aplica una cura a un paciente de un Hospital. Con un 95% de 
-     * probabilidades el paciente mejora un grado, mientras que un 5% 
+     * Aplica una cura a un paciente de un Hospital. Con un 95% de
+     * probabilidades el paciente mejora un grado, mientras que un 5%
      * de las veces el paciente no responde al tratamiento y fallece.
-     * Tanto si el paciente se cura como si fallece deja libre la cama 
+     * Tanto si el paciente se cura como si fallece deja libre la cama
      * que estaba ocupando.
-     * 
+     *
      * @param p Paciente al que aplicar la cura
      */
-    public void aplicarTratamiento(Paciente p) {   
+    public void aplicarTratamiento(Paciente p) {
         p.aplicarCura();
-        if (p.getEstado() == Paciente.FALLECIDO 
+        if (p.getEstado() == Paciente.FALLECIDO
             || p.getEstado() == Paciente.SANO) {
             if (p.getEstado() == Paciente.SANO) {
                 altas++;
                 for (int i = 0; i < camas.length; i++) {
-                    if (camas[i] == p) { 
-                        camas[i] = null; 
-                        break; 
+                    if (camas[i] == p) {
+                        camas[i] = null;
+                        break;
                     }
                 }
-            } 
+            }
 	        else { fallecidos++; }
-            ocupadas--;            
+            ocupadas--;
         }
     }
 
     /**
      * Consultor del numero de pacientes ingresados en un Hospital.
-     * 
-     * @return int numero total de pacientes que han sido ingresados 
+     *
+     * @return int numero total de pacientes que han sido ingresados
      * en un Hospital.
      */
     public int pacientesIngresados() {
@@ -90,27 +90,27 @@ public class Hospital {
 
     /**
      * Consultor del numero de pacientes curados en un Hospital
-     * 
-     * @return int numero total de pacientes que han sido curados 
+     *
+     * @return int numero total de pacientes que han sido curados
      * en un Hospital.
      */
     public int pacientesCurados() {
         return altas;
     }
-    
+
     /**
      * Consultor del numero de pacientes fallecidos en un Hospital
-     * 
-     * @return int numero total de pacientes que han fallecido 
+     *
+     * @return int numero total de pacientes que han fallecido
      * en un Hospital.
      */
     public int pacientesFallecidos() {
         return fallecidos;
     }
-    
+
     /**
      * Consultor de la saturacion maxima en un Hospital.
-     * @return double porcentaje maximo de la capacidad de un Hospital 
+     * @return double porcentaje maximo de la capacidad de un Hospital
      * que ha sido utilizada en algun instante.
      */
     public double saturacion() {
@@ -121,7 +121,7 @@ public class Hospital {
      * Devuelve el array que representa las camas de un Hospital.
      * @return Paciente[] array de camas de un Hospital
      */
-    public Paciente[] toArray() {        
+    public Paciente[] toArray() {
         return camas;
     }
 }

@@ -12,22 +12,22 @@ import java.net.URL;
 import java.net.URLConnection;
 /**
  * Estudio de las funciones de dispersion propuestas sobre imagenes
- * 
- * @author (EDA) 
+ *
+ * @author (EDA)
  * @version (Febrero 2016)
  */
 public class EvaluaFuncionDispersion {
     public final static int NUM_IMGS = 22000;
     public final static String NOM_DIR = "aplicaciones" + File.separatorChar
         + "letras" + File.separatorChar + "res";
-    public final static String NOM_FICH = NOM_DIR + File.separatorChar + "histo"; 
+    public final static String NOM_FICH = NOM_DIR + File.separatorChar + "histo";
     public final static String EXT = ".txt";
-  
+
     public static void main(String[] args) {
         int fdis = 0;
         try {
             File dir = new File(NOM_DIR); dir.mkdir();
-            
+
             final int[] FUNCIONES = {Imagen.SUMA_TODOS, Imagen.SUMA_PONDERADA_TODOS,
                           Imagen.SUMA_TRES, Imagen.SUMA_PONDERADA_TRES};
             for (int funcion : FUNCIONES) {
@@ -41,15 +41,15 @@ public class EvaluaFuncionDispersion {
                 pw.flush();
                 pw.close();
             }
-        } catch (FileNotFoundException e) { 
-            System.err.println("Problemas con el fichero..." 
-                + NOM_FICH + fdis + EXT); 
+        } catch (FileNotFoundException e) {
+            System.err.println("Problemas con el fichero..."
+                + NOM_FICH + fdis + EXT);
         } catch (IOException e) {
             System.err.println("No se encontro el fichero: " + Imagen.NOM_URL);
         }
     }
-   
-    private static TablaHash<Imagen, String> cargarImagenes(int fdis) 
+
+    private static TablaHash<Imagen, String> cargarImagenes(int fdis)
         throws IOException {
         TablaHash<Imagen, String> tab;
         tab = new TablaHash<Imagen, String>(NUM_IMGS);
@@ -65,5 +65,5 @@ public class EvaluaFuncionDispersion {
         }
         return tab;
     }
-   
+
 }
