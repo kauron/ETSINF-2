@@ -11,7 +11,7 @@ package aplicaciones.impresora;
 
 // COMPLETAR
 
-public class Documento extends Comparable<E> {
+public class Documento implements Comparable<Documento> {
     private String titulo;
     private int numPaginas;
     private int envio;
@@ -47,5 +47,9 @@ public class Documento extends Comparable<E> {
      */
     public String toString() {
         return titulo + " (" + numPaginas + " pag.) Envio: " + envio;
+    }
+
+    public int compareTo(Documento other) {
+        return other.numPaginas - this.numPaginas;
     }
 }

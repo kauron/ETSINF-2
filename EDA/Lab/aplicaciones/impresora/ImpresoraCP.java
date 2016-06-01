@@ -14,36 +14,28 @@ public class ImpresoraCP implements Impresora {
 
     /** Crea una nueva impresora */
     public ImpresoraCP() {
-
-        // COMPLETAR
-
+        cp = new MonticuloBinarioMaxR0<>();
     }
 
     /** Guarda un trabajo en la cola de impresion
      * @param doc   Documento a imprimir
      */
     public void guardarTrabajo(Documento doc) {
-
-        // COMPLETAR
-
+        cp.insertar(doc);
     }
 
     /** Consulta si hay trabajos a imprimir en la cola de impresion
      * @return boolean que indica si hay trabajos pendientes
      */
     public boolean hayTrabajos() {
-
-        // COMPLETAR
-
+        return !cp.esVacia();
     }
 
     /** SII hayTrabajos(): consulta el siguiente trabajo a imprimir
      * @return Siguiente documento a imprimir
      */
     public Documento siguienteTrabajo() {
-
-        // COMPLETAR
-
+        return cp.recuperarMin();
     }
 
     /** SII hayTrabajos(): elimina de la cola de impresion el siguiente
@@ -51,8 +43,7 @@ public class ImpresoraCP implements Impresora {
      * @return Duracion de la impresion del siguiente trabajo (en seg.)
      */
     public int imprimirSiguiente() {
-
-        // COMPLETAR
-
+        Documento doc = cp.eliminarMin();
+        return 60 * doc.getNumPaginas() / PAGINAS_POR_MINUTO;
     }
 }
