@@ -1,16 +1,16 @@
 package aplicaciones.impresora;
 
-/** Clase SimuladorImpresion. Realiza una simulacion que compara 
+/** Clase SimuladorImpresion. Realiza una simulacion que compara
  * el tiempo de espera medio de impresión utilizando una ImpresoraCola
  * o una ImpresoraCP.
  * @author (profesores EDA 15-16)
  * @version (04 2016)
  **/
- 
+
 public class SimuladorImpresion {
     // Array de titulos para los documentos usados en la simulacion
-    private static String[] titulos = {"El hobbit - J.R.R. Tolkien", 
-        "El nombre del viento - P. Rothfuss", 
+    private static String[] titulos = {"El hobbit - J.R.R. Tolkien",
+        "El nombre del viento - P. Rothfuss",
         "Portico - F. Pohl",
         "Mundo Anillo - L. Niven",
         "Soy leyenda - R. Matheson",
@@ -22,10 +22,10 @@ public class SimuladorImpresion {
         "Cita con Rama - A.C. Clarke",
         "Inferno - D. Brown"
     };
-    
+
     // Almacena el tiempo de espera medio de impresion
     private static double tiempoEspera;
-    
+
     /** Convierte un double en un String usando dos decimales
      * @param n     Numero real a convertir
      * @return String con el valor de n
@@ -34,7 +34,7 @@ public class SimuladorImpresion {
         java.text.DecimalFormat df = new java.text.DecimalFormat("#.00");
         return df.format(n);
     }
-    
+
     /** Genera un array de documentos de forma aleatoria
      * @return Array de documentos para la simulacion
      */
@@ -49,7 +49,7 @@ public class SimuladorImpresion {
         }
         return v;
     }
-    
+
     /** Simula la impresion del siguiente trabajo almacenado en
      * la impresora.
      * @param imp   Impresora utilizada
@@ -61,12 +61,12 @@ public class SimuladorImpresion {
         int duracion = imp.imprimirSiguiente();
         int horaFinImpresion = hora + duracion;
         double espera = horaFinImpresion - doc.getEnvio();
-        System.out.println("[" + horaFinImpresion + "] " + doc.toString() 
+        System.out.println("[" + horaFinImpresion + "] " + doc.toString()
             + " (" + doubleToString(espera) + " seg. de espera)");
         tiempoEspera += espera;
         return duracion;
     }
-    
+
     /** Simula la impresion de los documentos contenidos en el array.
      * @param docs  Array de documentos
      * @param imp   Impresora utilizada
@@ -91,7 +91,7 @@ public class SimuladorImpresion {
         }
         return tiempoEspera / docs.length;
     }
-    
+
     /** Comprueba la clase Documento
      * @return Boolean indicando si se supera el test
      */
@@ -100,9 +100,9 @@ public class SimuladorImpresion {
             Documento d1 = new Documento("D1", 10, 0);
             Documento d2 = new Documento("D2", 50, 1);
             Documento d3 = new Documento("D3", 10, 2);
-            if (d1.compareTo(d2) < 0 || d1.compareTo(d3) != 0 
-                || d2.compareTo(d3) > 0) { 
-                throw new Exception("Error en el metodo compareTo"); 
+            if (d1.compareTo(d2) < 0 || d1.compareTo(d3) != 0
+                || d2.compareTo(d3) > 0) {
+                throw new Exception("Error en el metodo compareTo");
             }
         } catch (Exception e) {
             System.out.println("Error en la clase Documento: "
@@ -137,8 +137,8 @@ public class SimuladorImpresion {
                 }
                 int duracion = imp.imprimirSiguiente();
                 if (duracion != duraciones[i]) {
-                    throw new 
-                        Exception("Error en el metodo imprimirSiguiente");    
+                    throw new
+                        Exception("Error en el metodo imprimirSiguiente");
                 }
             }
         } catch (Exception e) {
@@ -157,11 +157,11 @@ public class SimuladorImpresion {
         if (!testImpresora()) { return; }
         Documento[] docs = generarDocumentos();
         double ts = simulacion(docs, new ImpresoraCola());
-        System.out.println("SIMULACION CON COLA: Tiempo medio de espera = " 
+        System.out.println("SIMULACION CON COLA: Tiempo medio de espera = "
             + doubleToString(ts) + " seg.");
         System.out.println();
         ts = simulacion(docs, new ImpresoraCP());
         System.out.println("SIMULACION CON COLA DE PRIORIDAD: "
-            + "Tiempo medio de espera = " + doubleToString(ts) + " seg."); 
+            + "Tiempo medio de espera = " + doubleToString(ts) + " seg.");
     }
 }

@@ -1,7 +1,7 @@
 package aplicaciones.impresora;
 
 /** Clase Documento que representa un documento a imprimir.
- * ATRIBUTOS: 
+ * ATRIBUTOS:
  *      TIENE UN titulo (String)
  *      TIENE UN numero de paginas (int)
  *      TIENE UN instante de envio a imprimir en segundos (int)
@@ -10,12 +10,12 @@ package aplicaciones.impresora;
  **/
 
 // COMPLETAR
- 
-public class Documento {
+
+public class Documento extends Comparable<E> {
     private String titulo;
     private int numPaginas;
     private int envio;
-    
+
     /** Crea un nuevo documento
      * @param titulo        Titulo del documento
      * @param numPaginas    Numero de paginas del documento
@@ -26,22 +26,22 @@ public class Documento {
         this.numPaginas = numPaginas;
         this.envio = envio;
     }
-    
+
     /** Consultor del titulo del documento
      * @return Titulo del documento (String)
      */
     public String getTitulo() { return titulo; }
-    
+
     /** Consultor del numero de paginas del documento
      * @return Numero de paginas del documento (int)
      */
     public int getNumPaginas() { return numPaginas; }
-    
+
     /** Consultor del instante de envio a impresion del documento
      * @return Instante de impresion en seg. del documento (int)
      */
     public int getEnvio() { return envio; }
-    
+
     /** Devuelve una descripcion (cadena de texto) del documento
      * @return Descripcion del documento (String)
      */
