@@ -5,13 +5,13 @@ import librerias.estructurasDeDatos.lineales.ArrayCola;
 import librerias.util.Ordenacion;
 import java.util.Arrays;
 
-/** Clase ABB<E> que representa un Arbol Binario mediante un enlace 
- * a su actual raiz. Sus caracteristicas son las siguientes: 
+/** Clase ABB<E> que representa un Arbol Binario mediante un enlace
+ * a su actual raiz. Sus caracteristicas son las siguientes:
  *  1.- El tipo de sus elementos es E extends Comparable<E>
- *  2.- ATRIBUTOS (protected para la herencia): 
+ *  2.- ATRIBUTOS (protected para la herencia):
  *      TIENE UN NodoABB<E> raiz
  * @param <E>, los datos del Arbol, deben implmentar la interfaz Comparable
- * @author (profesores EDA 15-16) 
+ * @author (profesores EDA 15-16)
  * @version (03 2016)
  **/
 
@@ -19,13 +19,13 @@ public class ABB<E extends Comparable<E>> {
     // Atributos de la classe ABB
     protected NodoABB<E> raiz;
 
-    /** 
-     * Constructor de un ABB vacio 
+    /**
+     * Constructor de un ABB vacio
      **/
     public ABB() {
         raiz = null;
     }
-    
+
     /**
      * Constructor de un ABB con los elementos del vector dado.
      * El ABB resultante debe estar equilibrado.
@@ -35,7 +35,7 @@ public class ABB<E extends Comparable<E>> {
         Arrays.sort(v);
         raiz = construirEquilibrado(v, 0, v.length - 1);
     }
-    
+
     /**
      * Construye un ABB equilibrado con los elementos del vector dado.
      * @param v     Array con los elementos a insertar en el ABB
@@ -51,63 +51,63 @@ public class ABB<E extends Comparable<E>> {
         nodo.der = construirEquilibrado(v, middle + 1, fin);
         return nodo;
     }
-    
-    /** 
-     * Reconstruye el ABB, con los mismos datos, de forma que quede 
-     * equilibrado        
+
+    /**
+     * Reconstruye el ABB, con los mismos datos, de forma que quede
+     * equilibrado
      */
     public void reconstruirEquilibrado() {
         E[] v = toArrayInOrden();
         this.raiz = construirEquilibrado(v, 0, v.length - 1);
     }
-    
+
     /** Busca el valor dado en el ABB
      * @param    x       Elemento a buscar
-     * @return   Dato en el ABB que coincide con x, null si no hay          
+     * @return   Dato en el ABB que coincide con x, null si no hay
      */
     public E recuperar(E x) {
         return recuperar(x, raiz);
     }
-    
+
     /** Busca el valor dado a partir del nodo actual
      * @param    x       Elemento a buscar
      * @param    actual  Nodo actual en la busqueda
-     * @return   Dato en el ABB que coincide con x, null si no hay          
+     * @return   Dato en el ABB que coincide con x, null si no hay
      */
     protected E recuperar(E x, NodoABB<E> actual) {
         if (actual == null) { return null; }
         int cmp = x.compareTo(actual.dato);
-        if (cmp < 0) { 
-            return recuperar(x, actual.izq); 
-        } else if (cmp > 0) { 
-            return recuperar(x, actual.der); 
+        if (cmp < 0) {
+            return recuperar(x, actual.izq);
+        } else if (cmp > 0) {
+            return recuperar(x, actual.der);
         } else { return actual.dato; }
     }
-    
-    /** Actualiza el dato x en el ABB, si no esta lo inserta 
+
+    /** Actualiza el dato x en el ABB, si no esta lo inserta
      * @param    x       Elemento a insertar/actualizar
      */
     public void insertar(E x) {
         raiz = insertar(x, raiz);
     }
-    
-    /** Actualiza el dato x a partir del nodo actual. Si no esta lo inserta 
+
+    /** Actualiza el dato x a partir del nodo actual. Si no esta lo inserta
      * @param    x       Elemento a insertar/actualizar
      * @param    actual  Nodo actual en la busqueda
-     * @return   Nodo raiz del subarbol cuya raiz actual es el nodo actual 
+     * @return   Nodo raiz del subarbol cuya raiz actual es el nodo actual
      */
     protected NodoABB<E> insertar(E x, NodoABB<E> actual) {
         if (actual == null) { return new NodoABB<E>(x); }
         int cmp = x.compareTo(actual.dato);
-        if (cmp < 0) { 
-            actual.izq = insertar(x, actual.izq); 
-        } else if (cmp > 0) { 
-            actual.der = insertar(x, actual.der); 
+        if (cmp < 0) {
+            actual.izq = insertar(x, actual.izq);
+        } else if (cmp > 0) {
+            actual.der = insertar(x, actual.der);
         } else { actual.dato = x; }
         actual.talla = 1 + talla(actual.izq) + talla(actual.der);
         return actual;
     }
-    
+
     /**
      * Devuelve el numero de elementos del ABB
      * @return Talla del ABB
@@ -122,24 +122,24 @@ public class ABB<E extends Comparable<E>> {
      * @return Tamanyo del nodo actual
      */
     protected int talla(NodoABB<E> actual) {
-        if (actual == null) { 
+        if (actual == null) {
             return 0;
         } else { return actual.talla; }
     }
-  
+
     /**  SII !esVacio(): devuelve el elemento minimo del ABB
-      * @return Elemento minimo  
+      * @return Elemento minimo
       */
     public E recuperarMin() {
         return recuperarMin(raiz).dato;
     }
-    
-    /** Devuelve el elemento minimo a partir del nodo actual 
+
+    /** Devuelve el elemento minimo a partir del nodo actual
      * @param    actual  Nodo actual en la busqueda
-     * @return   Nodo que contiene el elemento mínimo 
+     * @return   Nodo que contiene el elemento mínimo
      */
     protected NodoABB<E> recuperarMin(NodoABB<E> actual) {
-        if (actual.izq == null) { 
+        if (actual.izq == null) {
             return actual;
         } else { return recuperarMin(actual.izq); }
     }
@@ -152,7 +152,7 @@ public class ABB<E extends Comparable<E>> {
         raiz = eliminarMin(raiz);
         return min;
     }
- 
+
     /** Elimina el minimo a partir del nodo actual
      * @param    actual  Nodo actual en la busqueda
      * @return Nodo raiz del subarbol cuya raiz actual es el nodo actual
@@ -163,15 +163,15 @@ public class ABB<E extends Comparable<E>> {
         actual.talla--;
         return actual;
     }
-  
-    /** Elimina el actual que contiene el dato x 
+
+    /** Elimina el actual que contiene el dato x
      * @param  x   Dato a eliminar
      */
     public void eliminar(E x) {
         raiz = eliminar(x, raiz);
     }
-    
-    /** Elimina el actual que contiene el dato x a partir del nodo actual 
+
+    /** Elimina el actual que contiene el dato x a partir del nodo actual
      * @param  x       Dato a eliminar
      * @param  actual  Nodo actual en la busqueda
      * @return Nodo raiz del subarbol cuya raiz actual es el nodo actual
@@ -192,7 +192,7 @@ public class ABB<E extends Comparable<E>> {
         actual.talla = 1 + talla(actual.izq) + talla(actual.der);
         return actual;
     }
-  
+
     /**
      * Devuelve true si el ABB esta vacio
      * @return true si esta vacio, false en caso contrario
@@ -200,7 +200,7 @@ public class ABB<E extends Comparable<E>> {
     public boolean esVacio() {
         return raiz == null;
     }
-  
+
     /**
      * Recorrido inOrden del ABB
      * @return String con los elementos segun el recorrido inOrden
@@ -210,10 +210,10 @@ public class ABB<E extends Comparable<E>> {
         if (raiz != null) { toStringInOrden(sb, raiz); }
         return sb.append("]").toString();
     }
-    
+
     /**
      * Recorrido inOrden a partir del nodo actual
-     * @param sb      StringBuilder para ir construyendo la cadena de texto 
+     * @param sb      StringBuilder para ir construyendo la cadena de texto
      * @param actual  Nodo actual en la busqueda
      */
     protected void toStringInOrden(StringBuilder sb, NodoABB<E> actual) {
@@ -222,9 +222,9 @@ public class ABB<E extends Comparable<E>> {
             sb.append(",");
         }
         sb.append(actual.dato.toString());
-        if (actual.der != null) { 
+        if (actual.der != null) {
             sb.append(",");
-            toStringInOrden(sb, actual.der); 
+            toStringInOrden(sb, actual.der);
         }
     }
 
@@ -237,10 +237,10 @@ public class ABB<E extends Comparable<E>> {
         if (raiz != null) { toStringPreOrden(sb, raiz); }
         return sb.append("]").toString();
     }
-    
+
     /**
      * Recorrido preOrden a partir del nodo actual
-     * @param sb      StringBuilder para ir construyendo la cadena de texto 
+     * @param sb      StringBuilder para ir construyendo la cadena de texto
      * @param actual  Nodo actual en la busqueda
      */
     protected void toStringPreOrden(StringBuilder sb, NodoABB<E> actual) {
@@ -264,10 +264,10 @@ public class ABB<E extends Comparable<E>> {
         if (raiz != null) { toStringPostOrden(sb, raiz); }
         return sb.append("]").toString();
     }
-    
+
     /**
      * Recorrido postOrden a partir del nodo actual
-     * @param sb      StringBuilder para ir construyendo la cadena de texto 
+     * @param sb      StringBuilder para ir construyendo la cadena de texto
      * @param actual  Nodo actual en la busqueda
      */
     protected void toStringPostOrden(StringBuilder sb, NodoABB<E> actual) {
@@ -281,7 +281,7 @@ public class ABB<E extends Comparable<E>> {
         }
         sb.append(actual.dato.toString());
     }
-    
+
     /**
      * Recorrido por niveles del ABB
      * @return String con los elementos segun el recorrido por niveles
@@ -303,7 +303,7 @@ public class ABB<E extends Comparable<E>> {
        res.setLength(res.length() - 2);
        return res.append("]").toString();
     }
-    
+
     /**
      * Construye un array ordenado de forma creciente con todos los
      * elementos del ABB, resultado del recorrido en InOrden del mismo
@@ -315,7 +315,7 @@ public class ABB<E extends Comparable<E>> {
         toArrayInOrden(v, raiz, 0);
         return v;
     }
-    
+
     /**
      * Construye un array ordenado de forma creciente con todos los
      * elementos a partir del nodo actual, siguiendo el recorrido en InOrden
@@ -328,7 +328,7 @@ public class ABB<E extends Comparable<E>> {
            toArrayInOrden(v, actual.izq, pos);
            pos += talla(actual.izq);
            v[pos++] = actual.dato;
-           toArrayInOrden(v, actual.der, pos);    
+           toArrayInOrden(v, actual.der, pos);
        }
     }
 
@@ -339,15 +339,15 @@ public class ABB<E extends Comparable<E>> {
      */
     public E sucesor(E e) {
         NodoABB<E> res = sucesor(e, this.raiz);
-        if (res == null) { 
-            return null; 
-        } else { 
-            return res.dato; 
+        if (res == null) {
+            return null;
+        } else {
+            return res.dato;
         }
     }
-    
-    /** 
-     * SII actual != null: devuelve el nodo de actual que contiene 
+
+    /**
+     * SII actual != null: devuelve el nodo de actual que contiene
      * al sucesor de "e", o null si no existe
      * @param e         Elemento cuyo sucesor se va a buscar
      * @param actual    Nodo actual en la busqueda
