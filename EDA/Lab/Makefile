@@ -2,7 +2,7 @@ all: libs apps
 
 libs: grafos util lineales modelos jerarquicos deDispersion
 
-apps: municipios pruebasOrdenacion letras hospital editorPredictivo
+apps: municipios pruebasOrdenacion letras hospital editorPredictivo impresora
 
 grafos:
 	javac librerias/estructurasDeDatos/grafos/*.java
@@ -44,6 +44,10 @@ editorPredictivo:
 	javac aplicaciones/editorPredictivo/*.java
 	java aplicaciones.editorPredictivo.TestEditorPredictivo
 
+impresora:
+	javac aplicaciones/impresora/*.java
+	java aplicaciones.impresora.SimuladorImpresion
+
 
 clean: cleanLibs cleanApps
 
@@ -66,7 +70,9 @@ cleanLineales:
 	mv librerias/estructurasDeDatos/lineales/PruebaLEGLPI.class{.bak,}
 
 cleanJerarquicos:
+	mv librerias/estructurasDeDatos/jerarquicos/TestMonticuloBinarioMaxR0.class{,.bak}
 	rm -f librerias/estructurasDeDatos/jerarquicos/*.class
+	mv librerias/estructurasDeDatos/jerarquicos/TestMonticuloBinarioMaxR0.class{.bak,}
 
 cleanDispersion:
 	rm -f librerias/estructurasDeDatos/deDispersion/{EntradaHash,TablaHash}.class
