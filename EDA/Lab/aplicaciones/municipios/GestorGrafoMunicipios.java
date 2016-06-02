@@ -153,8 +153,7 @@ public class GestorGrafoMunicipios {
      * @return  Camino minimo en forma de ListaConPI de municipios
      */
     public ListaConPI<Municipio> caminoMinimo(Municipio mOrig, Municipio mDst) {
-        // COMPLETAR
-            ListaConPI<Integer> lista = grafo.caminoMinimo(obtenerCodigo(mOrig), obtenerCodigo(mDst));
+        ListaConPI<Integer> lista = grafo.caminoMinimo(obtenerCodigo(mOrig), obtenerCodigo(mDst));
         ListaConPI<Municipio> res = new LEGListaConPI<>();
         for (lista.inicio(); !lista.esFin(); lista.siguiente()) {
             res.insertar(getMunicipio(lista.recuperar()));

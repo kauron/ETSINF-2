@@ -114,7 +114,7 @@ public abstract class Grafo {
         Arrays.fill(caminoMin, -1);
 
         ColaPrioridad<DijkstraPair> cp = new PriorityQColaPrioridad<>();
-        cp.insertar(new DijkstraPair(origen));
+        cp.insertar(new DijkstraPair(origen, 0));
 
         distanciaMin[origen] = 0;
 
@@ -128,7 +128,7 @@ public abstract class Grafo {
                     if (distanciaMin[w.destino] > distanciaMin[v] + w.peso) {
                         distanciaMin[w.destino] = distanciaMin[v] + w.peso;
                         caminoMin[w.destino] = v;
-                        cp.insertar(new DijkstraPair(w.destino, w.peso));
+                        cp.insertar(new DijkstraPair(w.destino, distanciaMin[w.destino] + w.peso));
                     }
                 }
             }
