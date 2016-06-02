@@ -110,7 +110,7 @@ public abstract class Grafo {
         caminoMin = new int[numVertices()];
         visitados = new int[numVertices()];
 
-        Arrays.fill(distanciaMin, Double.MAX_VALUE);
+        Arrays.fill(distanciaMin, Double.POSITIVE_INFINITY);
         Arrays.fill(caminoMin, -1);
 
         ColaPrioridad<DijkstraPair> cp = new PriorityQColaPrioridad<>();
