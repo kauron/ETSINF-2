@@ -168,6 +168,16 @@ public abstract class Grafo {
         return res;
     }
 
+	/** Precondition: 0 <= v < numVertices()*/
+    public int masLejosDe(int v) {
+        dijkstra(v);
+        int res = v;
+        for (int i = 0; i < distanciaMin.length; i++) {
+            if (distanciaMin[i] != INFINITO && distanciaMin[i] > distanciaMin[res]) res = i;
+        }
+        return res;
+    }
+
     public boolean esConexo() {
         boolean[] connected = new boolean[numVertices()];
         ListaConPI<Integer> lista = new LEGListaConPI<>();
@@ -292,9 +302,10 @@ class DijkstraPair implements Comparable<DijkstraPair> {
     DijkstraPair(int p, double c) {position = p; cost = c;}
 
     public int compareTo(DijkstraPair pair) {
-        double res = cost - pair.cost;
-        if (res == 0) return 0;
-        else if (res > 0) return 1;
-        else return -1;
+	return (int) Math.signum(cost - pair.cost);
+       // double res = cost - pair.cost;
+       // if (res == 0) return 0;
+       // else if (res > 0) return 1;
+       // else return -1;
     }
 }
