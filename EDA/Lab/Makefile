@@ -1,4 +1,4 @@
-all: libs apps
+all: libs
 
 libs: grafos util lineales modelos jerarquicos deDispersion
 
@@ -94,7 +94,7 @@ cleanEditorPredictivo:
 
 
 
-test-grafos: grafo
+test-grafos: grafos
 	java librerias.estructurasDeDatos.grafos.TestGrafos1
 
 test-grafos-2: grafos
