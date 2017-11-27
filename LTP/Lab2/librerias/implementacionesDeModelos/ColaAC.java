@@ -2,8 +2,8 @@ package LTP.Lab2.librerias.implementacionesDeModelos;
 
 /**
  *TAD de una cola implementado con un array circular de amplitud variable
- * 
- * @author (Professors LTPP) 
+ *
+ * @author (Professors LTPP)
  * @version (curs 2015-16)
  */
 
@@ -49,14 +49,14 @@ public class ColaAC <T> implements Cola<T> {
         this.talla = tallaAux;
 
     }
-  
-  
+
+
     // Implementacion de las operaciones del TAD definido en la interfaz Cola <T>:
     // Metodos modificadores del estado de una cola:
-  
+
     /** Inserta el Elemento e en una cola situandolo al final **/
     public void encolar(T e){
-        if (talla > MAX)
+        if (talla > elArray.length)
             ampliarElArray();
         ultimo = incrementar(ultimo);
         elArray[ultimo] = e;
@@ -72,20 +72,20 @@ public class ColaAC <T> implements Cola<T> {
         talla--;
         return aux;
     }
-  
+
     // Metodos consultores del estado de la cola
     /** Devuelve la cantidad de elementos  de la cola **/
     public int talla(){
         return talla;
     }
-  
+
     /** Solo si la cola no esta vacia, consulta el primer elemento en cabeza,
      * (el primero en orden de insercion) **/
     public T primero() {
         if (esVacia()) throw new NoSuchElementException("There are no elements");
         return elArray[primero];
     }
-  
+
     /** Comprueba si una cola esta vacia **/
     public boolean esVacia(){
         return talla == 0;
