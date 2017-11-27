@@ -6,16 +6,15 @@ public class MonticuloBinario<E extends Comparable<E>> {
     private E[] elArray;
     private int talla;
     
-    @SupressWarnings("unchecked")
+    @SuppressWarnings("unchecked")
     public MonticuloBinario() {
         elArray = (E[]) new Comparable[INIT_CAPACITY];
         talla = 0;
     }
     
     public void insertar(E e) {
-        if (talla <= elArray.length) resize();
-        elArray[++talla];
-        int index = talla;
+        if (talla + 1 >= elArray.length) resize();
+        elArray[++talla] = e;
         for (int i = talla; i > 1 && elArray[i / 2].compareTo(e) > 0; i /= 2) {
             elArray[i] = elArray[i / 2];
             elArray[i / 2] = e;
