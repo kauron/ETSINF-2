@@ -22,4 +22,6 @@ public class Circulo extends Figura {
     }
 
     public double area() {return Math.PI * r * r;}
+    
+    public double perimeter() {return Math.PI * r * 2}
 }
