@@ -27,6 +27,6 @@ public class Rectangulo extends Figura {
     public double area() {return base * altura;}
 
     public double perimeter(){
-        return (base + height) * 2;
+        return (base + altura) * 2;
     }
 }
